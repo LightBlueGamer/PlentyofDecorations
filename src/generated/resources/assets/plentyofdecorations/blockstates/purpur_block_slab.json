@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plentyofdecorations:block/purpur_block_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/purpur_block"
+    },
+    "type=top": {
+      "model": "plentyofdecorations:block/purpur_block_slab_top"
+    }
+  }
+}

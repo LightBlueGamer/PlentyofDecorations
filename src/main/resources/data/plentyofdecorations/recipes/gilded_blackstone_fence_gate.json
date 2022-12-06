@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SBS",
+    "SBS"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:gilded_blackstone"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:gilded_blackstone_fence_gate",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:wet_sponge"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:wet_sponge_stairs",
+    "count": 4
+  }
+}

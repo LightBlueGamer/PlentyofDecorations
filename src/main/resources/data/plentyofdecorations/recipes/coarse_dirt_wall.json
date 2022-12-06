@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:coarse_dirt"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:coarse_dirt_wall",
+    "count": 6
+  }
+}

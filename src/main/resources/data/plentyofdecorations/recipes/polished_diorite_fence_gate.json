@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SBS",
+    "SBS"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:polished_diorite"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:polished_diorite_fence_gate",
+    "count": 1
+  }
+}

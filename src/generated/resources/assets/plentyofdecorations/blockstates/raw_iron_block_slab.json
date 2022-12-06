@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plentyofdecorations:block/raw_iron_block_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/raw_iron_block"
+    },
+    "type=top": {
+      "model": "plentyofdecorations:block/raw_iron_block_slab_top"
+    }
+  }
+}

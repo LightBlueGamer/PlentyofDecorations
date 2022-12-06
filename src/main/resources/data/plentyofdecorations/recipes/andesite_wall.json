@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:andesite"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:andesite_wall",
+    "count": 6
+  }
+}

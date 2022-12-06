@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bedrock"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:bedrock_stairs",
+    "count": 4
+  }
+}

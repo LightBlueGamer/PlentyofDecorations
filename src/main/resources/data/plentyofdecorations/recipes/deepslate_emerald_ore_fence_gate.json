@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SBS",
+    "SBS"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:deepslate_emerald_ore"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:deepslate_emerald_ore_fence_gate",
+    "count": 1
+  }
+}

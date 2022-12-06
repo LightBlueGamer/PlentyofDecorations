@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plentyofdecorations:block/rooted_dirt_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/rooted_dirt"
+    },
+    "type=top": {
+      "model": "plentyofdecorations:block/rooted_dirt_slab_top"
+    }
+  }
+}

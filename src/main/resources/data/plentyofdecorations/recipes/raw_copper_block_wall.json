@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:raw_copper_block"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:raw_copper_block_wall",
+    "count": 6
+  }
+}

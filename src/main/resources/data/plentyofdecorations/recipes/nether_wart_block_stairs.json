@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:nether_wart_block"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:nether_wart_block_stairs",
+    "count": 4
+  }
+}

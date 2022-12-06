@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:soul_soil"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:soul_soil_pressure_plate",
+    "count": 1
+  }
+}

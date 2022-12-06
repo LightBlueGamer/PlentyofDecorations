@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:mud"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:mud_wall",
+    "count": 6
+  }
+}

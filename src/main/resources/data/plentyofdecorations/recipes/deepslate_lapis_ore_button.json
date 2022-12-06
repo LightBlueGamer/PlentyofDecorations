@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:deepslate_lapis_ore"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:deepslate_lapis_ore_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plentyofdecorations:block/copper_block_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/copper_block"
+    },
+    "type=top": {
+      "model": "plentyofdecorations:block/copper_block_slab_top"
+    }
+  }
+}

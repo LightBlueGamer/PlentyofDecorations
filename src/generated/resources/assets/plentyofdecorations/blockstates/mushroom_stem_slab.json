@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plentyofdecorations:block/mushroom_stem_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/mushroom_stem"
+    },
+    "type=top": {
+      "model": "plentyofdecorations:block/mushroom_stem_slab_top"
+    }
+  }
+}

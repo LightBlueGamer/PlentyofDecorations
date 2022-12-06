@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:emerald_ore"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:emerald_ore_pressure_plate",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:rooted_dirt"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:rooted_dirt_pressure_plate",
+    "count": 1
+  }
+}

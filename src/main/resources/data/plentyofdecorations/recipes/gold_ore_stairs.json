@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:gold_ore"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:gold_ore_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:yellow_wool"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:yellow_wool_wall",
+    "count": 6
+  }
+}

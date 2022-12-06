@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plentyofdecorations:block/deepslate_tiles_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/deepslate_tiles"
+    },
+    "type=top": {
+      "model": "plentyofdecorations:block/deepslate_tiles_slab_top"
+    }
+  }
+}

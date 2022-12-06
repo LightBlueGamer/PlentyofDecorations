@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:diorite"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:diorite_stairs",
+    "count": 4
+  }
+}

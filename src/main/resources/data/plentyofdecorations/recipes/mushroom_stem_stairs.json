@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:mushroom_stem"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:mushroom_stem_stairs",
+    "count": 4
+  }
+}

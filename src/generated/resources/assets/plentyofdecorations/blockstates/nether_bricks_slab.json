@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plentyofdecorations:block/nether_bricks_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/nether_bricks"
+    },
+    "type=top": {
+      "model": "plentyofdecorations:block/nether_bricks_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plentyofdecorations:block/gold_ore_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/gold_ore"
+    },
+    "type=top": {
+      "model": "plentyofdecorations:block/gold_ore_slab_top"
+    }
+  }
+}

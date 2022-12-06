@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:lime_wool"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:lime_wool_stairs",
+    "count": 4
+  }
+}

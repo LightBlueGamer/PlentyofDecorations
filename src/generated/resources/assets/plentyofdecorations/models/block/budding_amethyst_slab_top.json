@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "minecraft:block/budding_amethyst",
+    "side": "minecraft:block/budding_amethyst",
+    "top": "minecraft:block/budding_amethyst"
+  }
+}

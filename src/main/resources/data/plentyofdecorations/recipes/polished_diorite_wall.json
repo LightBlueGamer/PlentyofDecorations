@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:polished_diorite"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:polished_diorite_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:raw_iron_block"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:raw_iron_block_button",
+    "count": 1
+  }
+}

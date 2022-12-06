@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:diorite"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:diorite_button",
+    "count": 1
+  }
+}

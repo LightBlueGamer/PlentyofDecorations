@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:birch_planks"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:birch_planks_stairs",
+    "count": 4
+  }
+}

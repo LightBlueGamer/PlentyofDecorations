@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plentyofdecorations:block/dark_oak_planks_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/dark_oak_planks"
+    },
+    "type=top": {
+      "model": "plentyofdecorations:block/dark_oak_planks_slab_top"
+    }
+  }
+}

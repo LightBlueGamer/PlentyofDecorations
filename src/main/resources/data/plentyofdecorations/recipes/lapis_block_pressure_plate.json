@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:lapis_block"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:lapis_block_pressure_plate",
+    "count": 1
+  }
+}

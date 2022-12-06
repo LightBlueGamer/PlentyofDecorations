@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:polished_deepslate"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:polished_deepslate_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blue_concrete"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:blue_concrete_stairs",
+    "count": 4
+  }
+}

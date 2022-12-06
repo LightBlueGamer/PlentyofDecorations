@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plentyofdecorations:block/dark_prismarine_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/dark_prismarine"
+    },
+    "type=top": {
+      "model": "plentyofdecorations:block/dark_prismarine_slab_top"
+    }
+  }
+}

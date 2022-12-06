@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plentyofdecorations:block/soul_soil_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/soul_soil"
+    },
+    "type=top": {
+      "model": "plentyofdecorations:block/soul_soil_slab_top"
+    }
+  }
+}

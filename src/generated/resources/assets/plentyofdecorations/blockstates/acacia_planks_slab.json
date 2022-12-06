@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plentyofdecorations:block/acacia_planks_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/acacia_planks"
+    },
+    "type=top": {
+      "model": "plentyofdecorations:block/acacia_planks_slab_top"
+    }
+  }
+}

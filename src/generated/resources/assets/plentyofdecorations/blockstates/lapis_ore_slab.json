@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plentyofdecorations:block/lapis_ore_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/lapis_ore"
+    },
+    "type=top": {
+      "model": "plentyofdecorations:block/lapis_ore_slab_top"
+    }
+  }
+}

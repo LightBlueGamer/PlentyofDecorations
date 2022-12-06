@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plentyofdecorations:block/honeycomb_block_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/honeycomb_block"
+    },
+    "type=top": {
+      "model": "plentyofdecorations:block/honeycomb_block_slab_top"
+    }
+  }
+}

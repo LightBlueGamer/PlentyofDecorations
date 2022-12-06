@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:deepslate_emerald_ore"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:deepslate_emerald_ore_stairs",
+    "count": 4
+  }
+}

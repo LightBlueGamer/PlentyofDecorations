@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "plentyofdecorations:block/iron_block_pressure_plate"
+    },
+    "powered=true": {
+      "model": "plentyofdecorations:block/iron_block_pressure_plate_down"
+    }
+  }
+}

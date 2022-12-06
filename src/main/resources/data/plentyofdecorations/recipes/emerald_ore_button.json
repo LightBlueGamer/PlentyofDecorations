@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:emerald_ore"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:emerald_ore_button",
+    "count": 1
+  }
+}

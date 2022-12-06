@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:magenta_concrete"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:magenta_concrete_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plentyofdecorations:block/spruce_planks_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/spruce_planks"
+    },
+    "type=top": {
+      "model": "plentyofdecorations:block/spruce_planks_slab_top"
+    }
+  }
+}
