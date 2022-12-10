@@ -8,7 +8,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab POD_TAB = new CreativeModeTab("plentyofdecorations") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModBlocks.DIAMOND_ORE_STAIRS.get().asItem());
+            return new ItemStack(ModBlocks.NETHERITE_BLOCK_STAIRS.get().asItem());
         }
     };
 }
