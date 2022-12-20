@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:smooth_basalt"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:smooth_basalt_button"
+  }
+}

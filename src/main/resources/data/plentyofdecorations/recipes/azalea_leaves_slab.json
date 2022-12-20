@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:azalea_leaves"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:azalea_leaves_slab",
+    "count": 6
+  }
+}

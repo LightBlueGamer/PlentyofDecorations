@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:tinted_glass"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:tinted_glass_fence_gate"
+  }
+}

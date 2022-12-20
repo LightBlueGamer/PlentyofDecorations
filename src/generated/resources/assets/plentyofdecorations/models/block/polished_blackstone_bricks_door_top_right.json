@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "textures": {
+    "bottom": "minecraft:block/polished_blackstone_bricks",
+    "top": "minecraft:block/polished_blackstone_bricks"
+  }
+}

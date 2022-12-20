@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:green_wool"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:green_wool_pressure_plate"
+  }
+}

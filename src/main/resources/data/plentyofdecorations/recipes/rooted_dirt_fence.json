@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:rooted_dirt"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:rooted_dirt_fence",
+    "count": 3
+  }
+}

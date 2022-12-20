@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:magenta_terracotta"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:magenta_terracotta_door"
+  }
+}

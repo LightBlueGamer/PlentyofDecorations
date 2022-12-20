@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:budding_amethyst"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:budding_amethyst_stairs",
+    "count": 4
+  }
+}

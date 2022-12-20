@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:budding_amethyst"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:budding_amethyst_fence",
+    "count": 3
+  }
+}

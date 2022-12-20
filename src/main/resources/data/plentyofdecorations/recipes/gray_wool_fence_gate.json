@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:gray_wool"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:gray_wool_fence_gate"
+  }
+}

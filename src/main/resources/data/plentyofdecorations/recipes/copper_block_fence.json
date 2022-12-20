@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:copper_block_fence",
+    "count": 3
+  }
+}

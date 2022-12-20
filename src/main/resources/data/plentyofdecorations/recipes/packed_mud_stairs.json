@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:packed_mud"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:packed_mud_stairs",
+    "count": 4
+  }
+}

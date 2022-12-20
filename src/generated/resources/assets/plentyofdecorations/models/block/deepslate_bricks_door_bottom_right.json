@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "minecraft:block/deepslate_bricks",
+    "top": "minecraft:block/deepslate_bricks"
+  }
+}

@@ -1,0 +1,4 @@
+// 1.19.2	2022-12-14T10:14:13.1171172	Tags for minecraft:block
+49049b252429dff984815b89380c3ac48ab23f9f data/minecraft/tags/blocks/fences.json
+870eea2a85224cefed1d27ffbf8d613072715f8c data/minecraft/tags/blocks/mineable/pickaxe.json
+d29a96698cff588b94db3aadfbf7ca78eeccaeac data/minecraft/tags/blocks/walls.json

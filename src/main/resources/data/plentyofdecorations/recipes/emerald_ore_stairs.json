@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:emerald_ore"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:emerald_ore_stairs",
+    "count": 4
+  }
+}

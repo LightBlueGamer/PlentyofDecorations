@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:gold_block_button"
+  }
+}

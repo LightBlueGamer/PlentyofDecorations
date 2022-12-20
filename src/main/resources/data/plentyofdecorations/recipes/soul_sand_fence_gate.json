@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:soul_sand_fence_gate"
+  }
+}

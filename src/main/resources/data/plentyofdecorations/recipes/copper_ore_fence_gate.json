@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:copper_ore"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:copper_ore_fence_gate"
+  }
+}

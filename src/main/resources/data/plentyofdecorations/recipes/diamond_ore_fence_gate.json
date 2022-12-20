@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:diamond_ore"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:diamond_ore_fence_gate"
+  }
+}

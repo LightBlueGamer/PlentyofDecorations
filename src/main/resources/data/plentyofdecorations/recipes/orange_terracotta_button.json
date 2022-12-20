@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:orange_terracotta"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:orange_terracotta_button"
+  }
+}

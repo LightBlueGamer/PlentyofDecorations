@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:warped_wart_block"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:warped_wart_block_fence",
+    "count": 3
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:polished_deepslate"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:polished_deepslate_door"
+  }
+}

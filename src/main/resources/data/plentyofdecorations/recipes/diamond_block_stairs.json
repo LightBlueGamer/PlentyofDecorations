@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:diamond_block_stairs",
+    "count": 4
+  }
+}

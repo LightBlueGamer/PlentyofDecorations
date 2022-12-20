@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:polished_deepslate"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:polished_deepslate_fence_gate"
+  }
+}

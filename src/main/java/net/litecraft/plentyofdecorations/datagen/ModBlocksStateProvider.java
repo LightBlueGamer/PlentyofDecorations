@@ -21,6 +21,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("bedrock_pressure_plate", ModBlocks.BEDROCK_PRESSURE_PLATE.get(), Blocks.BEDROCK);
         modButtonBlock("bedrock_button", ModBlocks.BEDROCK_BUTTON.get(), Blocks.BEDROCK);
         modWallBlock("bedrock_wall", ModBlocks.BEDROCK_WALL.get(), Blocks.BEDROCK);
+        modTrapdoorBlock("bedrock_trapdoor", ModBlocks.BEDROCK_TRAPDOOR.get(), Blocks.BEDROCK);
+        doorBlock((DoorBlock) ModBlocks.BEDROCK_DOOR.get(), blockTexture(Blocks.BEDROCK), blockTexture(Blocks.BEDROCK));
 
         modStairsBlock("coal_ore_stairs", ModBlocks.COAL_ORE_STAIRS.get(), Blocks.COAL_ORE);
         modSlabBlock("coal_ore_slab", ModBlocks.COAL_ORE_SLAB.get(), Blocks.COAL_ORE);
@@ -29,6 +31,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("coal_ore_pressure_plate", ModBlocks.COAL_ORE_PRESSURE_PLATE.get(), Blocks.COAL_ORE);
         modButtonBlock("coal_ore_button", ModBlocks.COAL_ORE_BUTTON.get(), Blocks.COAL_ORE);
         modWallBlock("coal_ore_wall", ModBlocks.COAL_ORE_WALL.get(), Blocks.COAL_ORE);
+        modTrapdoorBlock("coal_ore_trapdoor", ModBlocks.COAL_ORE_TRAPDOOR.get(), Blocks.COAL_ORE);
+        doorBlock((DoorBlock) ModBlocks.COAL_ORE_DOOR.get(), blockTexture(Blocks.COAL_ORE), blockTexture(Blocks.COAL_ORE));
 
         modStairsBlock("lapis_ore_stairs", ModBlocks.LAPIS_ORE_STAIRS.get(), Blocks.LAPIS_ORE);
         modSlabBlock("lapis_ore_slab", ModBlocks.LAPIS_ORE_SLAB.get(), Blocks.LAPIS_ORE);
@@ -37,6 +41,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("lapis_ore_pressure_plate", ModBlocks.LAPIS_ORE_PRESSURE_PLATE.get(), Blocks.LAPIS_ORE);
         modButtonBlock("lapis_ore_button", ModBlocks.LAPIS_ORE_BUTTON.get(), Blocks.LAPIS_ORE);
         modWallBlock("lapis_ore_wall", ModBlocks.LAPIS_ORE_WALL.get(), Blocks.LAPIS_ORE);
+        modTrapdoorBlock("lapis_ore_trapdoor", ModBlocks.LAPIS_ORE_TRAPDOOR.get(), Blocks.LAPIS_ORE);
+        doorBlock((DoorBlock) ModBlocks.LAPIS_ORE_DOOR.get(), blockTexture(Blocks.LAPIS_ORE), blockTexture(Blocks.LAPIS_ORE));
 
         modStairsBlock("iron_ore_stairs", ModBlocks.IRON_ORE_STAIRS.get(), Blocks.IRON_ORE);
         modSlabBlock("iron_ore_slab", ModBlocks.IRON_ORE_SLAB.get(), Blocks.IRON_ORE);
@@ -45,6 +51,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("iron_ore_pressure_plate", ModBlocks.IRON_ORE_PRESSURE_PLATE.get(), Blocks.IRON_ORE);
         modButtonBlock("iron_ore_button", ModBlocks.IRON_ORE_BUTTON.get(), Blocks.IRON_ORE);
         modWallBlock("iron_ore_wall", ModBlocks.IRON_ORE_WALL.get(), Blocks.IRON_ORE);
+        modTrapdoorBlock("iron_ore_trapdoor", ModBlocks.IRON_ORE_TRAPDOOR.get(), Blocks.IRON_ORE);
+        doorBlock((DoorBlock) ModBlocks.IRON_ORE_DOOR.get(), blockTexture(Blocks.IRON_ORE), blockTexture(Blocks.IRON_ORE));
 
         modStairsBlock("copper_ore_stairs", ModBlocks.COPPER_ORE_STAIRS.get(), Blocks.COPPER_ORE);
         modSlabBlock("copper_ore_slab", ModBlocks.COPPER_ORE_SLAB.get(), Blocks.COPPER_ORE);
@@ -53,6 +61,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("copper_ore_pressure_plate", ModBlocks.COPPER_ORE_PRESSURE_PLATE.get(), Blocks.COPPER_ORE);
         modButtonBlock("copper_ore_button", ModBlocks.COPPER_ORE_BUTTON.get(), Blocks.COPPER_ORE);
         modWallBlock("copper_ore_wall", ModBlocks.COPPER_ORE_WALL.get(), Blocks.COPPER_ORE);
+        modTrapdoorBlock("copper_ore_trapdoor", ModBlocks.COPPER_ORE_TRAPDOOR.get(), Blocks.COPPER_ORE);
+        doorBlock((DoorBlock) ModBlocks.COPPER_ORE_DOOR.get(), blockTexture(Blocks.COPPER_ORE), blockTexture(Blocks.COPPER_ORE));
 
         modStairsBlock("gold_ore_stairs", ModBlocks.GOLD_ORE_STAIRS.get(), Blocks.GOLD_ORE);
         modSlabBlock("gold_ore_slab", ModBlocks.GOLD_ORE_SLAB.get(), Blocks.GOLD_ORE);
@@ -61,6 +71,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("gold_ore_pressure_plate", ModBlocks.GOLD_ORE_PRESSURE_PLATE.get(), Blocks.GOLD_ORE);
         modButtonBlock("gold_ore_button", ModBlocks.GOLD_ORE_BUTTON.get(), Blocks.GOLD_ORE);
         modWallBlock("gold_ore_wall", ModBlocks.GOLD_ORE_WALL.get(), Blocks.GOLD_ORE);
+        modTrapdoorBlock("gold_ore_trapdoor", ModBlocks.GOLD_ORE_TRAPDOOR.get(), Blocks.GOLD_ORE);
+        doorBlock((DoorBlock) ModBlocks.GOLD_ORE_DOOR.get(), blockTexture(Blocks.GOLD_ORE), blockTexture(Blocks.GOLD_ORE));
 
         modStairsBlock("diamond_ore_stairs", ModBlocks.DIAMOND_ORE_STAIRS.get(), Blocks.DIAMOND_ORE);
         modSlabBlock("diamond_ore_slab", ModBlocks.DIAMOND_ORE_SLAB.get(), Blocks.DIAMOND_ORE);
@@ -69,6 +81,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("diamond_ore_pressure_plate", ModBlocks.DIAMOND_ORE_PRESSURE_PLATE.get(), Blocks.DIAMOND_ORE);
         modButtonBlock("diamond_ore_button", ModBlocks.DIAMOND_ORE_BUTTON.get(), Blocks.DIAMOND_ORE);
         modWallBlock("diamond_ore_wall", ModBlocks.DIAMOND_ORE_WALL.get(), Blocks.DIAMOND_ORE);
+        modTrapdoorBlock("diamond_ore_trapdoor", ModBlocks.DIAMOND_ORE_TRAPDOOR.get(), Blocks.DIAMOND_ORE);
+        doorBlock((DoorBlock) ModBlocks.DIAMOND_ORE_DOOR.get(), blockTexture(Blocks.DIAMOND_ORE), blockTexture(Blocks.DIAMOND_ORE));
 
         modStairsBlock("emerald_ore_stairs", ModBlocks.EMERALD_ORE_STAIRS.get(), Blocks.EMERALD_ORE);
         modSlabBlock("emerald_ore_slab", ModBlocks.EMERALD_ORE_SLAB.get(), Blocks.EMERALD_ORE);
@@ -77,6 +91,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("emerald_ore_pressure_plate", ModBlocks.EMERALD_ORE_PRESSURE_PLATE.get(), Blocks.EMERALD_ORE);
         modButtonBlock("emerald_ore_button", ModBlocks.EMERALD_ORE_BUTTON.get(), Blocks.EMERALD_ORE);
         modWallBlock("emerald_ore_wall", ModBlocks.EMERALD_ORE_WALL.get(), Blocks.EMERALD_ORE);
+        modTrapdoorBlock("emerald_ore_trapdoor", ModBlocks.EMERALD_ORE_TRAPDOOR.get(), Blocks.EMERALD_ORE);
+        doorBlock((DoorBlock) ModBlocks.EMERALD_ORE_DOOR.get(), blockTexture(Blocks.EMERALD_ORE), blockTexture(Blocks.EMERALD_ORE));
 
         modStairsBlock("deepslate_coal_ore_stairs", ModBlocks.DEEPSLATE_COAL_ORE_STAIRS.get(), Blocks.DEEPSLATE_COAL_ORE);
         modSlabBlock("deepslate_coal_ore_slab", ModBlocks.DEEPSLATE_COAL_ORE_SLAB.get(), Blocks.DEEPSLATE_COAL_ORE);
@@ -85,6 +101,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("deepslate_coal_ore_pressure_plate", ModBlocks.DEEPSLATE_COAL_ORE_PRESSURE_PLATE.get(), Blocks.DEEPSLATE_COAL_ORE);
         modButtonBlock("deepslate_coal_ore_button", ModBlocks.DEEPSLATE_COAL_ORE_BUTTON.get(), Blocks.DEEPSLATE_COAL_ORE);
         modWallBlock("deepslate_coal_ore_wall", ModBlocks.DEEPSLATE_COAL_ORE_WALL.get(), Blocks.DEEPSLATE_COAL_ORE);
+        modTrapdoorBlock("deepslate_coal_ore_trapdoor", ModBlocks.DEEPSLATE_COAL_ORE_TRAPDOOR.get(), Blocks.DEEPSLATE_COAL_ORE);
+        doorBlock((DoorBlock) ModBlocks.DEEPSLATE_COAL_ORE_DOOR.get(), blockTexture(Blocks.DEEPSLATE_COAL_ORE), blockTexture(Blocks.DEEPSLATE_COAL_ORE));
 
         modStairsBlock("deepslate_lapis_ore_stairs", ModBlocks.DEEPSLATE_LAPIS_ORE_STAIRS.get(), Blocks.DEEPSLATE_LAPIS_ORE);
         modSlabBlock("deepslate_lapis_ore_slab", ModBlocks.DEEPSLATE_LAPIS_ORE_SLAB.get(), Blocks.DEEPSLATE_LAPIS_ORE);
@@ -93,6 +111,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("deepslate_lapis_ore_pressure_plate", ModBlocks.DEEPSLATE_LAPIS_ORE_PRESSURE_PLATE.get(), Blocks.DEEPSLATE_LAPIS_ORE);
         modButtonBlock("deepslate_lapis_ore_button", ModBlocks.DEEPSLATE_LAPIS_ORE_BUTTON.get(), Blocks.DEEPSLATE_LAPIS_ORE);
         modWallBlock("deepslate_lapis_ore_wall", ModBlocks.DEEPSLATE_LAPIS_ORE_WALL.get(), Blocks.DEEPSLATE_LAPIS_ORE);
+        modTrapdoorBlock("deepslate_lapis_ore_trapdoor", ModBlocks.DEEPSLATE_LAPIS_ORE_TRAPDOOR.get(), Blocks.DEEPSLATE_LAPIS_ORE);
+        doorBlock((DoorBlock) ModBlocks.DEEPSLATE_LAPIS_ORE_DOOR.get(), blockTexture(Blocks.DEEPSLATE_LAPIS_ORE), blockTexture(Blocks.DEEPSLATE_LAPIS_ORE));
 
         modStairsBlock("deepslate_iron_ore_stairs", ModBlocks.DEEPSLATE_IRON_ORE_STAIRS.get(), Blocks.DEEPSLATE_IRON_ORE);
         modSlabBlock("deepslate_iron_ore_slab", ModBlocks.DEEPSLATE_IRON_ORE_SLAB.get(), Blocks.DEEPSLATE_IRON_ORE);
@@ -101,6 +121,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("deepslate_iron_ore_pressure_plate", ModBlocks.DEEPSLATE_IRON_ORE_PRESSURE_PLATE.get(), Blocks.DEEPSLATE_IRON_ORE);
         modButtonBlock("deepslate_iron_ore_button", ModBlocks.DEEPSLATE_IRON_ORE_BUTTON.get(), Blocks.DEEPSLATE_IRON_ORE);
         modWallBlock("deepslate_iron_ore_wall", ModBlocks.DEEPSLATE_IRON_ORE_WALL.get(), Blocks.DEEPSLATE_IRON_ORE);
+        modTrapdoorBlock("deepslate_iron_ore_trapdoor", ModBlocks.DEEPSLATE_IRON_ORE_TRAPDOOR.get(), Blocks.DEEPSLATE_IRON_ORE);
+        doorBlock((DoorBlock) ModBlocks.DEEPSLATE_IRON_ORE_DOOR.get(), blockTexture(Blocks.DEEPSLATE_IRON_ORE), blockTexture(Blocks.DEEPSLATE_IRON_ORE));
 
         modStairsBlock("deepslate_copper_ore_stairs", ModBlocks.DEEPSLATE_COPPER_ORE_STAIRS.get(), Blocks.DEEPSLATE_COPPER_ORE);
         modSlabBlock("deepslate_copper_ore_slab", ModBlocks.DEEPSLATE_COPPER_ORE_SLAB.get(), Blocks.DEEPSLATE_COPPER_ORE);
@@ -109,6 +131,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("deepslate_copper_ore_pressure_plate", ModBlocks.DEEPSLATE_COPPER_ORE_PRESSURE_PLATE.get(), Blocks.DEEPSLATE_COPPER_ORE);
         modButtonBlock("deepslate_copper_ore_button", ModBlocks.DEEPSLATE_COPPER_ORE_BUTTON.get(), Blocks.DEEPSLATE_COPPER_ORE);
         modWallBlock("deepslate_copper_ore_wall", ModBlocks.DEEPSLATE_COPPER_ORE_WALL.get(), Blocks.DEEPSLATE_COPPER_ORE);
+        modTrapdoorBlock("deepslate_copper_ore_trapdoor", ModBlocks.DEEPSLATE_COPPER_ORE_TRAPDOOR.get(), Blocks.DEEPSLATE_COPPER_ORE);
+        doorBlock((DoorBlock) ModBlocks.DEEPSLATE_COPPER_ORE_DOOR.get(), blockTexture(Blocks.DEEPSLATE_COPPER_ORE), blockTexture(Blocks.DEEPSLATE_COPPER_ORE));
 
         modStairsBlock("deepslate_gold_ore_stairs", ModBlocks.DEEPSLATE_GOLD_ORE_STAIRS.get(), Blocks.DEEPSLATE_GOLD_ORE);
         modSlabBlock("deepslate_gold_ore_slab", ModBlocks.DEEPSLATE_GOLD_ORE_SLAB.get(), Blocks.DEEPSLATE_GOLD_ORE);
@@ -117,6 +141,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("deepslate_gold_ore_pressure_plate", ModBlocks.DEEPSLATE_GOLD_ORE_PRESSURE_PLATE.get(), Blocks.DEEPSLATE_GOLD_ORE);
         modButtonBlock("deepslate_gold_ore_button", ModBlocks.DEEPSLATE_GOLD_ORE_BUTTON.get(), Blocks.DEEPSLATE_GOLD_ORE);
         modWallBlock("deepslate_gold_ore_wall", ModBlocks.DEEPSLATE_GOLD_ORE_WALL.get(), Blocks.DEEPSLATE_GOLD_ORE);
+        modTrapdoorBlock("deepslate_gold_ore_trapdoor", ModBlocks.DEEPSLATE_GOLD_ORE_TRAPDOOR.get(), Blocks.DEEPSLATE_GOLD_ORE);
+        doorBlock((DoorBlock) ModBlocks.DEEPSLATE_GOLD_ORE_DOOR.get(), blockTexture(Blocks.DEEPSLATE_GOLD_ORE), blockTexture(Blocks.DEEPSLATE_GOLD_ORE));
 
         modStairsBlock("deepslate_diamond_ore_stairs", ModBlocks.DEEPSLATE_DIAMOND_ORE_STAIRS.get(), Blocks.DEEPSLATE_DIAMOND_ORE);
         modSlabBlock("deepslate_diamond_ore_slab", ModBlocks.DEEPSLATE_DIAMOND_ORE_SLAB.get(), Blocks.DEEPSLATE_DIAMOND_ORE);
@@ -125,6 +151,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("deepslate_diamond_ore_pressure_plate", ModBlocks.DEEPSLATE_DIAMOND_ORE_PRESSURE_PLATE.get(), Blocks.DEEPSLATE_DIAMOND_ORE);
         modButtonBlock("deepslate_diamond_ore_button", ModBlocks.DEEPSLATE_DIAMOND_ORE_BUTTON.get(), Blocks.DEEPSLATE_DIAMOND_ORE);
         modWallBlock("deepslate_diamond_ore_wall", ModBlocks.DEEPSLATE_DIAMOND_ORE_WALL.get(), Blocks.DEEPSLATE_DIAMOND_ORE);
+        modTrapdoorBlock("deepslate_diamond_ore_trapdoor", ModBlocks.DEEPSLATE_DIAMOND_ORE_TRAPDOOR.get(), Blocks.DEEPSLATE_DIAMOND_ORE);
+        doorBlock((DoorBlock) ModBlocks.DEEPSLATE_DIAMOND_ORE_DOOR.get(), blockTexture(Blocks.DEEPSLATE_DIAMOND_ORE), blockTexture(Blocks.DEEPSLATE_DIAMOND_ORE));
 
         modStairsBlock("deepslate_emerald_ore_stairs", ModBlocks.DEEPSLATE_EMERALD_ORE_STAIRS.get(), Blocks.DEEPSLATE_EMERALD_ORE);
         modSlabBlock("deepslate_emerald_ore_slab", ModBlocks.DEEPSLATE_EMERALD_ORE_SLAB.get(), Blocks.DEEPSLATE_EMERALD_ORE);
@@ -133,6 +161,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("deepslate_emerald_ore_pressure_plate", ModBlocks.DEEPSLATE_EMERALD_ORE_PRESSURE_PLATE.get(), Blocks.DEEPSLATE_EMERALD_ORE);
         modButtonBlock("deepslate_emerald_ore_button", ModBlocks.DEEPSLATE_EMERALD_ORE_BUTTON.get(), Blocks.DEEPSLATE_EMERALD_ORE);
         modWallBlock("deepslate_emerald_ore_wall", ModBlocks.DEEPSLATE_EMERALD_ORE_WALL.get(), Blocks.DEEPSLATE_EMERALD_ORE);
+        modTrapdoorBlock("deepslate_emerald_ore_trapdoor", ModBlocks.DEEPSLATE_EMERALD_ORE_TRAPDOOR.get(), Blocks.DEEPSLATE_EMERALD_ORE);
+        doorBlock((DoorBlock) ModBlocks.DEEPSLATE_EMERALD_ORE_DOOR.get(), blockTexture(Blocks.DEEPSLATE_EMERALD_ORE), blockTexture(Blocks.DEEPSLATE_EMERALD_ORE));
 
         modStairsBlock("coal_block_stairs", ModBlocks.COAL_BLOCK_STAIRS.get(), Blocks.COAL_BLOCK);
         modSlabBlock("coal_block_slab", ModBlocks.COAL_BLOCK_SLAB.get(), Blocks.COAL_BLOCK);
@@ -141,6 +171,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("coal_block_pressure_plate", ModBlocks.COAL_BLOCK_PRESSURE_PLATE.get(), Blocks.COAL_BLOCK);
         modButtonBlock("coal_block_button", ModBlocks.COAL_BLOCK_BUTTON.get(), Blocks.COAL_BLOCK);
         modWallBlock("coal_block_wall", ModBlocks.COAL_BLOCK_WALL.get(), Blocks.COAL_BLOCK);
+        modTrapdoorBlock("coal_block_trapdoor", ModBlocks.COAL_BLOCK_TRAPDOOR.get(), Blocks.COAL_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.COAL_BLOCK_DOOR.get(), blockTexture(Blocks.COAL_BLOCK), blockTexture(Blocks.COAL_BLOCK));
 
         modStairsBlock("lapis_block_stairs", ModBlocks.LAPIS_BLOCK_STAIRS.get(), Blocks.LAPIS_BLOCK);
         modSlabBlock("lapis_block_slab", ModBlocks.LAPIS_BLOCK_SLAB.get(), Blocks.LAPIS_BLOCK);
@@ -149,6 +181,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("lapis_block_pressure_plate", ModBlocks.LAPIS_BLOCK_PRESSURE_PLATE.get(), Blocks.LAPIS_BLOCK);
         modButtonBlock("lapis_block_button", ModBlocks.LAPIS_BLOCK_BUTTON.get(), Blocks.LAPIS_BLOCK);
         modWallBlock("lapis_block_wall", ModBlocks.LAPIS_BLOCK_WALL.get(), Blocks.LAPIS_BLOCK);
+        modTrapdoorBlock("lapis_block_trapdoor", ModBlocks.LAPIS_BLOCK_TRAPDOOR.get(), Blocks.LAPIS_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.LAPIS_BLOCK_DOOR.get(), blockTexture(Blocks.LAPIS_BLOCK), blockTexture(Blocks.LAPIS_BLOCK));
 
         modStairsBlock("raw_iron_block_stairs", ModBlocks.RAW_IRON_BLOCK_STAIRS.get(), Blocks.RAW_IRON_BLOCK);
         modSlabBlock("raw_iron_block_slab", ModBlocks.RAW_IRON_BLOCK_SLAB.get(), Blocks.RAW_IRON_BLOCK);
@@ -157,6 +191,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("raw_iron_block_pressure_plate", ModBlocks.RAW_IRON_BLOCK_PRESSURE_PLATE.get(), Blocks.RAW_IRON_BLOCK);
         modButtonBlock("raw_iron_block_button", ModBlocks.RAW_IRON_BLOCK_BUTTON.get(), Blocks.RAW_IRON_BLOCK);
         modWallBlock("raw_iron_block_wall", ModBlocks.RAW_IRON_BLOCK_WALL.get(), Blocks.RAW_IRON_BLOCK);
+        modTrapdoorBlock("raw_iron_block_trapdoor", ModBlocks.RAW_IRON_BLOCK_TRAPDOOR.get(), Blocks.RAW_IRON_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.RAW_IRON_BLOCK_DOOR.get(), blockTexture(Blocks.RAW_IRON_BLOCK), blockTexture(Blocks.RAW_IRON_BLOCK));
 
         modStairsBlock("raw_copper_block_stairs", ModBlocks.RAW_COPPER_BLOCK_STAIRS.get(), Blocks.RAW_COPPER_BLOCK);
         modSlabBlock("raw_copper_block_slab", ModBlocks.RAW_COPPER_BLOCK_SLAB.get(), Blocks.RAW_COPPER_BLOCK);
@@ -165,6 +201,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("raw_copper_block_pressure_plate", ModBlocks.RAW_COPPER_BLOCK_PRESSURE_PLATE.get(), Blocks.RAW_COPPER_BLOCK);
         modButtonBlock("raw_copper_block_button", ModBlocks.RAW_COPPER_BLOCK_BUTTON.get(), Blocks.RAW_COPPER_BLOCK);
         modWallBlock("raw_copper_block_wall", ModBlocks.RAW_COPPER_BLOCK_WALL.get(), Blocks.RAW_COPPER_BLOCK);
+        modTrapdoorBlock("raw_copper_block_trapdoor", ModBlocks.RAW_COPPER_BLOCK_TRAPDOOR.get(), Blocks.RAW_COPPER_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.RAW_COPPER_BLOCK_DOOR.get(), blockTexture(Blocks.RAW_COPPER_BLOCK), blockTexture(Blocks.RAW_COPPER_BLOCK));
 
         modStairsBlock("raw_gold_block_stairs", ModBlocks.RAW_GOLD_BLOCK_STAIRS.get(), Blocks.RAW_GOLD_BLOCK);
         modSlabBlock("raw_gold_block_slab", ModBlocks.RAW_GOLD_BLOCK_SLAB.get(), Blocks.RAW_GOLD_BLOCK);
@@ -173,6 +211,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("raw_gold_block_pressure_plate", ModBlocks.RAW_GOLD_BLOCK_PRESSURE_PLATE.get(), Blocks.RAW_GOLD_BLOCK);
         modButtonBlock("raw_gold_block_button", ModBlocks.RAW_GOLD_BLOCK_BUTTON.get(), Blocks.RAW_GOLD_BLOCK);
         modWallBlock("raw_gold_block_wall", ModBlocks.RAW_GOLD_BLOCK_WALL.get(), Blocks.RAW_GOLD_BLOCK);
+        modTrapdoorBlock("raw_gold_block_trapdoor", ModBlocks.RAW_GOLD_BLOCK_TRAPDOOR.get(), Blocks.RAW_GOLD_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.RAW_GOLD_BLOCK_DOOR.get(), blockTexture(Blocks.RAW_GOLD_BLOCK), blockTexture(Blocks.RAW_GOLD_BLOCK));
 
         modStairsBlock("amethyst_block_stairs", ModBlocks.AMETHYST_BLOCK_STAIRS.get(), Blocks.AMETHYST_BLOCK);
         modSlabBlock("amethyst_block_slab", ModBlocks.AMETHYST_BLOCK_SLAB.get(), Blocks.AMETHYST_BLOCK);
@@ -181,6 +221,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("amethyst_block_pressure_plate", ModBlocks.AMETHYST_BLOCK_PRESSURE_PLATE.get(), Blocks.AMETHYST_BLOCK);
         modButtonBlock("amethyst_block_button", ModBlocks.AMETHYST_BLOCK_BUTTON.get(), Blocks.AMETHYST_BLOCK);
         modWallBlock("amethyst_block_wall", ModBlocks.AMETHYST_BLOCK_WALL.get(), Blocks.AMETHYST_BLOCK);
+        modTrapdoorBlock("amethyst_block_trapdoor", ModBlocks.AMETHYST_BLOCK_TRAPDOOR.get(), Blocks.AMETHYST_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.AMETHYST_BLOCK_DOOR.get(), blockTexture(Blocks.AMETHYST_BLOCK), blockTexture(Blocks.AMETHYST_BLOCK));
 
         modStairsBlock("iron_block_stairs", ModBlocks.IRON_BLOCK_STAIRS.get(), Blocks.IRON_BLOCK);
         modSlabBlock("iron_block_slab", ModBlocks.IRON_BLOCK_SLAB.get(), Blocks.IRON_BLOCK);
@@ -189,6 +231,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("iron_block_pressure_plate", ModBlocks.IRON_BLOCK_PRESSURE_PLATE.get(), Blocks.IRON_BLOCK);
         modButtonBlock("iron_block_button", ModBlocks.IRON_BLOCK_BUTTON.get(), Blocks.IRON_BLOCK);
         modWallBlock("iron_block_wall", ModBlocks.IRON_BLOCK_WALL.get(), Blocks.IRON_BLOCK);
+        modTrapdoorBlock("iron_block_trapdoor", ModBlocks.IRON_BLOCK_TRAPDOOR.get(), Blocks.IRON_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.IRON_BLOCK_DOOR.get(), blockTexture(Blocks.IRON_BLOCK), blockTexture(Blocks.IRON_BLOCK));
 
         modStairsBlock("copper_block_stairs", ModBlocks.COPPER_BLOCK_STAIRS.get(), Blocks.COPPER_BLOCK);
         modSlabBlock("copper_block_slab", ModBlocks.COPPER_BLOCK_SLAB.get(), Blocks.COPPER_BLOCK);
@@ -197,6 +241,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("copper_block_pressure_plate", ModBlocks.COPPER_BLOCK_PRESSURE_PLATE.get(), Blocks.COPPER_BLOCK);
         modButtonBlock("copper_block_button", ModBlocks.COPPER_BLOCK_BUTTON.get(), Blocks.COPPER_BLOCK);
         modWallBlock("copper_block_wall", ModBlocks.COPPER_BLOCK_WALL.get(), Blocks.COPPER_BLOCK);
+        modTrapdoorBlock("copper_block_trapdoor", ModBlocks.COPPER_BLOCK_TRAPDOOR.get(), Blocks.COPPER_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.COPPER_BLOCK_DOOR.get(), blockTexture(Blocks.COPPER_BLOCK), blockTexture(Blocks.COPPER_BLOCK));
 
         modStairsBlock("gold_block_stairs", ModBlocks.GOLD_BLOCK_STAIRS.get(), Blocks.GOLD_BLOCK);
         modSlabBlock("gold_block_slab", ModBlocks.GOLD_BLOCK_SLAB.get(), Blocks.GOLD_BLOCK);
@@ -205,6 +251,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("gold_block_pressure_plate", ModBlocks.GOLD_BLOCK_PRESSURE_PLATE.get(), Blocks.GOLD_BLOCK);
         modButtonBlock("gold_block_button", ModBlocks.GOLD_BLOCK_BUTTON.get(), Blocks.GOLD_BLOCK);
         modWallBlock("gold_block_wall", ModBlocks.GOLD_BLOCK_WALL.get(), Blocks.GOLD_BLOCK);
+        modTrapdoorBlock("gold_block_trapdoor", ModBlocks.GOLD_BLOCK_TRAPDOOR.get(), Blocks.GOLD_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.GOLD_BLOCK_DOOR.get(), blockTexture(Blocks.GOLD_BLOCK), blockTexture(Blocks.GOLD_BLOCK));
 
         modStairsBlock("diamond_block_stairs", ModBlocks.DIAMOND_BLOCK_STAIRS.get(), Blocks.DIAMOND_BLOCK);
         modSlabBlock("diamond_block_slab", ModBlocks.DIAMOND_BLOCK_SLAB.get(), Blocks.DIAMOND_BLOCK);
@@ -213,6 +261,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("diamond_block_pressure_plate", ModBlocks.DIAMOND_BLOCK_PRESSURE_PLATE.get(), Blocks.DIAMOND_BLOCK);
         modButtonBlock("diamond_block_button", ModBlocks.DIAMOND_BLOCK_BUTTON.get(), Blocks.DIAMOND_BLOCK);
         modWallBlock("diamond_block_wall", ModBlocks.DIAMOND_BLOCK_WALL.get(), Blocks.DIAMOND_BLOCK);
+        modTrapdoorBlock("diamond_block_trapdoor", ModBlocks.DIAMOND_BLOCK_TRAPDOOR.get(), Blocks.DIAMOND_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.DIAMOND_BLOCK_DOOR.get(), blockTexture(Blocks.DIAMOND_BLOCK), blockTexture(Blocks.DIAMOND_BLOCK));
 
         modStairsBlock("netherite_block_stairs", ModBlocks.NETHERITE_BLOCK_STAIRS.get(), Blocks.NETHERITE_BLOCK);
         modSlabBlock("netherite_block_slab", ModBlocks.NETHERITE_BLOCK_SLAB.get(), Blocks.NETHERITE_BLOCK);
@@ -221,6 +271,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("netherite_block_pressure_plate", ModBlocks.NETHERITE_BLOCK_PRESSURE_PLATE.get(), Blocks.NETHERITE_BLOCK);
         modButtonBlock("netherite_block_button", ModBlocks.NETHERITE_BLOCK_BUTTON.get(), Blocks.NETHERITE_BLOCK);
         modWallBlock("netherite_block_wall", ModBlocks.NETHERITE_BLOCK_WALL.get(), Blocks.NETHERITE_BLOCK);
+        modTrapdoorBlock("netherite_block_trapdoor", ModBlocks.NETHERITE_BLOCK_TRAPDOOR.get(), Blocks.NETHERITE_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.NETHERITE_BLOCK_DOOR.get(), blockTexture(Blocks.NETHERITE_BLOCK), blockTexture(Blocks.NETHERITE_BLOCK));
 
         modStairsBlock("moss_block_stairs", ModBlocks.MOSS_BLOCK_STAIRS.get(), Blocks.MOSS_BLOCK);
         modSlabBlock("moss_block_slab", ModBlocks.MOSS_BLOCK_SLAB.get(), Blocks.MOSS_BLOCK);
@@ -229,6 +281,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("moss_block_pressure_plate", ModBlocks.MOSS_BLOCK_PRESSURE_PLATE.get(), Blocks.MOSS_BLOCK);
         modButtonBlock("moss_block_button", ModBlocks.MOSS_BLOCK_BUTTON.get(), Blocks.MOSS_BLOCK);
         modWallBlock("moss_block_wall", ModBlocks.MOSS_BLOCK_WALL.get(), Blocks.MOSS_BLOCK);
+        modTrapdoorBlock("moss_block_trapdoor", ModBlocks.MOSS_BLOCK_TRAPDOOR.get(), Blocks.MOSS_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.MOSS_BLOCK_DOOR.get(), blockTexture(Blocks.MOSS_BLOCK), blockTexture(Blocks.MOSS_BLOCK));
 
         modStairsBlock("dripstone_block_stairs", ModBlocks.DRIPSTONE_BLOCK_STAIRS.get(), Blocks.DRIPSTONE_BLOCK);
         modSlabBlock("dripstone_block_slab", ModBlocks.DRIPSTONE_BLOCK_SLAB.get(), Blocks.DRIPSTONE_BLOCK);
@@ -237,6 +291,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("dripstone_block_pressure_plate", ModBlocks.DRIPSTONE_BLOCK_PRESSURE_PLATE.get(), Blocks.DRIPSTONE_BLOCK);
         modButtonBlock("dripstone_block_button", ModBlocks.DRIPSTONE_BLOCK_BUTTON.get(), Blocks.DRIPSTONE_BLOCK);
         modWallBlock("dripstone_block_wall", ModBlocks.DRIPSTONE_BLOCK_WALL.get(), Blocks.DRIPSTONE_BLOCK);
+        modTrapdoorBlock("dripstone_block_trapdoor", ModBlocks.DRIPSTONE_BLOCK_TRAPDOOR.get(), Blocks.DRIPSTONE_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.DRIPSTONE_BLOCK_DOOR.get(), blockTexture(Blocks.DRIPSTONE_BLOCK), blockTexture(Blocks.DRIPSTONE_BLOCK));
 
         modStairsBlock("purpur_block_stairs", ModBlocks.PURPUR_BLOCK_STAIRS.get(), Blocks.PURPUR_BLOCK);
         modSlabBlock("purpur_block_slab", ModBlocks.PURPUR_BLOCK_SLAB.get(), Blocks.PURPUR_BLOCK);
@@ -245,6 +301,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("purpur_block_pressure_plate", ModBlocks.PURPUR_BLOCK_PRESSURE_PLATE.get(), Blocks.PURPUR_BLOCK);
         modButtonBlock("purpur_block_button", ModBlocks.PURPUR_BLOCK_BUTTON.get(), Blocks.PURPUR_BLOCK);
         modWallBlock("purpur_block_wall", ModBlocks.PURPUR_BLOCK_WALL.get(), Blocks.PURPUR_BLOCK);
+        modTrapdoorBlock("purpur_block_trapdoor", ModBlocks.PURPUR_BLOCK_TRAPDOOR.get(), Blocks.PURPUR_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.PURPUR_BLOCK_DOOR.get(), blockTexture(Blocks.PURPUR_BLOCK), blockTexture(Blocks.PURPUR_BLOCK));
 
         modStairsBlock("brown_mushroom_block_stairs", ModBlocks.BROWN_MUSHROOM_BLOCK_STAIRS.get(), Blocks.BROWN_MUSHROOM_BLOCK);
         modSlabBlock("brown_mushroom_block_slab", ModBlocks.BROWN_MUSHROOM_BLOCK_SLAB.get(), Blocks.BROWN_MUSHROOM_BLOCK);
@@ -253,6 +311,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("brown_mushroom_block_pressure_plate", ModBlocks.BROWN_MUSHROOM_BLOCK_PRESSURE_PLATE.get(), Blocks.BROWN_MUSHROOM_BLOCK);
         modButtonBlock("brown_mushroom_block_button", ModBlocks.BROWN_MUSHROOM_BLOCK_BUTTON.get(), Blocks.BROWN_MUSHROOM_BLOCK);
         modWallBlock("brown_mushroom_block_wall", ModBlocks.BROWN_MUSHROOM_BLOCK_WALL.get(), Blocks.BROWN_MUSHROOM_BLOCK);
+        modTrapdoorBlock("brown_mushroom_block_trapdoor", ModBlocks.BROWN_MUSHROOM_BLOCK_TRAPDOOR.get(), Blocks.BROWN_MUSHROOM_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.BROWN_MUSHROOM_BLOCK_DOOR.get(), blockTexture(Blocks.BROWN_MUSHROOM_BLOCK), blockTexture(Blocks.BROWN_MUSHROOM_BLOCK));
 
         modStairsBlock("red_mushroom_block_stairs", ModBlocks.RED_MUSHROOM_BLOCK_STAIRS.get(), Blocks.RED_MUSHROOM_BLOCK);
         modSlabBlock("red_mushroom_block_slab", ModBlocks.RED_MUSHROOM_BLOCK_SLAB.get(), Blocks.RED_MUSHROOM_BLOCK);
@@ -261,6 +321,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("red_mushroom_block_pressure_plate", ModBlocks.RED_MUSHROOM_BLOCK_PRESSURE_PLATE.get(), Blocks.RED_MUSHROOM_BLOCK);
         modButtonBlock("red_mushroom_block_button", ModBlocks.RED_MUSHROOM_BLOCK_BUTTON.get(), Blocks.RED_MUSHROOM_BLOCK);
         modWallBlock("red_mushroom_block_wall", ModBlocks.RED_MUSHROOM_BLOCK_WALL.get(), Blocks.RED_MUSHROOM_BLOCK);
+        modTrapdoorBlock("red_mushroom_block_trapdoor", ModBlocks.RED_MUSHROOM_BLOCK_TRAPDOOR.get(), Blocks.RED_MUSHROOM_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.RED_MUSHROOM_BLOCK_DOOR.get(), blockTexture(Blocks.RED_MUSHROOM_BLOCK), blockTexture(Blocks.RED_MUSHROOM_BLOCK));
 
         modStairsBlock("emerald_block_stairs", ModBlocks.EMERALD_BLOCK_STAIRS.get(), Blocks.EMERALD_BLOCK);
         modSlabBlock("emerald_block_slab", ModBlocks.EMERALD_BLOCK_SLAB.get(), Blocks.EMERALD_BLOCK);
@@ -269,6 +331,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("emerald_block_pressure_plate", ModBlocks.EMERALD_BLOCK_PRESSURE_PLATE.get(), Blocks.EMERALD_BLOCK);
         modButtonBlock("emerald_block_button", ModBlocks.EMERALD_BLOCK_BUTTON.get(), Blocks.EMERALD_BLOCK);
         modWallBlock("emerald_block_wall", ModBlocks.EMERALD_BLOCK_WALL.get(), Blocks.EMERALD_BLOCK);
+        modTrapdoorBlock("emerald_block_trapdoor", ModBlocks.EMERALD_BLOCK_TRAPDOOR.get(), Blocks.EMERALD_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.EMERALD_BLOCK_DOOR.get(), blockTexture(Blocks.EMERALD_BLOCK), blockTexture(Blocks.EMERALD_BLOCK));
 
         modStairsBlock("stone_stairs", ModBlocks.STONE_STAIRS.get(), Blocks.STONE);
         modSlabBlock("stone_slab", ModBlocks.STONE_SLAB.get(), Blocks.STONE);
@@ -277,6 +341,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("stone_pressure_plate", ModBlocks.STONE_PRESSURE_PLATE.get(), Blocks.STONE);
         modButtonBlock("stone_button", ModBlocks.STONE_BUTTON.get(), Blocks.STONE);
         modWallBlock("stone_wall", ModBlocks.STONE_WALL.get(), Blocks.STONE);
+        modTrapdoorBlock("stone_trapdoor", ModBlocks.STONE_TRAPDOOR.get(), Blocks.STONE);
+        doorBlock((DoorBlock) ModBlocks.STONE_DOOR.get(), blockTexture(Blocks.STONE), blockTexture(Blocks.STONE));
 
         modStairsBlock("granite_stairs", ModBlocks.GRANITE_STAIRS.get(), Blocks.GRANITE);
         modSlabBlock("granite_slab", ModBlocks.GRANITE_SLAB.get(), Blocks.GRANITE);
@@ -285,6 +351,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("granite_pressure_plate", ModBlocks.GRANITE_PRESSURE_PLATE.get(), Blocks.GRANITE);
         modButtonBlock("granite_button", ModBlocks.GRANITE_BUTTON.get(), Blocks.GRANITE);
         modWallBlock("granite_wall", ModBlocks.GRANITE_WALL.get(), Blocks.GRANITE);
+        modTrapdoorBlock("granite_trapdoor", ModBlocks.GRANITE_TRAPDOOR.get(), Blocks.GRANITE);
+        doorBlock((DoorBlock) ModBlocks.GRANITE_DOOR.get(), blockTexture(Blocks.GRANITE), blockTexture(Blocks.GRANITE));
 
         modStairsBlock("polished_granite_stairs", ModBlocks.POLISHED_GRANITE_STAIRS.get(), Blocks.POLISHED_GRANITE);
         modSlabBlock("polished_granite_slab", ModBlocks.POLISHED_GRANITE_SLAB.get(), Blocks.POLISHED_GRANITE);
@@ -293,6 +361,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("polished_granite_pressure_plate", ModBlocks.POLISHED_GRANITE_PRESSURE_PLATE.get(), Blocks.POLISHED_GRANITE);
         modButtonBlock("polished_granite_button", ModBlocks.POLISHED_GRANITE_BUTTON.get(), Blocks.POLISHED_GRANITE);
         modWallBlock("polished_granite_wall", ModBlocks.POLISHED_GRANITE_WALL.get(), Blocks.POLISHED_GRANITE);
+        modTrapdoorBlock("polished_granite_trapdoor", ModBlocks.POLISHED_GRANITE_TRAPDOOR.get(), Blocks.POLISHED_GRANITE);
+        doorBlock((DoorBlock) ModBlocks.POLISHED_GRANITE_DOOR.get(), blockTexture(Blocks.POLISHED_GRANITE), blockTexture(Blocks.POLISHED_GRANITE));
 
         modStairsBlock("diorite_stairs", ModBlocks.DIORITE_STAIRS.get(), Blocks.DIORITE);
         modSlabBlock("diorite_slab", ModBlocks.DIORITE_SLAB.get(), Blocks.DIORITE);
@@ -301,6 +371,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("diorite_pressure_plate", ModBlocks.DIORITE_PRESSURE_PLATE.get(), Blocks.DIORITE);
         modButtonBlock("diorite_button", ModBlocks.DIORITE_BUTTON.get(), Blocks.DIORITE);
         modWallBlock("diorite_wall", ModBlocks.DIORITE_WALL.get(), Blocks.DIORITE);
+        modTrapdoorBlock("diorite_trapdoor", ModBlocks.DIORITE_TRAPDOOR.get(), Blocks.DIORITE);
+        doorBlock((DoorBlock) ModBlocks.DIORITE_DOOR.get(), blockTexture(Blocks.DIORITE), blockTexture(Blocks.DIORITE));
 
         modStairsBlock("polished_diorite_stairs", ModBlocks.POLISHED_DIORITE_STAIRS.get(), Blocks.POLISHED_DIORITE);
         modSlabBlock("polished_diorite_slab", ModBlocks.POLISHED_DIORITE_SLAB.get(), Blocks.POLISHED_DIORITE);
@@ -309,6 +381,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("polished_diorite_pressure_plate", ModBlocks.POLISHED_DIORITE_PRESSURE_PLATE.get(), Blocks.POLISHED_DIORITE);
         modButtonBlock("polished_diorite_button", ModBlocks.POLISHED_DIORITE_BUTTON.get(), Blocks.POLISHED_DIORITE);
         modWallBlock("polished_diorite_wall", ModBlocks.POLISHED_DIORITE_WALL.get(), Blocks.POLISHED_DIORITE);
+        modTrapdoorBlock("polished_diorite_trapdoor", ModBlocks.POLISHED_DIORITE_TRAPDOOR.get(), Blocks.POLISHED_DIORITE);
+        doorBlock((DoorBlock) ModBlocks.POLISHED_DIORITE_DOOR.get(), blockTexture(Blocks.POLISHED_DIORITE), blockTexture(Blocks.POLISHED_DIORITE));
 
         modStairsBlock("andesite_stairs", ModBlocks.ANDESITE_STAIRS.get(), Blocks.ANDESITE);
         modSlabBlock("andesite_slab", ModBlocks.ANDESITE_SLAB.get(), Blocks.ANDESITE);
@@ -317,6 +391,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("andesite_pressure_plate", ModBlocks.ANDESITE_PRESSURE_PLATE.get(), Blocks.ANDESITE);
         modButtonBlock("andesite_button", ModBlocks.ANDESITE_BUTTON.get(), Blocks.ANDESITE);
         modWallBlock("andesite_wall", ModBlocks.ANDESITE_WALL.get(), Blocks.ANDESITE);
+        modTrapdoorBlock("andesite_trapdoor", ModBlocks.ANDESITE_TRAPDOOR.get(), Blocks.ANDESITE);
+        doorBlock((DoorBlock) ModBlocks.ANDESITE_DOOR.get(), blockTexture(Blocks.ANDESITE), blockTexture(Blocks.ANDESITE));
 
         modStairsBlock("polished_andesite_stairs", ModBlocks.POLISHED_ANDESITE_STAIRS.get(), Blocks.POLISHED_ANDESITE);
         modSlabBlock("polished_andesite_slab", ModBlocks.POLISHED_ANDESITE_SLAB.get(), Blocks.POLISHED_ANDESITE);
@@ -325,6 +401,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("polished_andesite_pressure_plate", ModBlocks.POLISHED_ANDESITE_PRESSURE_PLATE.get(), Blocks.POLISHED_ANDESITE);
         modButtonBlock("polished_andesite_button", ModBlocks.POLISHED_ANDESITE_BUTTON.get(), Blocks.POLISHED_ANDESITE);
         modWallBlock("polished_andesite_wall", ModBlocks.POLISHED_ANDESITE_WALL.get(), Blocks.POLISHED_ANDESITE);
+        modTrapdoorBlock("polished_andesite_trapdoor", ModBlocks.POLISHED_ANDESITE_TRAPDOOR.get(), Blocks.POLISHED_ANDESITE);
+        doorBlock((DoorBlock) ModBlocks.POLISHED_ANDESITE_DOOR.get(), blockTexture(Blocks.POLISHED_ANDESITE), blockTexture(Blocks.POLISHED_ANDESITE));
 
         modStairsBlock("cobbled_deepslate_stairs", ModBlocks.COBBLED_DEEPSLATE_STAIRS.get(), Blocks.COBBLED_DEEPSLATE);
         modSlabBlock("cobbled_deepslate_slab", ModBlocks.COBBLED_DEEPSLATE_SLAB.get(), Blocks.COBBLED_DEEPSLATE);
@@ -333,6 +411,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("cobbled_deepslate_pressure_plate", ModBlocks.COBBLED_DEEPSLATE_PRESSURE_PLATE.get(), Blocks.COBBLED_DEEPSLATE);
         modButtonBlock("cobbled_deepslate_button", ModBlocks.COBBLED_DEEPSLATE_BUTTON.get(), Blocks.COBBLED_DEEPSLATE);
         modWallBlock("cobbled_deepslate_wall", ModBlocks.COBBLED_DEEPSLATE_WALL.get(), Blocks.COBBLED_DEEPSLATE);
+        modTrapdoorBlock("cobbled_deepslate_trapdoor", ModBlocks.COBBLED_DEEPSLATE_TRAPDOOR.get(), Blocks.COBBLED_DEEPSLATE);
+        doorBlock((DoorBlock) ModBlocks.COBBLED_DEEPSLATE_DOOR.get(), blockTexture(Blocks.COBBLED_DEEPSLATE), blockTexture(Blocks.COBBLED_DEEPSLATE));
 
         modStairsBlock("polished_deepslate_stairs", ModBlocks.POLISHED_DEEPSLATE_STAIRS.get(), Blocks.POLISHED_DEEPSLATE);
         modSlabBlock("polished_deepslate_slab", ModBlocks.POLISHED_DEEPSLATE_SLAB.get(), Blocks.POLISHED_DEEPSLATE);
@@ -341,6 +421,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("polished_deepslate_pressure_plate", ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE.get(), Blocks.POLISHED_DEEPSLATE);
         modButtonBlock("polished_deepslate_button", ModBlocks.POLISHED_DEEPSLATE_BUTTON.get(), Blocks.POLISHED_DEEPSLATE);
         modWallBlock("polished_deepslate_wall", ModBlocks.POLISHED_DEEPSLATE_WALL.get(), Blocks.POLISHED_DEEPSLATE);
+        modTrapdoorBlock("polished_deepslate_trapdoor", ModBlocks.POLISHED_DEEPSLATE_TRAPDOOR.get(), Blocks.POLISHED_DEEPSLATE);
+        doorBlock((DoorBlock) ModBlocks.POLISHED_DEEPSLATE_DOOR.get(), blockTexture(Blocks.POLISHED_DEEPSLATE), blockTexture(Blocks.POLISHED_DEEPSLATE));
 
         modStairsBlock("calcite_stairs", ModBlocks.CALCITE_STAIRS.get(), Blocks.CALCITE);
         modSlabBlock("calcite_slab", ModBlocks.CALCITE_SLAB.get(), Blocks.CALCITE);
@@ -349,6 +431,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("calcite_pressure_plate", ModBlocks.CALCITE_PRESSURE_PLATE.get(), Blocks.CALCITE);
         modButtonBlock("calcite_button", ModBlocks.CALCITE_BUTTON.get(), Blocks.CALCITE);
         modWallBlock("calcite_wall", ModBlocks.CALCITE_WALL.get(), Blocks.CALCITE);
+        modTrapdoorBlock("calcite_trapdoor", ModBlocks.CALCITE_TRAPDOOR.get(), Blocks.CALCITE);
+        doorBlock((DoorBlock) ModBlocks.CALCITE_DOOR.get(), blockTexture(Blocks.CALCITE), blockTexture(Blocks.CALCITE));
 
         modStairsBlock("tuff_stairs", ModBlocks.TUFF_STAIRS.get(), Blocks.TUFF);
         modSlabBlock("tuff_slab", ModBlocks.TUFF_SLAB.get(), Blocks.TUFF);
@@ -357,6 +441,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("tuff_pressure_plate", ModBlocks.TUFF_PRESSURE_PLATE.get(), Blocks.TUFF);
         modButtonBlock("tuff_button", ModBlocks.TUFF_BUTTON.get(), Blocks.TUFF);
         modWallBlock("tuff_wall", ModBlocks.TUFF_WALL.get(), Blocks.TUFF);
+        modTrapdoorBlock("tuff_trapdoor", ModBlocks.TUFF_TRAPDOOR.get(), Blocks.TUFF);
+        doorBlock((DoorBlock) ModBlocks.TUFF_DOOR.get(), blockTexture(Blocks.TUFF), blockTexture(Blocks.TUFF));
 
         modStairsBlock("dirt_stairs", ModBlocks.DIRT_STAIRS.get(), Blocks.DIRT);
         modSlabBlock("dirt_slab", ModBlocks.DIRT_SLAB.get(), Blocks.DIRT);
@@ -365,6 +451,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("dirt_pressure_plate", ModBlocks.DIRT_PRESSURE_PLATE.get(), Blocks.DIRT);
         modButtonBlock("dirt_button", ModBlocks.DIRT_BUTTON.get(), Blocks.DIRT);
         modWallBlock("dirt_wall", ModBlocks.DIRT_WALL.get(), Blocks.DIRT);
+        modTrapdoorBlock("dirt_trapdoor", ModBlocks.DIRT_TRAPDOOR.get(), Blocks.DIRT);
+        doorBlock((DoorBlock) ModBlocks.DIRT_DOOR.get(), blockTexture(Blocks.DIRT), blockTexture(Blocks.DIRT));
 
         modStairsBlock("coarse_dirt_stairs", ModBlocks.COARSE_DIRT_STAIRS.get(), Blocks.COARSE_DIRT);
         modSlabBlock("coarse_dirt_slab", ModBlocks.COARSE_DIRT_SLAB.get(), Blocks.COARSE_DIRT);
@@ -373,6 +461,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("coarse_dirt_pressure_plate", ModBlocks.COARSE_DIRT_PRESSURE_PLATE.get(), Blocks.COARSE_DIRT);
         modButtonBlock("coarse_dirt_button", ModBlocks.COARSE_DIRT_BUTTON.get(), Blocks.COARSE_DIRT);
         modWallBlock("coarse_dirt_wall", ModBlocks.COARSE_DIRT_WALL.get(), Blocks.COARSE_DIRT);
+        modTrapdoorBlock("coarse_dirt_trapdoor", ModBlocks.COARSE_DIRT_TRAPDOOR.get(), Blocks.COARSE_DIRT);
+        doorBlock((DoorBlock) ModBlocks.COARSE_DIRT_DOOR.get(), blockTexture(Blocks.COARSE_DIRT), blockTexture(Blocks.COARSE_DIRT));
 
         modStairsBlock("rooted_dirt_stairs", ModBlocks.ROOTED_DIRT_STAIRS.get(), Blocks.ROOTED_DIRT);
         modSlabBlock("rooted_dirt_slab", ModBlocks.ROOTED_DIRT_SLAB.get(), Blocks.ROOTED_DIRT);
@@ -381,6 +471,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("rooted_dirt_pressure_plate", ModBlocks.ROOTED_DIRT_PRESSURE_PLATE.get(), Blocks.ROOTED_DIRT);
         modButtonBlock("rooted_dirt_button", ModBlocks.ROOTED_DIRT_BUTTON.get(), Blocks.ROOTED_DIRT);
         modWallBlock("rooted_dirt_wall", ModBlocks.ROOTED_DIRT_WALL.get(), Blocks.ROOTED_DIRT);
+        modTrapdoorBlock("rooted_dirt_trapdoor", ModBlocks.ROOTED_DIRT_TRAPDOOR.get(), Blocks.ROOTED_DIRT);
+        doorBlock((DoorBlock) ModBlocks.ROOTED_DIRT_DOOR.get(), blockTexture(Blocks.ROOTED_DIRT), blockTexture(Blocks.ROOTED_DIRT));
 
         modStairsBlock("mud_stairs", ModBlocks.MUD_STAIRS.get(), Blocks.MUD);
         modSlabBlock("mud_slab", ModBlocks.MUD_SLAB.get(), Blocks.MUD);
@@ -389,6 +481,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("mud_pressure_plate", ModBlocks.MUD_PRESSURE_PLATE.get(), Blocks.MUD);
         modButtonBlock("mud_button", ModBlocks.MUD_BUTTON.get(), Blocks.MUD);
         modWallBlock("mud_wall", ModBlocks.MUD_WALL.get(), Blocks.MUD);
+        modTrapdoorBlock("mud_trapdoor", ModBlocks.MUD_TRAPDOOR.get(), Blocks.MUD);
+        doorBlock((DoorBlock) ModBlocks.MUD_DOOR.get(), blockTexture(Blocks.MUD), blockTexture(Blocks.MUD));
 
         modStairsBlock("cobblestone_stairs", ModBlocks.COBBLESTONE_STAIRS.get(), Blocks.COBBLESTONE);
         modSlabBlock("cobblestone_slab", ModBlocks.COBBLESTONE_SLAB.get(), Blocks.COBBLESTONE);
@@ -397,6 +491,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("cobblestone_pressure_plate", ModBlocks.COBBLESTONE_PRESSURE_PLATE.get(), Blocks.COBBLESTONE);
         modButtonBlock("cobblestone_button", ModBlocks.COBBLESTONE_BUTTON.get(), Blocks.COBBLESTONE);
         modWallBlock("cobblestone_wall", ModBlocks.COBBLESTONE_WALL.get(), Blocks.COBBLESTONE);
+        modTrapdoorBlock("cobblestone_trapdoor", ModBlocks.COBBLESTONE_TRAPDOOR.get(), Blocks.COBBLESTONE);
+        doorBlock((DoorBlock) ModBlocks.COBBLESTONE_DOOR.get(), blockTexture(Blocks.COBBLESTONE), blockTexture(Blocks.COBBLESTONE));
 
         modStairsBlock("oak_planks_stairs", ModBlocks.OAK_PLANKS_STAIRS.get(), Blocks.OAK_PLANKS);
         modSlabBlock("oak_planks_slab", ModBlocks.OAK_PLANKS_SLAB.get(), Blocks.OAK_PLANKS);
@@ -405,6 +501,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("oak_planks_pressure_plate", ModBlocks.OAK_PLANKS_PRESSURE_PLATE.get(), Blocks.OAK_PLANKS);
         modButtonBlock("oak_planks_button", ModBlocks.OAK_PLANKS_BUTTON.get(), Blocks.OAK_PLANKS);
         modWallBlock("oak_planks_wall", ModBlocks.OAK_PLANKS_WALL.get(), Blocks.OAK_PLANKS);
+        modTrapdoorBlock("oak_planks_trapdoor", ModBlocks.OAK_PLANKS_TRAPDOOR.get(), Blocks.OAK_PLANKS);
+        doorBlock((DoorBlock) ModBlocks.OAK_PLANKS_DOOR.get(), blockTexture(Blocks.OAK_PLANKS), blockTexture(Blocks.OAK_PLANKS));
 
         modStairsBlock("spruce_planks_stairs", ModBlocks.SPRUCE_PLANKS_STAIRS.get(), Blocks.SPRUCE_PLANKS);
         modSlabBlock("spruce_planks_slab", ModBlocks.SPRUCE_PLANKS_SLAB.get(), Blocks.SPRUCE_PLANKS);
@@ -413,6 +511,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("spruce_planks_pressure_plate", ModBlocks.SPRUCE_PLANKS_PRESSURE_PLATE.get(), Blocks.SPRUCE_PLANKS);
         modButtonBlock("spruce_planks_button", ModBlocks.SPRUCE_PLANKS_BUTTON.get(), Blocks.SPRUCE_PLANKS);
         modWallBlock("spruce_planks_wall", ModBlocks.SPRUCE_PLANKS_WALL.get(), Blocks.SPRUCE_PLANKS);
+        modTrapdoorBlock("spruce_planks_trapdoor", ModBlocks.SPRUCE_PLANKS_TRAPDOOR.get(), Blocks.SPRUCE_PLANKS);
+        doorBlock((DoorBlock) ModBlocks.SPRUCE_PLANKS_DOOR.get(), blockTexture(Blocks.SPRUCE_PLANKS), blockTexture(Blocks.SPRUCE_PLANKS));
 
         modStairsBlock("birch_planks_stairs", ModBlocks.BIRCH_PLANKS_STAIRS.get(), Blocks.BIRCH_PLANKS);
         modSlabBlock("birch_planks_slab", ModBlocks.BIRCH_PLANKS_SLAB.get(), Blocks.BIRCH_PLANKS);
@@ -421,6 +521,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("birch_planks_pressure_plate", ModBlocks.BIRCH_PLANKS_PRESSURE_PLATE.get(), Blocks.BIRCH_PLANKS);
         modButtonBlock("birch_planks_button", ModBlocks.BIRCH_PLANKS_BUTTON.get(), Blocks.BIRCH_PLANKS);
         modWallBlock("birch_planks_wall", ModBlocks.BIRCH_PLANKS_WALL.get(), Blocks.BIRCH_PLANKS);
+        modTrapdoorBlock("birch_planks_trapdoor", ModBlocks.BIRCH_PLANKS_TRAPDOOR.get(), Blocks.BIRCH_PLANKS);
+        doorBlock((DoorBlock) ModBlocks.BIRCH_PLANKS_DOOR.get(), blockTexture(Blocks.BIRCH_PLANKS), blockTexture(Blocks.BIRCH_PLANKS));
 
         modStairsBlock("jungle_planks_stairs", ModBlocks.JUNGLE_PLANKS_STAIRS.get(), Blocks.JUNGLE_PLANKS);
         modSlabBlock("jungle_planks_slab", ModBlocks.JUNGLE_PLANKS_SLAB.get(), Blocks.JUNGLE_PLANKS);
@@ -429,6 +531,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("jungle_planks_pressure_plate", ModBlocks.JUNGLE_PLANKS_PRESSURE_PLATE.get(), Blocks.JUNGLE_PLANKS);
         modButtonBlock("jungle_planks_button", ModBlocks.JUNGLE_PLANKS_BUTTON.get(), Blocks.JUNGLE_PLANKS);
         modWallBlock("jungle_planks_wall", ModBlocks.JUNGLE_PLANKS_WALL.get(), Blocks.JUNGLE_PLANKS);
+        modTrapdoorBlock("jungle_planks_trapdoor", ModBlocks.JUNGLE_PLANKS_TRAPDOOR.get(), Blocks.JUNGLE_PLANKS);
+        doorBlock((DoorBlock) ModBlocks.JUNGLE_PLANKS_DOOR.get(), blockTexture(Blocks.JUNGLE_PLANKS), blockTexture(Blocks.JUNGLE_PLANKS));
 
         modStairsBlock("acacia_planks_stairs", ModBlocks.ACACIA_PLANKS_STAIRS.get(), Blocks.ACACIA_PLANKS);
         modSlabBlock("acacia_planks_slab", ModBlocks.ACACIA_PLANKS_SLAB.get(), Blocks.ACACIA_PLANKS);
@@ -437,6 +541,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("acacia_planks_pressure_plate", ModBlocks.ACACIA_PLANKS_PRESSURE_PLATE.get(), Blocks.ACACIA_PLANKS);
         modButtonBlock("acacia_planks_button", ModBlocks.ACACIA_PLANKS_BUTTON.get(), Blocks.ACACIA_PLANKS);
         modWallBlock("acacia_planks_wall", ModBlocks.ACACIA_PLANKS_WALL.get(), Blocks.ACACIA_PLANKS);
+        modTrapdoorBlock("acacia_planks_trapdoor", ModBlocks.ACACIA_PLANKS_TRAPDOOR.get(), Blocks.ACACIA_PLANKS);
+        doorBlock((DoorBlock) ModBlocks.ACACIA_PLANKS_DOOR.get(), blockTexture(Blocks.ACACIA_PLANKS), blockTexture(Blocks.ACACIA_PLANKS));
 
         modStairsBlock("dark_oak_planks_stairs", ModBlocks.DARK_OAK_PLANKS_STAIRS.get(), Blocks.DARK_OAK_PLANKS);
         modSlabBlock("dark_oak_planks_slab", ModBlocks.DARK_OAK_PLANKS_SLAB.get(), Blocks.DARK_OAK_PLANKS);
@@ -445,6 +551,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("dark_oak_planks_pressure_plate", ModBlocks.DARK_OAK_PLANKS_PRESSURE_PLATE.get(), Blocks.DARK_OAK_PLANKS);
         modButtonBlock("dark_oak_planks_button", ModBlocks.DARK_OAK_PLANKS_BUTTON.get(), Blocks.DARK_OAK_PLANKS);
         modWallBlock("dark_oak_planks_wall", ModBlocks.DARK_OAK_PLANKS_WALL.get(), Blocks.DARK_OAK_PLANKS);
+        modTrapdoorBlock("dark_oak_planks_trapdoor", ModBlocks.DARK_OAK_PLANKS_TRAPDOOR.get(), Blocks.DARK_OAK_PLANKS);
+        doorBlock((DoorBlock) ModBlocks.DARK_OAK_PLANKS_DOOR.get(), blockTexture(Blocks.DARK_OAK_PLANKS), blockTexture(Blocks.DARK_OAK_PLANKS));
 
         modStairsBlock("mangrove_planks_stairs", ModBlocks.MANGROVE_PLANKS_STAIRS.get(), Blocks.MANGROVE_PLANKS);
         modSlabBlock("mangrove_planks_slab", ModBlocks.MANGROVE_PLANKS_SLAB.get(), Blocks.MANGROVE_PLANKS);
@@ -453,6 +561,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("mangrove_planks_pressure_plate", ModBlocks.MANGROVE_PLANKS_PRESSURE_PLATE.get(), Blocks.MANGROVE_PLANKS);
         modButtonBlock("mangrove_planks_button", ModBlocks.MANGROVE_PLANKS_BUTTON.get(), Blocks.MANGROVE_PLANKS);
         modWallBlock("mangrove_planks_wall", ModBlocks.MANGROVE_PLANKS_WALL.get(), Blocks.MANGROVE_PLANKS);
+        modTrapdoorBlock("mangrove_planks_trapdoor", ModBlocks.MANGROVE_PLANKS_TRAPDOOR.get(), Blocks.MANGROVE_PLANKS);
+        doorBlock((DoorBlock) ModBlocks.MANGROVE_PLANKS_DOOR.get(), blockTexture(Blocks.MANGROVE_PLANKS), blockTexture(Blocks.MANGROVE_PLANKS));
 
         modStairsBlock("crimson_planks_stairs", ModBlocks.CRIMSON_PLANKS_STAIRS.get(), Blocks.CRIMSON_PLANKS);
         modSlabBlock("crimson_planks_slab", ModBlocks.CRIMSON_PLANKS_SLAB.get(), Blocks.CRIMSON_PLANKS);
@@ -461,6 +571,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("crimson_planks_pressure_plate", ModBlocks.CRIMSON_PLANKS_PRESSURE_PLATE.get(), Blocks.CRIMSON_PLANKS);
         modButtonBlock("crimson_planks_button", ModBlocks.CRIMSON_PLANKS_BUTTON.get(), Blocks.CRIMSON_PLANKS);
         modWallBlock("crimson_planks_wall", ModBlocks.CRIMSON_PLANKS_WALL.get(), Blocks.CRIMSON_PLANKS);
+        modTrapdoorBlock("crimson_planks_trapdoor", ModBlocks.CRIMSON_PLANKS_TRAPDOOR.get(), Blocks.CRIMSON_PLANKS);
+        doorBlock((DoorBlock) ModBlocks.CRIMSON_PLANKS_DOOR.get(), blockTexture(Blocks.CRIMSON_PLANKS), blockTexture(Blocks.CRIMSON_PLANKS));
 
         modStairsBlock("warped_planks_stairs", ModBlocks.WARPED_PLANKS_STAIRS.get(), Blocks.WARPED_PLANKS);
         modSlabBlock("warped_planks_slab", ModBlocks.WARPED_PLANKS_SLAB.get(), Blocks.WARPED_PLANKS);
@@ -469,6 +581,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("warped_planks_pressure_plate", ModBlocks.WARPED_PLANKS_PRESSURE_PLATE.get(), Blocks.WARPED_PLANKS);
         modButtonBlock("warped_planks_button", ModBlocks.WARPED_PLANKS_BUTTON.get(), Blocks.WARPED_PLANKS);
         modWallBlock("warped_planks_wall", ModBlocks.WARPED_PLANKS_WALL.get(), Blocks.WARPED_PLANKS);
+        modTrapdoorBlock("warped_planks_trapdoor", ModBlocks.WARPED_PLANKS_TRAPDOOR.get(), Blocks.WARPED_PLANKS);
+        doorBlock((DoorBlock) ModBlocks.WARPED_PLANKS_DOOR.get(), blockTexture(Blocks.WARPED_PLANKS), blockTexture(Blocks.WARPED_PLANKS));
 
         modStairsBlock("nether_gold_ore_stairs", ModBlocks.NETHER_GOLD_ORE_STAIRS.get(), Blocks.NETHER_GOLD_ORE);
         modSlabBlock("nether_gold_ore_slab", ModBlocks.NETHER_GOLD_ORE_SLAB.get(), Blocks.NETHER_GOLD_ORE);
@@ -477,6 +591,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("nether_gold_ore_pressure_plate", ModBlocks.NETHER_GOLD_ORE_PRESSURE_PLATE.get(), Blocks.NETHER_GOLD_ORE);
         modButtonBlock("nether_gold_ore_button", ModBlocks.NETHER_GOLD_ORE_BUTTON.get(), Blocks.NETHER_GOLD_ORE);
         modWallBlock("nether_gold_ore_wall", ModBlocks.NETHER_GOLD_ORE_WALL.get(), Blocks.NETHER_GOLD_ORE);
+        modTrapdoorBlock("nether_gold_ore_trapdoor", ModBlocks.NETHER_GOLD_ORE_TRAPDOOR.get(), Blocks.NETHER_GOLD_ORE);
+        doorBlock((DoorBlock) ModBlocks.NETHER_GOLD_ORE_DOOR.get(), blockTexture(Blocks.NETHER_GOLD_ORE), blockTexture(Blocks.NETHER_GOLD_ORE));
 
         modStairsBlock("nether_quartz_ore_stairs", ModBlocks.NETHER_QUARTZ_ORE_STAIRS.get(), Blocks.NETHER_QUARTZ_ORE);
         modSlabBlock("nether_quartz_ore_slab", ModBlocks.NETHER_QUARTZ_ORE_SLAB.get(), Blocks.NETHER_QUARTZ_ORE);
@@ -485,6 +601,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("nether_quartz_ore_pressure_plate", ModBlocks.NETHER_QUARTZ_ORE_PRESSURE_PLATE.get(), Blocks.NETHER_QUARTZ_ORE);
         modButtonBlock("nether_quartz_ore_button", ModBlocks.NETHER_QUARTZ_ORE_BUTTON.get(), Blocks.NETHER_QUARTZ_ORE);
         modWallBlock("nether_quartz_ore_wall", ModBlocks.NETHER_QUARTZ_ORE_WALL.get(), Blocks.NETHER_QUARTZ_ORE);
+        modTrapdoorBlock("nether_quartz_ore_trapdoor", ModBlocks.NETHER_QUARTZ_ORE_TRAPDOOR.get(), Blocks.NETHER_QUARTZ_ORE);
+        doorBlock((DoorBlock) ModBlocks.NETHER_QUARTZ_ORE_DOOR.get(), blockTexture(Blocks.NETHER_QUARTZ_ORE), blockTexture(Blocks.NETHER_QUARTZ_ORE));
 
         modStairsBlock("budding_amethyst_stairs", ModBlocks.BUDDING_AMETHYST_STAIRS.get(), Blocks.BUDDING_AMETHYST);
         modSlabBlock("budding_amethyst_slab", ModBlocks.BUDDING_AMETHYST_SLAB.get(), Blocks.BUDDING_AMETHYST);
@@ -493,6 +611,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("budding_amethyst_pressure_plate", ModBlocks.BUDDING_AMETHYST_PRESSURE_PLATE.get(), Blocks.BUDDING_AMETHYST);
         modButtonBlock("budding_amethyst_button", ModBlocks.BUDDING_AMETHYST_BUTTON.get(), Blocks.BUDDING_AMETHYST);
         modWallBlock("budding_amethyst_wall", ModBlocks.BUDDING_AMETHYST_WALL.get(), Blocks.BUDDING_AMETHYST);
+        modTrapdoorBlock("budding_amethyst_trapdoor", ModBlocks.BUDDING_AMETHYST_TRAPDOOR.get(), Blocks.BUDDING_AMETHYST);
+        doorBlock((DoorBlock) ModBlocks.BUDDING_AMETHYST_DOOR.get(), blockTexture(Blocks.BUDDING_AMETHYST), blockTexture(Blocks.BUDDING_AMETHYST));
 
         modStairsBlock("sponge_stairs", ModBlocks.SPONGE_STAIRS.get(), Blocks.SPONGE);
         modSlabBlock("sponge_slab", ModBlocks.SPONGE_SLAB.get(), Blocks.SPONGE);
@@ -501,6 +621,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("sponge_pressure_plate", ModBlocks.SPONGE_PRESSURE_PLATE.get(), Blocks.SPONGE);
         modButtonBlock("sponge_button", ModBlocks.SPONGE_BUTTON.get(), Blocks.SPONGE);
         modWallBlock("sponge_wall", ModBlocks.SPONGE_WALL.get(), Blocks.SPONGE);
+        modTrapdoorBlock("sponge_trapdoor", ModBlocks.SPONGE_TRAPDOOR.get(), Blocks.SPONGE);
+        doorBlock((DoorBlock) ModBlocks.SPONGE_DOOR.get(), blockTexture(Blocks.SPONGE), blockTexture(Blocks.SPONGE));
 
         modStairsBlock("wet_sponge_stairs", ModBlocks.WET_SPONGE_STAIRS.get(), Blocks.WET_SPONGE);
         modSlabBlock("wet_sponge_slab", ModBlocks.WET_SPONGE_SLAB.get(), Blocks.WET_SPONGE);
@@ -509,6 +631,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("wet_sponge_pressure_plate", ModBlocks.WET_SPONGE_PRESSURE_PLATE.get(), Blocks.WET_SPONGE);
         modButtonBlock("wet_sponge_button", ModBlocks.WET_SPONGE_BUTTON.get(), Blocks.WET_SPONGE);
         modWallBlock("wet_sponge_wall", ModBlocks.WET_SPONGE_WALL.get(), Blocks.WET_SPONGE);
+        modTrapdoorBlock("wet_sponge_trapdoor", ModBlocks.WET_SPONGE_TRAPDOOR.get(), Blocks.WET_SPONGE);
+        doorBlock((DoorBlock) ModBlocks.WET_SPONGE_DOOR.get(), blockTexture(Blocks.WET_SPONGE), blockTexture(Blocks.WET_SPONGE));
 
         modStairsBlock("white_wool_stairs", ModBlocks.WHITE_WOOL_STAIRS.get(), Blocks.WHITE_WOOL);
         modSlabBlock("white_wool_slab", ModBlocks.WHITE_WOOL_SLAB.get(), Blocks.WHITE_WOOL);
@@ -517,6 +641,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("white_wool_pressure_plate", ModBlocks.WHITE_WOOL_PRESSURE_PLATE.get(), Blocks.WHITE_WOOL);
         modButtonBlock("white_wool_button", ModBlocks.WHITE_WOOL_BUTTON.get(), Blocks.WHITE_WOOL);
         modWallBlock("white_wool_wall", ModBlocks.WHITE_WOOL_WALL.get(), Blocks.WHITE_WOOL);
+        modTrapdoorBlock("white_wool_trapdoor", ModBlocks.WHITE_WOOL_TRAPDOOR.get(), Blocks.WHITE_WOOL);
+        doorBlock((DoorBlock) ModBlocks.WHITE_WOOL_DOOR.get(), blockTexture(Blocks.WHITE_WOOL), blockTexture(Blocks.WHITE_WOOL));
 
         modStairsBlock("orange_wool_stairs", ModBlocks.ORANGE_WOOL_STAIRS.get(), Blocks.ORANGE_WOOL);
         modSlabBlock("orange_wool_slab", ModBlocks.ORANGE_WOOL_SLAB.get(), Blocks.ORANGE_WOOL);
@@ -525,6 +651,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("orange_wool_pressure_plate", ModBlocks.ORANGE_WOOL_PRESSURE_PLATE.get(), Blocks.ORANGE_WOOL);
         modButtonBlock("orange_wool_button", ModBlocks.ORANGE_WOOL_BUTTON.get(), Blocks.ORANGE_WOOL);
         modWallBlock("orange_wool_wall", ModBlocks.ORANGE_WOOL_WALL.get(), Blocks.ORANGE_WOOL);
+        modTrapdoorBlock("orange_wool_trapdoor", ModBlocks.ORANGE_WOOL_TRAPDOOR.get(), Blocks.ORANGE_WOOL);
+        doorBlock((DoorBlock) ModBlocks.ORANGE_WOOL_DOOR.get(), blockTexture(Blocks.ORANGE_WOOL), blockTexture(Blocks.ORANGE_WOOL));
 
         modStairsBlock("magenta_wool_stairs", ModBlocks.MAGENTA_WOOL_STAIRS.get(), Blocks.MAGENTA_WOOL);
         modSlabBlock("magenta_wool_slab", ModBlocks.MAGENTA_WOOL_SLAB.get(), Blocks.MAGENTA_WOOL);
@@ -533,6 +661,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("magenta_wool_pressure_plate", ModBlocks.MAGENTA_WOOL_PRESSURE_PLATE.get(), Blocks.MAGENTA_WOOL);
         modButtonBlock("magenta_wool_button", ModBlocks.MAGENTA_WOOL_BUTTON.get(), Blocks.MAGENTA_WOOL);
         modWallBlock("magenta_wool_wall", ModBlocks.MAGENTA_WOOL_WALL.get(), Blocks.MAGENTA_WOOL);
+        modTrapdoorBlock("magenta_wool_trapdoor", ModBlocks.MAGENTA_WOOL_TRAPDOOR.get(), Blocks.MAGENTA_WOOL);
+        doorBlock((DoorBlock) ModBlocks.MAGENTA_WOOL_DOOR.get(), blockTexture(Blocks.MAGENTA_WOOL), blockTexture(Blocks.MAGENTA_WOOL));
 
         modStairsBlock("light_blue_wool_stairs", ModBlocks.LIGHT_BLUE_WOOL_STAIRS.get(), Blocks.LIGHT_BLUE_WOOL);
         modSlabBlock("light_blue_wool_slab", ModBlocks.LIGHT_BLUE_WOOL_SLAB.get(), Blocks.LIGHT_BLUE_WOOL);
@@ -541,6 +671,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("light_blue_wool_pressure_plate", ModBlocks.LIGHT_BLUE_WOOL_PRESSURE_PLATE.get(), Blocks.LIGHT_BLUE_WOOL);
         modButtonBlock("light_blue_wool_button", ModBlocks.LIGHT_BLUE_WOOL_BUTTON.get(), Blocks.LIGHT_BLUE_WOOL);
         modWallBlock("light_blue_wool_wall", ModBlocks.LIGHT_BLUE_WOOL_WALL.get(), Blocks.LIGHT_BLUE_WOOL);
+        modTrapdoorBlock("light_blue_wool_trapdoor", ModBlocks.LIGHT_BLUE_WOOL_TRAPDOOR.get(), Blocks.LIGHT_BLUE_WOOL);
+        doorBlock((DoorBlock) ModBlocks.LIGHT_BLUE_WOOL_DOOR.get(), blockTexture(Blocks.LIGHT_BLUE_WOOL), blockTexture(Blocks.LIGHT_BLUE_WOOL));
 
         modStairsBlock("yellow_wool_stairs", ModBlocks.YELLOW_WOOL_STAIRS.get(), Blocks.YELLOW_WOOL);
         modSlabBlock("yellow_wool_slab", ModBlocks.YELLOW_WOOL_SLAB.get(), Blocks.YELLOW_WOOL);
@@ -549,6 +681,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("yellow_wool_pressure_plate", ModBlocks.YELLOW_WOOL_PRESSURE_PLATE.get(), Blocks.YELLOW_WOOL);
         modButtonBlock("yellow_wool_button", ModBlocks.YELLOW_WOOL_BUTTON.get(), Blocks.YELLOW_WOOL);
         modWallBlock("yellow_wool_wall", ModBlocks.YELLOW_WOOL_WALL.get(), Blocks.YELLOW_WOOL);
+        modTrapdoorBlock("yellow_wool_trapdoor", ModBlocks.YELLOW_WOOL_TRAPDOOR.get(), Blocks.YELLOW_WOOL);
+        doorBlock((DoorBlock) ModBlocks.YELLOW_WOOL_DOOR.get(), blockTexture(Blocks.YELLOW_WOOL), blockTexture(Blocks.YELLOW_WOOL));
 
         modStairsBlock("lime_wool_stairs", ModBlocks.LIME_WOOL_STAIRS.get(), Blocks.LIME_WOOL);
         modSlabBlock("lime_wool_slab", ModBlocks.LIME_WOOL_SLAB.get(), Blocks.LIME_WOOL);
@@ -557,6 +691,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("lime_wool_pressure_plate", ModBlocks.LIME_WOOL_PRESSURE_PLATE.get(), Blocks.LIME_WOOL);
         modButtonBlock("lime_wool_button", ModBlocks.LIME_WOOL_BUTTON.get(), Blocks.LIME_WOOL);
         modWallBlock("lime_wool_wall", ModBlocks.LIME_WOOL_WALL.get(), Blocks.LIME_WOOL);
+        modTrapdoorBlock("lime_wool_trapdoor", ModBlocks.LIME_WOOL_TRAPDOOR.get(), Blocks.LIME_WOOL);
+        doorBlock((DoorBlock) ModBlocks.LIME_WOOL_DOOR.get(), blockTexture(Blocks.LIME_WOOL), blockTexture(Blocks.LIME_WOOL));
 
         modStairsBlock("pink_wool_stairs", ModBlocks.PINK_WOOL_STAIRS.get(), Blocks.PINK_WOOL);
         modSlabBlock("pink_wool_slab", ModBlocks.PINK_WOOL_SLAB.get(), Blocks.PINK_WOOL);
@@ -565,6 +701,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("pink_wool_pressure_plate", ModBlocks.PINK_WOOL_PRESSURE_PLATE.get(), Blocks.PINK_WOOL);
         modButtonBlock("pink_wool_button", ModBlocks.PINK_WOOL_BUTTON.get(), Blocks.PINK_WOOL);
         modWallBlock("pink_wool_wall", ModBlocks.PINK_WOOL_WALL.get(), Blocks.PINK_WOOL);
+        modTrapdoorBlock("pink_wool_trapdoor", ModBlocks.PINK_WOOL_TRAPDOOR.get(), Blocks.PINK_WOOL);
+        doorBlock((DoorBlock) ModBlocks.PINK_WOOL_DOOR.get(), blockTexture(Blocks.PINK_WOOL), blockTexture(Blocks.PINK_WOOL));
 
         modStairsBlock("gray_wool_stairs", ModBlocks.GRAY_WOOL_STAIRS.get(), Blocks.GRAY_WOOL);
         modSlabBlock("gray_wool_slab", ModBlocks.GRAY_WOOL_SLAB.get(), Blocks.GRAY_WOOL);
@@ -573,6 +711,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("gray_wool_pressure_plate", ModBlocks.GRAY_WOOL_PRESSURE_PLATE.get(), Blocks.GRAY_WOOL);
         modButtonBlock("gray_wool_button", ModBlocks.GRAY_WOOL_BUTTON.get(), Blocks.GRAY_WOOL);
         modWallBlock("gray_wool_wall", ModBlocks.GRAY_WOOL_WALL.get(), Blocks.GRAY_WOOL);
+        modTrapdoorBlock("gray_wool_trapdoor", ModBlocks.GRAY_WOOL_TRAPDOOR.get(), Blocks.GRAY_WOOL);
+        doorBlock((DoorBlock) ModBlocks.GRAY_WOOL_DOOR.get(), blockTexture(Blocks.GRAY_WOOL), blockTexture(Blocks.GRAY_WOOL));
 
         modStairsBlock("light_gray_wool_stairs", ModBlocks.LIGHT_GRAY_WOOL_STAIRS.get(), Blocks.LIGHT_GRAY_WOOL);
         modSlabBlock("light_gray_wool_slab", ModBlocks.LIGHT_GRAY_WOOL_SLAB.get(), Blocks.LIGHT_GRAY_WOOL);
@@ -581,6 +721,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("light_gray_wool_pressure_plate", ModBlocks.LIGHT_GRAY_WOOL_PRESSURE_PLATE.get(), Blocks.LIGHT_GRAY_WOOL);
         modButtonBlock("light_gray_wool_button", ModBlocks.LIGHT_GRAY_WOOL_BUTTON.get(), Blocks.LIGHT_GRAY_WOOL);
         modWallBlock("light_gray_wool_wall", ModBlocks.LIGHT_GRAY_WOOL_WALL.get(), Blocks.LIGHT_GRAY_WOOL);
+        modTrapdoorBlock("light_gray_wool_trapdoor", ModBlocks.LIGHT_GRAY_WOOL_TRAPDOOR.get(), Blocks.LIGHT_GRAY_WOOL);
+        doorBlock((DoorBlock) ModBlocks.LIGHT_GRAY_WOOL_DOOR.get(), blockTexture(Blocks.LIGHT_GRAY_WOOL), blockTexture(Blocks.LIGHT_GRAY_WOOL));
 
         modStairsBlock("cyan_wool_stairs", ModBlocks.CYAN_WOOL_STAIRS.get(), Blocks.CYAN_WOOL);
         modSlabBlock("cyan_wool_slab", ModBlocks.CYAN_WOOL_SLAB.get(), Blocks.CYAN_WOOL);
@@ -589,6 +731,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("cyan_wool_pressure_plate", ModBlocks.CYAN_WOOL_PRESSURE_PLATE.get(), Blocks.CYAN_WOOL);
         modButtonBlock("cyan_wool_button", ModBlocks.CYAN_WOOL_BUTTON.get(), Blocks.CYAN_WOOL);
         modWallBlock("cyan_wool_wall", ModBlocks.CYAN_WOOL_WALL.get(), Blocks.CYAN_WOOL);
+        modTrapdoorBlock("cyan_wool_trapdoor", ModBlocks.CYAN_WOOL_TRAPDOOR.get(), Blocks.CYAN_WOOL);
+        doorBlock((DoorBlock) ModBlocks.CYAN_WOOL_DOOR.get(), blockTexture(Blocks.CYAN_WOOL), blockTexture(Blocks.CYAN_WOOL));
 
         modStairsBlock("purple_wool_stairs", ModBlocks.PURPLE_WOOL_STAIRS.get(), Blocks.PURPLE_WOOL);
         modSlabBlock("purple_wool_slab", ModBlocks.PURPLE_WOOL_SLAB.get(), Blocks.PURPLE_WOOL);
@@ -597,6 +741,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("purple_wool_pressure_plate", ModBlocks.PURPLE_WOOL_PRESSURE_PLATE.get(), Blocks.PURPLE_WOOL);
         modButtonBlock("purple_wool_button", ModBlocks.PURPLE_WOOL_BUTTON.get(), Blocks.PURPLE_WOOL);
         modWallBlock("purple_wool_wall", ModBlocks.PURPLE_WOOL_WALL.get(), Blocks.PURPLE_WOOL);
+        modTrapdoorBlock("purple_wool_trapdoor", ModBlocks.PURPLE_WOOL_TRAPDOOR.get(), Blocks.PURPLE_WOOL);
+        doorBlock((DoorBlock) ModBlocks.PURPLE_WOOL_DOOR.get(), blockTexture(Blocks.PURPLE_WOOL), blockTexture(Blocks.PURPLE_WOOL));
 
         modStairsBlock("blue_wool_stairs", ModBlocks.BLUE_WOOL_STAIRS.get(), Blocks.BLUE_WOOL);
         modSlabBlock("blue_wool_slab", ModBlocks.BLUE_WOOL_SLAB.get(), Blocks.BLUE_WOOL);
@@ -605,6 +751,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("blue_wool_pressure_plate", ModBlocks.BLUE_WOOL_PRESSURE_PLATE.get(), Blocks.BLUE_WOOL);
         modButtonBlock("blue_wool_button", ModBlocks.BLUE_WOOL_BUTTON.get(), Blocks.BLUE_WOOL);
         modWallBlock("blue_wool_wall", ModBlocks.BLUE_WOOL_WALL.get(), Blocks.BLUE_WOOL);
+        modTrapdoorBlock("blue_wool_trapdoor", ModBlocks.BLUE_WOOL_TRAPDOOR.get(), Blocks.BLUE_WOOL);
+        doorBlock((DoorBlock) ModBlocks.BLUE_WOOL_DOOR.get(), blockTexture(Blocks.BLUE_WOOL), blockTexture(Blocks.BLUE_WOOL));
 
         modStairsBlock("brown_wool_stairs", ModBlocks.BROWN_WOOL_STAIRS.get(), Blocks.BROWN_WOOL);
         modSlabBlock("brown_wool_slab", ModBlocks.BROWN_WOOL_SLAB.get(), Blocks.BROWN_WOOL);
@@ -613,6 +761,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("brown_wool_pressure_plate", ModBlocks.BROWN_WOOL_PRESSURE_PLATE.get(), Blocks.BROWN_WOOL);
         modButtonBlock("brown_wool_button", ModBlocks.BROWN_WOOL_BUTTON.get(), Blocks.BROWN_WOOL);
         modWallBlock("brown_wool_wall", ModBlocks.BROWN_WOOL_WALL.get(), Blocks.BROWN_WOOL);
+        modTrapdoorBlock("brown_wool_trapdoor", ModBlocks.BROWN_WOOL_TRAPDOOR.get(), Blocks.BROWN_WOOL);
+        doorBlock((DoorBlock) ModBlocks.BROWN_WOOL_DOOR.get(), blockTexture(Blocks.BROWN_WOOL), blockTexture(Blocks.BROWN_WOOL));
 
         modStairsBlock("green_wool_stairs", ModBlocks.GREEN_WOOL_STAIRS.get(), Blocks.GREEN_WOOL);
         modSlabBlock("green_wool_slab", ModBlocks.GREEN_WOOL_SLAB.get(), Blocks.GREEN_WOOL);
@@ -621,6 +771,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("green_wool_pressure_plate", ModBlocks.GREEN_WOOL_PRESSURE_PLATE.get(), Blocks.GREEN_WOOL);
         modButtonBlock("green_wool_button", ModBlocks.GREEN_WOOL_BUTTON.get(), Blocks.GREEN_WOOL);
         modWallBlock("green_wool_wall", ModBlocks.GREEN_WOOL_WALL.get(), Blocks.GREEN_WOOL);
+        modTrapdoorBlock("green_wool_trapdoor", ModBlocks.GREEN_WOOL_TRAPDOOR.get(), Blocks.GREEN_WOOL);
+        doorBlock((DoorBlock) ModBlocks.GREEN_WOOL_DOOR.get(), blockTexture(Blocks.GREEN_WOOL), blockTexture(Blocks.GREEN_WOOL));
 
         modStairsBlock("red_wool_stairs", ModBlocks.RED_WOOL_STAIRS.get(), Blocks.RED_WOOL);
         modSlabBlock("red_wool_slab", ModBlocks.RED_WOOL_SLAB.get(), Blocks.RED_WOOL);
@@ -629,6 +781,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("red_wool_pressure_plate", ModBlocks.RED_WOOL_PRESSURE_PLATE.get(), Blocks.RED_WOOL);
         modButtonBlock("red_wool_button", ModBlocks.RED_WOOL_BUTTON.get(), Blocks.RED_WOOL);
         modWallBlock("red_wool_wall", ModBlocks.RED_WOOL_WALL.get(), Blocks.RED_WOOL);
+        modTrapdoorBlock("red_wool_trapdoor", ModBlocks.RED_WOOL_TRAPDOOR.get(), Blocks.RED_WOOL);
+        doorBlock((DoorBlock) ModBlocks.RED_WOOL_DOOR.get(), blockTexture(Blocks.RED_WOOL), blockTexture(Blocks.RED_WOOL));
 
         modStairsBlock("black_wool_stairs", ModBlocks.BLACK_WOOL_STAIRS.get(), Blocks.BLACK_WOOL);
         modSlabBlock("black_wool_slab", ModBlocks.BLACK_WOOL_SLAB.get(), Blocks.BLACK_WOOL);
@@ -637,6 +791,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("black_wool_pressure_plate", ModBlocks.BLACK_WOOL_PRESSURE_PLATE.get(), Blocks.BLACK_WOOL);
         modButtonBlock("black_wool_button", ModBlocks.BLACK_WOOL_BUTTON.get(), Blocks.BLACK_WOOL);
         modWallBlock("black_wool_wall", ModBlocks.BLACK_WOOL_WALL.get(), Blocks.BLACK_WOOL);
+        modTrapdoorBlock("black_wool_trapdoor", ModBlocks.BLACK_WOOL_TRAPDOOR.get(), Blocks.BLACK_WOOL);
+        doorBlock((DoorBlock) ModBlocks.BLACK_WOOL_DOOR.get(), blockTexture(Blocks.BLACK_WOOL), blockTexture(Blocks.BLACK_WOOL));
 
         modStairsBlock("smooth_stone_stairs", ModBlocks.SMOOTH_STONE_STAIRS.get(), Blocks.SMOOTH_STONE);
         modSlabBlock("smooth_stone_slab", ModBlocks.SMOOTH_STONE_SLAB.get(), Blocks.SMOOTH_STONE);
@@ -645,6 +801,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("smooth_stone_pressure_plate", ModBlocks.SMOOTH_STONE_PRESSURE_PLATE.get(), Blocks.SMOOTH_STONE);
         modButtonBlock("smooth_stone_button", ModBlocks.SMOOTH_STONE_BUTTON.get(), Blocks.SMOOTH_STONE);
         modWallBlock("smooth_stone_wall", ModBlocks.SMOOTH_STONE_WALL.get(), Blocks.SMOOTH_STONE);
+        modTrapdoorBlock("smooth_stone_trapdoor", ModBlocks.SMOOTH_STONE_TRAPDOOR.get(), Blocks.SMOOTH_STONE);
+        doorBlock((DoorBlock) ModBlocks.SMOOTH_STONE_DOOR.get(), blockTexture(Blocks.SMOOTH_STONE), blockTexture(Blocks.SMOOTH_STONE));
 
         modStairsBlock("bricks_stairs", ModBlocks.BRICKS_STAIRS.get(), Blocks.BRICKS);
         modSlabBlock("bricks_slab", ModBlocks.BRICKS_SLAB.get(), Blocks.BRICKS);
@@ -653,6 +811,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("bricks_pressure_plate", ModBlocks.BRICKS_PRESSURE_PLATE.get(), Blocks.BRICKS);
         modButtonBlock("bricks_button", ModBlocks.BRICKS_BUTTON.get(), Blocks.BRICKS);
         modWallBlock("bricks_wall", ModBlocks.BRICKS_WALL.get(), Blocks.BRICKS);
+        modTrapdoorBlock("bricks_trapdoor", ModBlocks.BRICKS_TRAPDOOR.get(), Blocks.BRICKS);
+        doorBlock((DoorBlock) ModBlocks.BRICKS_DOOR.get(), blockTexture(Blocks.BRICKS), blockTexture(Blocks.BRICKS));
 
         modStairsBlock("mossy_cobblestone_stairs", ModBlocks.MOSSY_COBBLESTONE_STAIRS.get(), Blocks.MOSSY_COBBLESTONE);
         modSlabBlock("mossy_cobblestone_slab", ModBlocks.MOSSY_COBBLESTONE_SLAB.get(), Blocks.MOSSY_COBBLESTONE);
@@ -661,6 +821,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("mossy_cobblestone_pressure_plate", ModBlocks.MOSSY_COBBLESTONE_PRESSURE_PLATE.get(), Blocks.MOSSY_COBBLESTONE);
         modButtonBlock("mossy_cobblestone_button", ModBlocks.MOSSY_COBBLESTONE_BUTTON.get(), Blocks.MOSSY_COBBLESTONE);
         modWallBlock("mossy_cobblestone_wall", ModBlocks.MOSSY_COBBLESTONE_WALL.get(), Blocks.MOSSY_COBBLESTONE);
+        modTrapdoorBlock("mossy_cobblestone_trapdoor", ModBlocks.MOSSY_COBBLESTONE_TRAPDOOR.get(), Blocks.MOSSY_COBBLESTONE);
+        doorBlock((DoorBlock) ModBlocks.MOSSY_COBBLESTONE_DOOR.get(), blockTexture(Blocks.MOSSY_COBBLESTONE), blockTexture(Blocks.MOSSY_COBBLESTONE));
 
         modStairsBlock("obsidian_stairs", ModBlocks.OBSIDIAN_STAIRS.get(), Blocks.OBSIDIAN);
         modSlabBlock("obsidian_slab", ModBlocks.OBSIDIAN_SLAB.get(), Blocks.OBSIDIAN);
@@ -669,6 +831,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("obsidian_pressure_plate", ModBlocks.OBSIDIAN_PRESSURE_PLATE.get(), Blocks.OBSIDIAN);
         modButtonBlock("obsidian_button", ModBlocks.OBSIDIAN_BUTTON.get(), Blocks.OBSIDIAN);
         modWallBlock("obsidian_wall", ModBlocks.OBSIDIAN_WALL.get(), Blocks.OBSIDIAN);
+        modTrapdoorBlock("obsidian_trapdoor", ModBlocks.OBSIDIAN_TRAPDOOR.get(), Blocks.OBSIDIAN);
+        doorBlock((DoorBlock) ModBlocks.OBSIDIAN_DOOR.get(), blockTexture(Blocks.OBSIDIAN), blockTexture(Blocks.OBSIDIAN));
 
         modStairsBlock("clay_stairs", ModBlocks.CLAY_STAIRS.get(), Blocks.CLAY);
         modSlabBlock("clay_slab", ModBlocks.CLAY_SLAB.get(), Blocks.CLAY);
@@ -677,6 +841,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("clay_pressure_plate", ModBlocks.CLAY_PRESSURE_PLATE.get(), Blocks.CLAY);
         modButtonBlock("clay_button", ModBlocks.CLAY_BUTTON.get(), Blocks.CLAY);
         modWallBlock("clay_wall", ModBlocks.CLAY_WALL.get(), Blocks.CLAY);
+        modTrapdoorBlock("clay_trapdoor", ModBlocks.CLAY_TRAPDOOR.get(), Blocks.CLAY);
+        doorBlock((DoorBlock) ModBlocks.CLAY_DOOR.get(), blockTexture(Blocks.CLAY), blockTexture(Blocks.CLAY));
 
         modStairsBlock("soul_sand_stairs", ModBlocks.SOUL_SAND_STAIRS.get(), Blocks.SOUL_SAND);
         modSlabBlock("soul_sand_slab", ModBlocks.SOUL_SAND_SLAB.get(), Blocks.SOUL_SAND);
@@ -685,6 +851,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("soul_sand_pressure_plate", ModBlocks.SOUL_SAND_PRESSURE_PLATE.get(), Blocks.SOUL_SAND);
         modButtonBlock("soul_sand_button", ModBlocks.SOUL_SAND_BUTTON.get(), Blocks.SOUL_SAND);
         modWallBlock("soul_sand_wall", ModBlocks.SOUL_SAND_WALL.get(), Blocks.SOUL_SAND);
+        modTrapdoorBlock("soul_sand_trapdoor", ModBlocks.SOUL_SAND_TRAPDOOR.get(), Blocks.SOUL_SAND);
+        doorBlock((DoorBlock) ModBlocks.SOUL_SAND_DOOR.get(), blockTexture(Blocks.SOUL_SAND), blockTexture(Blocks.SOUL_SAND));
 
         modStairsBlock("soul_soil_stairs", ModBlocks.SOUL_SOIL_STAIRS.get(), Blocks.SOUL_SOIL);
         modSlabBlock("soul_soil_slab", ModBlocks.SOUL_SOIL_SLAB.get(), Blocks.SOUL_SOIL);
@@ -693,6 +861,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("soul_soil_pressure_plate", ModBlocks.SOUL_SOIL_PRESSURE_PLATE.get(), Blocks.SOUL_SOIL);
         modButtonBlock("soul_soil_button", ModBlocks.SOUL_SOIL_BUTTON.get(), Blocks.SOUL_SOIL);
         modWallBlock("soul_soil_wall", ModBlocks.SOUL_SOIL_WALL.get(), Blocks.SOUL_SOIL);
+        modTrapdoorBlock("soul_soil_trapdoor", ModBlocks.SOUL_SOIL_TRAPDOOR.get(), Blocks.SOUL_SOIL);
+        doorBlock((DoorBlock) ModBlocks.SOUL_SOIL_DOOR.get(), blockTexture(Blocks.SOUL_SOIL), blockTexture(Blocks.SOUL_SOIL));
 
         modStairsBlock("smooth_basalt_stairs", ModBlocks.SMOOTH_BASALT_STAIRS.get(), Blocks.SMOOTH_BASALT);
         modSlabBlock("smooth_basalt_slab", ModBlocks.SMOOTH_BASALT_SLAB.get(), Blocks.SMOOTH_BASALT);
@@ -701,6 +871,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("smooth_basalt_pressure_plate", ModBlocks.SMOOTH_BASALT_PRESSURE_PLATE.get(), Blocks.SMOOTH_BASALT);
         modButtonBlock("smooth_basalt_button", ModBlocks.SMOOTH_BASALT_BUTTON.get(), Blocks.SMOOTH_BASALT);
         modWallBlock("smooth_basalt_wall", ModBlocks.SMOOTH_BASALT_WALL.get(), Blocks.SMOOTH_BASALT);
+        modTrapdoorBlock("smooth_basalt_trapdoor", ModBlocks.SMOOTH_BASALT_TRAPDOOR.get(), Blocks.SMOOTH_BASALT);
+        doorBlock((DoorBlock) ModBlocks.SMOOTH_BASALT_DOOR.get(), blockTexture(Blocks.SMOOTH_BASALT), blockTexture(Blocks.SMOOTH_BASALT));
 
         modStairsBlock("stone_bricks_stairs", ModBlocks.STONE_BRICKS_STAIRS.get(), Blocks.STONE_BRICKS);
         modSlabBlock("stone_bricks_slab", ModBlocks.STONE_BRICKS_SLAB.get(), Blocks.STONE_BRICKS);
@@ -709,6 +881,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("stone_bricks_pressure_plate", ModBlocks.STONE_BRICKS_PRESSURE_PLATE.get(), Blocks.STONE_BRICKS);
         modButtonBlock("stone_bricks_button", ModBlocks.STONE_BRICKS_BUTTON.get(), Blocks.STONE_BRICKS);
         modWallBlock("stone_bricks_wall", ModBlocks.STONE_BRICKS_WALL.get(), Blocks.STONE_BRICKS);
+        modTrapdoorBlock("stone_bricks_trapdoor", ModBlocks.STONE_BRICKS_TRAPDOOR.get(), Blocks.STONE_BRICKS);
+        doorBlock((DoorBlock) ModBlocks.STONE_BRICKS_DOOR.get(), blockTexture(Blocks.STONE_BRICKS), blockTexture(Blocks.STONE_BRICKS));
 
         modStairsBlock("mossy_stone_bricks_stairs", ModBlocks.MOSSY_STONE_BRICKS_STAIRS.get(), Blocks.MOSSY_STONE_BRICKS);
         modSlabBlock("mossy_stone_bricks_slab", ModBlocks.MOSSY_STONE_BRICKS_SLAB.get(), Blocks.MOSSY_STONE_BRICKS);
@@ -717,6 +891,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("mossy_stone_bricks_pressure_plate", ModBlocks.MOSSY_STONE_BRICKS_PRESSURE_PLATE.get(), Blocks.MOSSY_STONE_BRICKS);
         modButtonBlock("mossy_stone_bricks_button", ModBlocks.MOSSY_STONE_BRICKS_BUTTON.get(), Blocks.MOSSY_STONE_BRICKS);
         modWallBlock("mossy_stone_bricks_wall", ModBlocks.MOSSY_STONE_BRICKS_WALL.get(), Blocks.MOSSY_STONE_BRICKS);
+        modTrapdoorBlock("mossy_stone_bricks_trapdoor", ModBlocks.MOSSY_STONE_BRICKS_TRAPDOOR.get(), Blocks.MOSSY_STONE_BRICKS);
+        doorBlock((DoorBlock) ModBlocks.MOSSY_STONE_BRICKS_DOOR.get(), blockTexture(Blocks.MOSSY_STONE_BRICKS), blockTexture(Blocks.MOSSY_STONE_BRICKS));
 
         modStairsBlock("cracked_stone_bricks_stairs", ModBlocks.CRACKED_STONE_BRICKS_STAIRS.get(), Blocks.CRACKED_STONE_BRICKS);
         modSlabBlock("cracked_stone_bricks_slab", ModBlocks.CRACKED_STONE_BRICKS_SLAB.get(), Blocks.CRACKED_STONE_BRICKS);
@@ -725,6 +901,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("cracked_stone_bricks_pressure_plate", ModBlocks.CRACKED_STONE_BRICKS_PRESSURE_PLATE.get(), Blocks.CRACKED_STONE_BRICKS);
         modButtonBlock("cracked_stone_bricks_button", ModBlocks.CRACKED_STONE_BRICKS_BUTTON.get(), Blocks.CRACKED_STONE_BRICKS);
         modWallBlock("cracked_stone_bricks_wall", ModBlocks.CRACKED_STONE_BRICKS_WALL.get(), Blocks.CRACKED_STONE_BRICKS);
+        modTrapdoorBlock("cracked_stone_bricks_trapdoor", ModBlocks.CRACKED_STONE_BRICKS_TRAPDOOR.get(), Blocks.CRACKED_STONE_BRICKS);
+        doorBlock((DoorBlock) ModBlocks.CRACKED_STONE_BRICKS_DOOR.get(), blockTexture(Blocks.CRACKED_STONE_BRICKS), blockTexture(Blocks.CRACKED_STONE_BRICKS));
 
         modStairsBlock("chiseled_stone_bricks_stairs", ModBlocks.CHISELED_STONE_BRICKS_STAIRS.get(), Blocks.CHISELED_STONE_BRICKS);
         modSlabBlock("chiseled_stone_bricks_slab", ModBlocks.CHISELED_STONE_BRICKS_SLAB.get(), Blocks.CHISELED_STONE_BRICKS);
@@ -733,6 +911,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("chiseled_stone_bricks_pressure_plate", ModBlocks.CHISELED_STONE_BRICKS_PRESSURE_PLATE.get(), Blocks.CHISELED_STONE_BRICKS);
         modButtonBlock("chiseled_stone_bricks_button", ModBlocks.CHISELED_STONE_BRICKS_BUTTON.get(), Blocks.CHISELED_STONE_BRICKS);
         modWallBlock("chiseled_stone_bricks_wall", ModBlocks.CHISELED_STONE_BRICKS_WALL.get(), Blocks.CHISELED_STONE_BRICKS);
+        modTrapdoorBlock("chiseled_stone_bricks_trapdoor", ModBlocks.CHISELED_STONE_BRICKS_TRAPDOOR.get(), Blocks.CHISELED_STONE_BRICKS);
+        doorBlock((DoorBlock) ModBlocks.CHISELED_STONE_BRICKS_DOOR.get(), blockTexture(Blocks.CHISELED_STONE_BRICKS), blockTexture(Blocks.CHISELED_STONE_BRICKS));
 
         modStairsBlock("packed_mud_stairs", ModBlocks.PACKED_MUD_STAIRS.get(), Blocks.PACKED_MUD);
         modSlabBlock("packed_mud_slab", ModBlocks.PACKED_MUD_SLAB.get(), Blocks.PACKED_MUD);
@@ -741,6 +921,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("packed_mud_pressure_plate", ModBlocks.PACKED_MUD_PRESSURE_PLATE.get(), Blocks.PACKED_MUD);
         modButtonBlock("packed_mud_button", ModBlocks.PACKED_MUD_BUTTON.get(), Blocks.PACKED_MUD);
         modWallBlock("packed_mud_wall", ModBlocks.PACKED_MUD_WALL.get(), Blocks.PACKED_MUD);
+        modTrapdoorBlock("packed_mud_trapdoor", ModBlocks.PACKED_MUD_TRAPDOOR.get(), Blocks.PACKED_MUD);
+        doorBlock((DoorBlock) ModBlocks.PACKED_MUD_DOOR.get(), blockTexture(Blocks.PACKED_MUD), blockTexture(Blocks.PACKED_MUD));
 
         modStairsBlock("mud_bricks_stairs", ModBlocks.MUD_BRICKS_STAIRS.get(), Blocks.MUD_BRICKS);
         modSlabBlock("mud_bricks_slab", ModBlocks.MUD_BRICKS_SLAB.get(), Blocks.MUD_BRICKS);
@@ -749,6 +931,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("mud_bricks_pressure_plate", ModBlocks.MUD_BRICKS_PRESSURE_PLATE.get(), Blocks.MUD_BRICKS);
         modButtonBlock("mud_bricks_button", ModBlocks.MUD_BRICKS_BUTTON.get(), Blocks.MUD_BRICKS);
         modWallBlock("mud_bricks_wall", ModBlocks.MUD_BRICKS_WALL.get(), Blocks.MUD_BRICKS);
+        modTrapdoorBlock("mud_bricks_trapdoor", ModBlocks.MUD_BRICKS_TRAPDOOR.get(), Blocks.MUD_BRICKS);
+        doorBlock((DoorBlock) ModBlocks.MUD_BRICKS_DOOR.get(), blockTexture(Blocks.MUD_BRICKS), blockTexture(Blocks.MUD_BRICKS));
 
         modStairsBlock("deepslate_bricks_stairs", ModBlocks.DEEPSLATE_BRICKS_STAIRS.get(), Blocks.DEEPSLATE_BRICKS);
         modSlabBlock("deepslate_bricks_slab", ModBlocks.DEEPSLATE_BRICKS_SLAB.get(), Blocks.DEEPSLATE_BRICKS);
@@ -757,6 +941,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("deepslate_bricks_pressure_plate", ModBlocks.DEEPSLATE_BRICKS_PRESSURE_PLATE.get(), Blocks.DEEPSLATE_BRICKS);
         modButtonBlock("deepslate_bricks_button", ModBlocks.DEEPSLATE_BRICKS_BUTTON.get(), Blocks.DEEPSLATE_BRICKS);
         modWallBlock("deepslate_bricks_wall", ModBlocks.DEEPSLATE_BRICKS_WALL.get(), Blocks.DEEPSLATE_BRICKS);
+        modTrapdoorBlock("deepslate_bricks_trapdoor", ModBlocks.DEEPSLATE_BRICKS_TRAPDOOR.get(), Blocks.DEEPSLATE_BRICKS);
+        doorBlock((DoorBlock) ModBlocks.DEEPSLATE_BRICKS_DOOR.get(), blockTexture(Blocks.DEEPSLATE_BRICKS), blockTexture(Blocks.DEEPSLATE_BRICKS));
 
         modStairsBlock("cracked_deepslate_bricks_stairs", ModBlocks.CRACKED_DEEPSLATE_BRICKS_STAIRS.get(), Blocks.CRACKED_DEEPSLATE_BRICKS);
         modSlabBlock("cracked_deepslate_bricks_slab", ModBlocks.CRACKED_DEEPSLATE_BRICKS_SLAB.get(), Blocks.CRACKED_DEEPSLATE_BRICKS);
@@ -765,6 +951,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("cracked_deepslate_bricks_pressure_plate", ModBlocks.CRACKED_DEEPSLATE_BRICKS_PRESSURE_PLATE.get(), Blocks.CRACKED_DEEPSLATE_BRICKS);
         modButtonBlock("cracked_deepslate_bricks_button", ModBlocks.CRACKED_DEEPSLATE_BRICKS_BUTTON.get(), Blocks.CRACKED_DEEPSLATE_BRICKS);
         modWallBlock("cracked_deepslate_bricks_wall", ModBlocks.CRACKED_DEEPSLATE_BRICKS_WALL.get(), Blocks.CRACKED_DEEPSLATE_BRICKS);
+        modTrapdoorBlock("cracked_deepslate_bricks_trapdoor", ModBlocks.CRACKED_DEEPSLATE_BRICKS_TRAPDOOR.get(), Blocks.CRACKED_DEEPSLATE_BRICKS);
+        doorBlock((DoorBlock) ModBlocks.CRACKED_DEEPSLATE_BRICKS_DOOR.get(), blockTexture(Blocks.CRACKED_DEEPSLATE_BRICKS), blockTexture(Blocks.CRACKED_DEEPSLATE_BRICKS));
 
         modStairsBlock("deepslate_tiles_stairs", ModBlocks.DEEPSLATE_TILES_STAIRS.get(), Blocks.DEEPSLATE_TILES);
         modSlabBlock("deepslate_tiles_slab", ModBlocks.DEEPSLATE_TILES_SLAB.get(), Blocks.DEEPSLATE_TILES);
@@ -773,6 +961,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("deepslate_tiles_pressure_plate", ModBlocks.DEEPSLATE_TILES_PRESSURE_PLATE.get(), Blocks.DEEPSLATE_TILES);
         modButtonBlock("deepslate_tiles_button", ModBlocks.DEEPSLATE_TILES_BUTTON.get(), Blocks.DEEPSLATE_TILES);
         modWallBlock("deepslate_tiles_wall", ModBlocks.DEEPSLATE_TILES_WALL.get(), Blocks.DEEPSLATE_TILES);
+        modTrapdoorBlock("deepslate_tiles_trapdoor", ModBlocks.DEEPSLATE_TILES_TRAPDOOR.get(), Blocks.DEEPSLATE_TILES);
+        doorBlock((DoorBlock) ModBlocks.DEEPSLATE_TILES_DOOR.get(), blockTexture(Blocks.DEEPSLATE_TILES), blockTexture(Blocks.DEEPSLATE_TILES));
 
         modStairsBlock("cracked_deepslate_tiles_stairs", ModBlocks.CRACKED_DEEPSLATE_TILES_STAIRS.get(), Blocks.CRACKED_DEEPSLATE_TILES);
         modSlabBlock("cracked_deepslate_tiles_slab", ModBlocks.CRACKED_DEEPSLATE_TILES_SLAB.get(), Blocks.CRACKED_DEEPSLATE_TILES);
@@ -781,6 +971,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("cracked_deepslate_tiles_pressure_plate", ModBlocks.CRACKED_DEEPSLATE_TILES_PRESSURE_PLATE.get(), Blocks.CRACKED_DEEPSLATE_TILES);
         modButtonBlock("cracked_deepslate_tiles_button", ModBlocks.CRACKED_DEEPSLATE_TILES_BUTTON.get(), Blocks.CRACKED_DEEPSLATE_TILES);
         modWallBlock("cracked_deepslate_tiles_wall", ModBlocks.CRACKED_DEEPSLATE_TILES_WALL.get(), Blocks.CRACKED_DEEPSLATE_TILES);
+        modTrapdoorBlock("cracked_deepslate_tiles_trapdoor", ModBlocks.CRACKED_DEEPSLATE_TILES_TRAPDOOR.get(), Blocks.CRACKED_DEEPSLATE_TILES);
+        doorBlock((DoorBlock) ModBlocks.CRACKED_DEEPSLATE_TILES_DOOR.get(), blockTexture(Blocks.CRACKED_DEEPSLATE_TILES), blockTexture(Blocks.CRACKED_DEEPSLATE_TILES));
 
         modStairsBlock("chiseled_deepslate_stairs", ModBlocks.CHISELED_DEEPSLATE_STAIRS.get(), Blocks.CHISELED_DEEPSLATE);
         modSlabBlock("chiseled_deepslate_slab", ModBlocks.CHISELED_DEEPSLATE_SLAB.get(), Blocks.CHISELED_DEEPSLATE);
@@ -789,6 +981,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("chiseled_deepslate_pressure_plate", ModBlocks.CHISELED_DEEPSLATE_PRESSURE_PLATE.get(), Blocks.CHISELED_DEEPSLATE);
         modButtonBlock("chiseled_deepslate_button", ModBlocks.CHISELED_DEEPSLATE_BUTTON.get(), Blocks.CHISELED_DEEPSLATE);
         modWallBlock("chiseled_deepslate_wall", ModBlocks.CHISELED_DEEPSLATE_WALL.get(), Blocks.CHISELED_DEEPSLATE);
+        modTrapdoorBlock("chiseled_deepslate_trapdoor", ModBlocks.CHISELED_DEEPSLATE_TRAPDOOR.get(), Blocks.CHISELED_DEEPSLATE);
+        doorBlock((DoorBlock) ModBlocks.CHISELED_DEEPSLATE_DOOR.get(), blockTexture(Blocks.CHISELED_DEEPSLATE), blockTexture(Blocks.CHISELED_DEEPSLATE));
 
         modStairsBlock("mushroom_stem_stairs", ModBlocks.MUSHROOM_STEM_STAIRS.get(), Blocks.MUSHROOM_STEM);
         modSlabBlock("mushroom_stem_slab", ModBlocks.MUSHROOM_STEM_SLAB.get(), Blocks.MUSHROOM_STEM);
@@ -797,6 +991,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("mushroom_stem_pressure_plate", ModBlocks.MUSHROOM_STEM_PRESSURE_PLATE.get(), Blocks.MUSHROOM_STEM);
         modButtonBlock("mushroom_stem_button", ModBlocks.MUSHROOM_STEM_BUTTON.get(), Blocks.MUSHROOM_STEM);
         modWallBlock("mushroom_stem_wall", ModBlocks.MUSHROOM_STEM_WALL.get(), Blocks.MUSHROOM_STEM);
+        modTrapdoorBlock("mushroom_stem_trapdoor", ModBlocks.MUSHROOM_STEM_TRAPDOOR.get(), Blocks.MUSHROOM_STEM);
+        doorBlock((DoorBlock) ModBlocks.MUSHROOM_STEM_DOOR.get(), blockTexture(Blocks.MUSHROOM_STEM), blockTexture(Blocks.MUSHROOM_STEM));
 
         modStairsBlock("nether_bricks_stairs", ModBlocks.NETHER_BRICKS_STAIRS.get(), Blocks.NETHER_BRICKS);
         modSlabBlock("nether_bricks_slab", ModBlocks.NETHER_BRICKS_SLAB.get(), Blocks.NETHER_BRICKS);
@@ -805,6 +1001,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("nether_bricks_pressure_plate", ModBlocks.NETHER_BRICKS_PRESSURE_PLATE.get(), Blocks.NETHER_BRICKS);
         modButtonBlock("nether_bricks_button", ModBlocks.NETHER_BRICKS_BUTTON.get(), Blocks.NETHER_BRICKS);
         modWallBlock("nether_bricks_wall", ModBlocks.NETHER_BRICKS_WALL.get(), Blocks.NETHER_BRICKS);
+        modTrapdoorBlock("nether_bricks_trapdoor", ModBlocks.NETHER_BRICKS_TRAPDOOR.get(), Blocks.NETHER_BRICKS);
+        doorBlock((DoorBlock) ModBlocks.NETHER_BRICKS_DOOR.get(), blockTexture(Blocks.NETHER_BRICKS), blockTexture(Blocks.NETHER_BRICKS));
 
         modStairsBlock("cracked_nether_bricks_stairs", ModBlocks.CRACKED_NETHER_BRICKS_STAIRS.get(), Blocks.CRACKED_NETHER_BRICKS);
         modSlabBlock("cracked_nether_bricks_slab", ModBlocks.CRACKED_NETHER_BRICKS_SLAB.get(), Blocks.CRACKED_NETHER_BRICKS);
@@ -813,6 +1011,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("cracked_nether_bricks_pressure_plate", ModBlocks.CRACKED_NETHER_BRICKS_PRESSURE_PLATE.get(), Blocks.CRACKED_NETHER_BRICKS);
         modButtonBlock("cracked_nether_bricks_button", ModBlocks.CRACKED_NETHER_BRICKS_BUTTON.get(), Blocks.CRACKED_NETHER_BRICKS);
         modWallBlock("cracked_nether_bricks_wall", ModBlocks.CRACKED_NETHER_BRICKS_WALL.get(), Blocks.CRACKED_NETHER_BRICKS);
+        modTrapdoorBlock("cracked_nether_bricks_trapdoor", ModBlocks.CRACKED_NETHER_BRICKS_TRAPDOOR.get(), Blocks.CRACKED_NETHER_BRICKS);
+        doorBlock((DoorBlock) ModBlocks.CRACKED_NETHER_BRICKS_DOOR.get(), blockTexture(Blocks.CRACKED_NETHER_BRICKS), blockTexture(Blocks.CRACKED_NETHER_BRICKS));
 
         modStairsBlock("chiseled_nether_bricks_stairs", ModBlocks.CHISELED_NETHER_BRICKS_STAIRS.get(), Blocks.CHISELED_NETHER_BRICKS);
         modSlabBlock("chiseled_nether_bricks_slab", ModBlocks.CHISELED_NETHER_BRICKS_SLAB.get(), Blocks.CHISELED_NETHER_BRICKS);
@@ -821,6 +1021,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("chiseled_nether_bricks_pressure_plate", ModBlocks.CHISELED_NETHER_BRICKS_PRESSURE_PLATE.get(), Blocks.CHISELED_NETHER_BRICKS);
         modButtonBlock("chiseled_nether_bricks_button", ModBlocks.CHISELED_NETHER_BRICKS_BUTTON.get(), Blocks.CHISELED_NETHER_BRICKS);
         modWallBlock("chiseled_nether_bricks_wall", ModBlocks.CHISELED_NETHER_BRICKS_WALL.get(), Blocks.CHISELED_NETHER_BRICKS);
+        modTrapdoorBlock("chiseled_nether_bricks_trapdoor", ModBlocks.CHISELED_NETHER_BRICKS_TRAPDOOR.get(), Blocks.CHISELED_NETHER_BRICKS);
+        doorBlock((DoorBlock) ModBlocks.CHISELED_NETHER_BRICKS_DOOR.get(), blockTexture(Blocks.CHISELED_NETHER_BRICKS), blockTexture(Blocks.CHISELED_NETHER_BRICKS));
 
         modStairsBlock("sculk_stairs", ModBlocks.SCULK_STAIRS.get(), Blocks.SCULK);
         modSlabBlock("sculk_slab", ModBlocks.SCULK_SLAB.get(), Blocks.SCULK);
@@ -829,6 +1031,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("sculk_pressure_plate", ModBlocks.SCULK_PRESSURE_PLATE.get(), Blocks.SCULK);
         modButtonBlock("sculk_button", ModBlocks.SCULK_BUTTON.get(), Blocks.SCULK);
         modWallBlock("sculk_wall", ModBlocks.SCULK_WALL.get(), Blocks.SCULK);
+        modTrapdoorBlock("sculk_trapdoor", ModBlocks.SCULK_TRAPDOOR.get(), Blocks.SCULK);
+        doorBlock((DoorBlock) ModBlocks.SCULK_DOOR.get(), blockTexture(Blocks.SCULK), blockTexture(Blocks.SCULK));
 
         modStairsBlock("end_stone_stairs", ModBlocks.END_STONE_STAIRS.get(), Blocks.END_STONE);
         modSlabBlock("end_stone_slab", ModBlocks.END_STONE_SLAB.get(), Blocks.END_STONE);
@@ -837,6 +1041,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("end_stone_pressure_plate", ModBlocks.END_STONE_PRESSURE_PLATE.get(), Blocks.END_STONE);
         modButtonBlock("end_stone_button", ModBlocks.END_STONE_BUTTON.get(), Blocks.END_STONE);
         modWallBlock("end_stone_wall", ModBlocks.END_STONE_WALL.get(), Blocks.END_STONE);
+        modTrapdoorBlock("end_stone_trapdoor", ModBlocks.END_STONE_TRAPDOOR.get(), Blocks.END_STONE);
+        doorBlock((DoorBlock) ModBlocks.END_STONE_DOOR.get(), blockTexture(Blocks.END_STONE), blockTexture(Blocks.END_STONE));
 
         modStairsBlock("end_stone_bricks_stairs", ModBlocks.END_STONE_BRICKS_STAIRS.get(), Blocks.END_STONE_BRICKS);
         modSlabBlock("end_stone_bricks_slab", ModBlocks.END_STONE_BRICKS_SLAB.get(), Blocks.END_STONE_BRICKS);
@@ -845,6 +1051,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("end_stone_bricks_pressure_plate", ModBlocks.END_STONE_BRICKS_PRESSURE_PLATE.get(), Blocks.END_STONE_BRICKS);
         modButtonBlock("end_stone_bricks_button", ModBlocks.END_STONE_BRICKS_BUTTON.get(), Blocks.END_STONE_BRICKS);
         modWallBlock("end_stone_bricks_wall", ModBlocks.END_STONE_BRICKS_WALL.get(), Blocks.END_STONE_BRICKS);
+        modTrapdoorBlock("end_stone_bricks_trapdoor", ModBlocks.END_STONE_BRICKS_TRAPDOOR.get(), Blocks.END_STONE_BRICKS);
+        doorBlock((DoorBlock) ModBlocks.END_STONE_BRICKS_DOOR.get(), blockTexture(Blocks.END_STONE_BRICKS), blockTexture(Blocks.END_STONE_BRICKS));
 
         modStairsBlock("quartz_bricks_stairs", ModBlocks.QUARTZ_BRICKS_STAIRS.get(), Blocks.QUARTZ_BRICKS);
         modSlabBlock("quartz_bricks_slab", ModBlocks.QUARTZ_BRICKS_SLAB.get(), Blocks.QUARTZ_BRICKS);
@@ -853,6 +1061,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("quartz_bricks_pressure_plate", ModBlocks.QUARTZ_BRICKS_PRESSURE_PLATE.get(), Blocks.QUARTZ_BRICKS);
         modButtonBlock("quartz_bricks_button", ModBlocks.QUARTZ_BRICKS_BUTTON.get(), Blocks.QUARTZ_BRICKS);
         modWallBlock("quartz_bricks_wall", ModBlocks.QUARTZ_BRICKS_WALL.get(), Blocks.QUARTZ_BRICKS);
+        modTrapdoorBlock("quartz_bricks_trapdoor", ModBlocks.QUARTZ_BRICKS_TRAPDOOR.get(), Blocks.QUARTZ_BRICKS);
+        doorBlock((DoorBlock) ModBlocks.QUARTZ_BRICKS_DOOR.get(), blockTexture(Blocks.QUARTZ_BRICKS), blockTexture(Blocks.QUARTZ_BRICKS));
 
         modStairsBlock("white_terracotta_stairs", ModBlocks.WHITE_TERRACOTTA_STAIRS.get(), Blocks.WHITE_TERRACOTTA);
         modSlabBlock("white_terracotta_slab", ModBlocks.WHITE_TERRACOTTA_SLAB.get(), Blocks.WHITE_TERRACOTTA);
@@ -861,6 +1071,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("white_terracotta_pressure_plate", ModBlocks.WHITE_TERRACOTTA_PRESSURE_PLATE.get(), Blocks.WHITE_TERRACOTTA);
         modButtonBlock("white_terracotta_button", ModBlocks.WHITE_TERRACOTTA_BUTTON.get(), Blocks.WHITE_TERRACOTTA);
         modWallBlock("white_terracotta_wall", ModBlocks.WHITE_TERRACOTTA_WALL.get(), Blocks.WHITE_TERRACOTTA);
+        modTrapdoorBlock("white_terracotta_trapdoor", ModBlocks.WHITE_TERRACOTTA_TRAPDOOR.get(), Blocks.WHITE_TERRACOTTA);
+        doorBlock((DoorBlock) ModBlocks.WHITE_TERRACOTTA_DOOR.get(), blockTexture(Blocks.WHITE_TERRACOTTA), blockTexture(Blocks.WHITE_TERRACOTTA));
 
         modStairsBlock("orange_terracotta_stairs", ModBlocks.ORANGE_TERRACOTTA_STAIRS.get(), Blocks.ORANGE_TERRACOTTA);
         modSlabBlock("orange_terracotta_slab", ModBlocks.ORANGE_TERRACOTTA_SLAB.get(), Blocks.ORANGE_TERRACOTTA);
@@ -869,6 +1081,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("orange_terracotta_pressure_plate", ModBlocks.ORANGE_TERRACOTTA_PRESSURE_PLATE.get(), Blocks.ORANGE_TERRACOTTA);
         modButtonBlock("orange_terracotta_button", ModBlocks.ORANGE_TERRACOTTA_BUTTON.get(), Blocks.ORANGE_TERRACOTTA);
         modWallBlock("orange_terracotta_wall", ModBlocks.ORANGE_TERRACOTTA_WALL.get(), Blocks.ORANGE_TERRACOTTA);
+        modTrapdoorBlock("orange_terracotta_trapdoor", ModBlocks.ORANGE_TERRACOTTA_TRAPDOOR.get(), Blocks.ORANGE_TERRACOTTA);
+        doorBlock((DoorBlock) ModBlocks.ORANGE_TERRACOTTA_DOOR.get(), blockTexture(Blocks.ORANGE_TERRACOTTA), blockTexture(Blocks.ORANGE_TERRACOTTA));
 
         modStairsBlock("magenta_terracotta_stairs", ModBlocks.MAGENTA_TERRACOTTA_STAIRS.get(), Blocks.MAGENTA_TERRACOTTA);
         modSlabBlock("magenta_terracotta_slab", ModBlocks.MAGENTA_TERRACOTTA_SLAB.get(), Blocks.MAGENTA_TERRACOTTA);
@@ -877,6 +1091,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("magenta_terracotta_pressure_plate", ModBlocks.MAGENTA_TERRACOTTA_PRESSURE_PLATE.get(), Blocks.MAGENTA_TERRACOTTA);
         modButtonBlock("magenta_terracotta_button", ModBlocks.MAGENTA_TERRACOTTA_BUTTON.get(), Blocks.MAGENTA_TERRACOTTA);
         modWallBlock("magenta_terracotta_wall", ModBlocks.MAGENTA_TERRACOTTA_WALL.get(), Blocks.MAGENTA_TERRACOTTA);
+        modTrapdoorBlock("magenta_terracotta_trapdoor", ModBlocks.MAGENTA_TERRACOTTA_TRAPDOOR.get(), Blocks.MAGENTA_TERRACOTTA);
+        doorBlock((DoorBlock) ModBlocks.MAGENTA_TERRACOTTA_DOOR.get(), blockTexture(Blocks.MAGENTA_TERRACOTTA), blockTexture(Blocks.MAGENTA_TERRACOTTA));
 
         modStairsBlock("light_blue_terracotta_stairs", ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS.get(), Blocks.LIGHT_BLUE_TERRACOTTA);
         modSlabBlock("light_blue_terracotta_slab", ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB.get(), Blocks.LIGHT_BLUE_TERRACOTTA);
@@ -885,6 +1101,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("light_blue_terracotta_pressure_plate", ModBlocks.LIGHT_BLUE_TERRACOTTA_PRESSURE_PLATE.get(), Blocks.LIGHT_BLUE_TERRACOTTA);
         modButtonBlock("light_blue_terracotta_button", ModBlocks.LIGHT_BLUE_TERRACOTTA_BUTTON.get(), Blocks.LIGHT_BLUE_TERRACOTTA);
         modWallBlock("light_blue_terracotta_wall", ModBlocks.LIGHT_BLUE_TERRACOTTA_WALL.get(), Blocks.LIGHT_BLUE_TERRACOTTA);
+        modTrapdoorBlock("light_blue_terracotta_trapdoor", ModBlocks.LIGHT_BLUE_TERRACOTTA_TRAPDOOR.get(), Blocks.LIGHT_BLUE_TERRACOTTA);
+        doorBlock((DoorBlock) ModBlocks.LIGHT_BLUE_TERRACOTTA_DOOR.get(), blockTexture(Blocks.LIGHT_BLUE_TERRACOTTA), blockTexture(Blocks.LIGHT_BLUE_TERRACOTTA));
 
         modStairsBlock("yellow_terracotta_stairs", ModBlocks.YELLOW_TERRACOTTA_STAIRS.get(), Blocks.YELLOW_TERRACOTTA);
         modSlabBlock("yellow_terracotta_slab", ModBlocks.YELLOW_TERRACOTTA_SLAB.get(), Blocks.YELLOW_TERRACOTTA);
@@ -893,6 +1111,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("yellow_terracotta_pressure_plate", ModBlocks.YELLOW_TERRACOTTA_PRESSURE_PLATE.get(), Blocks.YELLOW_TERRACOTTA);
         modButtonBlock("yellow_terracotta_button", ModBlocks.YELLOW_TERRACOTTA_BUTTON.get(), Blocks.YELLOW_TERRACOTTA);
         modWallBlock("yellow_terracotta_wall", ModBlocks.YELLOW_TERRACOTTA_WALL.get(), Blocks.YELLOW_TERRACOTTA);
+        modTrapdoorBlock("yellow_terracotta_trapdoor", ModBlocks.YELLOW_TERRACOTTA_TRAPDOOR.get(), Blocks.YELLOW_TERRACOTTA);
+        doorBlock((DoorBlock) ModBlocks.YELLOW_TERRACOTTA_DOOR.get(), blockTexture(Blocks.YELLOW_TERRACOTTA), blockTexture(Blocks.YELLOW_TERRACOTTA));
 
         modStairsBlock("lime_terracotta_stairs", ModBlocks.LIME_TERRACOTTA_STAIRS.get(), Blocks.LIME_TERRACOTTA);
         modSlabBlock("lime_terracotta_slab", ModBlocks.LIME_TERRACOTTA_SLAB.get(), Blocks.LIME_TERRACOTTA);
@@ -901,6 +1121,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("lime_terracotta_pressure_plate", ModBlocks.LIME_TERRACOTTA_PRESSURE_PLATE.get(), Blocks.LIME_TERRACOTTA);
         modButtonBlock("lime_terracotta_button", ModBlocks.LIME_TERRACOTTA_BUTTON.get(), Blocks.LIME_TERRACOTTA);
         modWallBlock("lime_terracotta_wall", ModBlocks.LIME_TERRACOTTA_WALL.get(), Blocks.LIME_TERRACOTTA);
+        modTrapdoorBlock("lime_terracotta_trapdoor", ModBlocks.LIME_TERRACOTTA_TRAPDOOR.get(), Blocks.LIME_TERRACOTTA);
+        doorBlock((DoorBlock) ModBlocks.LIME_TERRACOTTA_DOOR.get(), blockTexture(Blocks.LIME_TERRACOTTA), blockTexture(Blocks.LIME_TERRACOTTA));
 
         modStairsBlock("pink_terracotta_stairs", ModBlocks.PINK_TERRACOTTA_STAIRS.get(), Blocks.PINK_TERRACOTTA);
         modSlabBlock("pink_terracotta_slab", ModBlocks.PINK_TERRACOTTA_SLAB.get(), Blocks.PINK_TERRACOTTA);
@@ -909,6 +1131,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("pink_terracotta_pressure_plate", ModBlocks.PINK_TERRACOTTA_PRESSURE_PLATE.get(), Blocks.PINK_TERRACOTTA);
         modButtonBlock("pink_terracotta_button", ModBlocks.PINK_TERRACOTTA_BUTTON.get(), Blocks.PINK_TERRACOTTA);
         modWallBlock("pink_terracotta_wall", ModBlocks.PINK_TERRACOTTA_WALL.get(), Blocks.PINK_TERRACOTTA);
+        modTrapdoorBlock("pink_terracotta_trapdoor", ModBlocks.PINK_TERRACOTTA_TRAPDOOR.get(), Blocks.PINK_TERRACOTTA);
+        doorBlock((DoorBlock) ModBlocks.PINK_TERRACOTTA_DOOR.get(), blockTexture(Blocks.PINK_TERRACOTTA), blockTexture(Blocks.PINK_TERRACOTTA));
 
         modStairsBlock("gray_terracotta_stairs", ModBlocks.GRAY_TERRACOTTA_STAIRS.get(), Blocks.GRAY_TERRACOTTA);
         modSlabBlock("gray_terracotta_slab", ModBlocks.GRAY_TERRACOTTA_SLAB.get(), Blocks.GRAY_TERRACOTTA);
@@ -917,6 +1141,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("gray_terracotta_pressure_plate", ModBlocks.GRAY_TERRACOTTA_PRESSURE_PLATE.get(), Blocks.GRAY_TERRACOTTA);
         modButtonBlock("gray_terracotta_button", ModBlocks.GRAY_TERRACOTTA_BUTTON.get(), Blocks.GRAY_TERRACOTTA);
         modWallBlock("gray_terracotta_wall", ModBlocks.GRAY_TERRACOTTA_WALL.get(), Blocks.GRAY_TERRACOTTA);
+        modTrapdoorBlock("gray_terracotta_trapdoor", ModBlocks.GRAY_TERRACOTTA_TRAPDOOR.get(), Blocks.GRAY_TERRACOTTA);
+        doorBlock((DoorBlock) ModBlocks.GRAY_TERRACOTTA_DOOR.get(), blockTexture(Blocks.GRAY_TERRACOTTA), blockTexture(Blocks.GRAY_TERRACOTTA));
 
         modStairsBlock("light_gray_terracotta_stairs", ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS.get(), Blocks.LIGHT_GRAY_TERRACOTTA);
         modSlabBlock("light_gray_terracotta_slab", ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB.get(), Blocks.LIGHT_GRAY_TERRACOTTA);
@@ -925,6 +1151,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("light_gray_terracotta_pressure_plate", ModBlocks.LIGHT_GRAY_TERRACOTTA_PRESSURE_PLATE.get(), Blocks.LIGHT_GRAY_TERRACOTTA);
         modButtonBlock("light_gray_terracotta_button", ModBlocks.LIGHT_GRAY_TERRACOTTA_BUTTON.get(), Blocks.LIGHT_GRAY_TERRACOTTA);
         modWallBlock("light_gray_terracotta_wall", ModBlocks.LIGHT_GRAY_TERRACOTTA_WALL.get(), Blocks.LIGHT_GRAY_TERRACOTTA);
+        modTrapdoorBlock("light_gray_terracotta_trapdoor", ModBlocks.LIGHT_GRAY_TERRACOTTA_TRAPDOOR.get(), Blocks.LIGHT_GRAY_TERRACOTTA);
+        doorBlock((DoorBlock) ModBlocks.LIGHT_GRAY_TERRACOTTA_DOOR.get(), blockTexture(Blocks.LIGHT_GRAY_TERRACOTTA), blockTexture(Blocks.LIGHT_GRAY_TERRACOTTA));
 
         modStairsBlock("cyan_terracotta_stairs", ModBlocks.CYAN_TERRACOTTA_STAIRS.get(), Blocks.CYAN_TERRACOTTA);
         modSlabBlock("cyan_terracotta_slab", ModBlocks.CYAN_TERRACOTTA_SLAB.get(), Blocks.CYAN_TERRACOTTA);
@@ -933,6 +1161,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("cyan_terracotta_pressure_plate", ModBlocks.CYAN_TERRACOTTA_PRESSURE_PLATE.get(), Blocks.CYAN_TERRACOTTA);
         modButtonBlock("cyan_terracotta_button", ModBlocks.CYAN_TERRACOTTA_BUTTON.get(), Blocks.CYAN_TERRACOTTA);
         modWallBlock("cyan_terracotta_wall", ModBlocks.CYAN_TERRACOTTA_WALL.get(), Blocks.CYAN_TERRACOTTA);
+        modTrapdoorBlock("cyan_terracotta_trapdoor", ModBlocks.CYAN_TERRACOTTA_TRAPDOOR.get(), Blocks.CYAN_TERRACOTTA);
+        doorBlock((DoorBlock) ModBlocks.CYAN_TERRACOTTA_DOOR.get(), blockTexture(Blocks.CYAN_TERRACOTTA), blockTexture(Blocks.CYAN_TERRACOTTA));
 
         modStairsBlock("purple_terracotta_stairs", ModBlocks.PURPLE_TERRACOTTA_STAIRS.get(), Blocks.PURPLE_TERRACOTTA);
         modSlabBlock("purple_terracotta_slab", ModBlocks.PURPLE_TERRACOTTA_SLAB.get(), Blocks.PURPLE_TERRACOTTA);
@@ -941,6 +1171,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("purple_terracotta_pressure_plate", ModBlocks.PURPLE_TERRACOTTA_PRESSURE_PLATE.get(), Blocks.PURPLE_TERRACOTTA);
         modButtonBlock("purple_terracotta_button", ModBlocks.PURPLE_TERRACOTTA_BUTTON.get(), Blocks.PURPLE_TERRACOTTA);
         modWallBlock("purple_terracotta_wall", ModBlocks.PURPLE_TERRACOTTA_WALL.get(), Blocks.PURPLE_TERRACOTTA);
+        modTrapdoorBlock("purple_terracotta_trapdoor", ModBlocks.PURPLE_TERRACOTTA_TRAPDOOR.get(), Blocks.PURPLE_TERRACOTTA);
+        doorBlock((DoorBlock) ModBlocks.PURPLE_TERRACOTTA_DOOR.get(), blockTexture(Blocks.PURPLE_TERRACOTTA), blockTexture(Blocks.PURPLE_TERRACOTTA));
 
         modStairsBlock("blue_terracotta_stairs", ModBlocks.BLUE_TERRACOTTA_STAIRS.get(), Blocks.BLUE_TERRACOTTA);
         modSlabBlock("blue_terracotta_slab", ModBlocks.BLUE_TERRACOTTA_SLAB.get(), Blocks.BLUE_TERRACOTTA);
@@ -949,6 +1181,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("blue_terracotta_pressure_plate", ModBlocks.BLUE_TERRACOTTA_PRESSURE_PLATE.get(), Blocks.BLUE_TERRACOTTA);
         modButtonBlock("blue_terracotta_button", ModBlocks.BLUE_TERRACOTTA_BUTTON.get(), Blocks.BLUE_TERRACOTTA);
         modWallBlock("blue_terracotta_wall", ModBlocks.BLUE_TERRACOTTA_WALL.get(), Blocks.BLUE_TERRACOTTA);
+        modTrapdoorBlock("blue_terracotta_trapdoor", ModBlocks.BLUE_TERRACOTTA_TRAPDOOR.get(), Blocks.BLUE_TERRACOTTA);
+        doorBlock((DoorBlock) ModBlocks.BLUE_TERRACOTTA_DOOR.get(), blockTexture(Blocks.BLUE_TERRACOTTA), blockTexture(Blocks.BLUE_TERRACOTTA));
 
         modStairsBlock("brown_terracotta_stairs", ModBlocks.BROWN_TERRACOTTA_STAIRS.get(), Blocks.BROWN_TERRACOTTA);
         modSlabBlock("brown_terracotta_slab", ModBlocks.BROWN_TERRACOTTA_SLAB.get(), Blocks.BROWN_TERRACOTTA);
@@ -957,6 +1191,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("brown_terracotta_pressure_plate", ModBlocks.BROWN_TERRACOTTA_PRESSURE_PLATE.get(), Blocks.BROWN_TERRACOTTA);
         modButtonBlock("brown_terracotta_button", ModBlocks.BROWN_TERRACOTTA_BUTTON.get(), Blocks.BROWN_TERRACOTTA);
         modWallBlock("brown_terracotta_wall", ModBlocks.BROWN_TERRACOTTA_WALL.get(), Blocks.BROWN_TERRACOTTA);
+        modTrapdoorBlock("brown_terracotta_trapdoor", ModBlocks.BROWN_TERRACOTTA_TRAPDOOR.get(), Blocks.BROWN_TERRACOTTA);
+        doorBlock((DoorBlock) ModBlocks.BROWN_TERRACOTTA_DOOR.get(), blockTexture(Blocks.BROWN_TERRACOTTA), blockTexture(Blocks.BROWN_TERRACOTTA));
 
         modStairsBlock("green_terracotta_stairs", ModBlocks.GREEN_TERRACOTTA_STAIRS.get(), Blocks.GREEN_TERRACOTTA);
         modSlabBlock("green_terracotta_slab", ModBlocks.GREEN_TERRACOTTA_SLAB.get(), Blocks.GREEN_TERRACOTTA);
@@ -965,6 +1201,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("green_terracotta_pressure_plate", ModBlocks.GREEN_TERRACOTTA_PRESSURE_PLATE.get(), Blocks.GREEN_TERRACOTTA);
         modButtonBlock("green_terracotta_button", ModBlocks.GREEN_TERRACOTTA_BUTTON.get(), Blocks.GREEN_TERRACOTTA);
         modWallBlock("green_terracotta_wall", ModBlocks.GREEN_TERRACOTTA_WALL.get(), Blocks.GREEN_TERRACOTTA);
+        modTrapdoorBlock("green_terracotta_trapdoor", ModBlocks.GREEN_TERRACOTTA_TRAPDOOR.get(), Blocks.GREEN_TERRACOTTA);
+        doorBlock((DoorBlock) ModBlocks.GREEN_TERRACOTTA_DOOR.get(), blockTexture(Blocks.GREEN_TERRACOTTA), blockTexture(Blocks.GREEN_TERRACOTTA));
 
         modStairsBlock("red_terracotta_stairs", ModBlocks.RED_TERRACOTTA_STAIRS.get(), Blocks.RED_TERRACOTTA);
         modSlabBlock("red_terracotta_slab", ModBlocks.RED_TERRACOTTA_SLAB.get(), Blocks.RED_TERRACOTTA);
@@ -973,6 +1211,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("red_terracotta_pressure_plate", ModBlocks.RED_TERRACOTTA_PRESSURE_PLATE.get(), Blocks.RED_TERRACOTTA);
         modButtonBlock("red_terracotta_button", ModBlocks.RED_TERRACOTTA_BUTTON.get(), Blocks.RED_TERRACOTTA);
         modWallBlock("red_terracotta_wall", ModBlocks.RED_TERRACOTTA_WALL.get(), Blocks.RED_TERRACOTTA);
+        modTrapdoorBlock("red_terracotta_trapdoor", ModBlocks.RED_TERRACOTTA_TRAPDOOR.get(), Blocks.RED_TERRACOTTA);
+        doorBlock((DoorBlock) ModBlocks.RED_TERRACOTTA_DOOR.get(), blockTexture(Blocks.RED_TERRACOTTA), blockTexture(Blocks.RED_TERRACOTTA));
 
         modStairsBlock("black_terracotta_stairs", ModBlocks.BLACK_TERRACOTTA_STAIRS.get(), Blocks.BLACK_TERRACOTTA);
         modSlabBlock("black_terracotta_slab", ModBlocks.BLACK_TERRACOTTA_SLAB.get(), Blocks.BLACK_TERRACOTTA);
@@ -981,6 +1221,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("black_terracotta_pressure_plate", ModBlocks.BLACK_TERRACOTTA_PRESSURE_PLATE.get(), Blocks.BLACK_TERRACOTTA);
         modButtonBlock("black_terracotta_button", ModBlocks.BLACK_TERRACOTTA_BUTTON.get(), Blocks.BLACK_TERRACOTTA);
         modWallBlock("black_terracotta_wall", ModBlocks.BLACK_TERRACOTTA_WALL.get(), Blocks.BLACK_TERRACOTTA);
+        modTrapdoorBlock("black_terracotta_trapdoor", ModBlocks.BLACK_TERRACOTTA_TRAPDOOR.get(), Blocks.BLACK_TERRACOTTA);
+        doorBlock((DoorBlock) ModBlocks.BLACK_TERRACOTTA_DOOR.get(), blockTexture(Blocks.BLACK_TERRACOTTA), blockTexture(Blocks.BLACK_TERRACOTTA));
 
         modStairsBlock("terracotta_stairs", ModBlocks.TERRACOTTA_STAIRS.get(), Blocks.TERRACOTTA);
         modSlabBlock("terracotta_slab", ModBlocks.TERRACOTTA_SLAB.get(), Blocks.TERRACOTTA);
@@ -989,6 +1231,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("terracotta_pressure_plate", ModBlocks.TERRACOTTA_PRESSURE_PLATE.get(), Blocks.TERRACOTTA);
         modButtonBlock("terracotta_button", ModBlocks.TERRACOTTA_BUTTON.get(), Blocks.TERRACOTTA);
         modWallBlock("terracotta_wall", ModBlocks.TERRACOTTA_WALL.get(), Blocks.TERRACOTTA);
+        modTrapdoorBlock("terracotta_trapdoor", ModBlocks.TERRACOTTA_TRAPDOOR.get(), Blocks.TERRACOTTA);
+        doorBlock((DoorBlock) ModBlocks.TERRACOTTA_DOOR.get(), blockTexture(Blocks.TERRACOTTA), blockTexture(Blocks.TERRACOTTA));
 
         modStairsBlock("prismarine_stairs", ModBlocks.PRISMARINE_STAIRS.get(), Blocks.PRISMARINE);
         modSlabBlock("prismarine_slab", ModBlocks.PRISMARINE_SLAB.get(), Blocks.PRISMARINE);
@@ -997,6 +1241,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("prismarine_pressure_plate", ModBlocks.PRISMARINE_PRESSURE_PLATE.get(), Blocks.PRISMARINE);
         modButtonBlock("prismarine_button", ModBlocks.PRISMARINE_BUTTON.get(), Blocks.PRISMARINE);
         modWallBlock("prismarine_wall", ModBlocks.PRISMARINE_WALL.get(), Blocks.PRISMARINE);
+        modTrapdoorBlock("prismarine_trapdoor", ModBlocks.PRISMARINE_TRAPDOOR.get(), Blocks.PRISMARINE);
+        doorBlock((DoorBlock) ModBlocks.PRISMARINE_DOOR.get(), blockTexture(Blocks.PRISMARINE), blockTexture(Blocks.PRISMARINE));
 
         modStairsBlock("prismarine_bricks_stairs", ModBlocks.PRISMARINE_BRICKS_STAIRS.get(), Blocks.PRISMARINE_BRICKS);
         modSlabBlock("prismarine_bricks_slab", ModBlocks.PRISMARINE_BRICKS_SLAB.get(), Blocks.PRISMARINE_BRICKS);
@@ -1005,6 +1251,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("prismarine_bricks_pressure_plate", ModBlocks.PRISMARINE_BRICKS_PRESSURE_PLATE.get(), Blocks.PRISMARINE_BRICKS);
         modButtonBlock("prismarine_bricks_button", ModBlocks.PRISMARINE_BRICKS_BUTTON.get(), Blocks.PRISMARINE_BRICKS);
         modWallBlock("prismarine_bricks_wall", ModBlocks.PRISMARINE_BRICKS_WALL.get(), Blocks.PRISMARINE_BRICKS);
+        modTrapdoorBlock("prismarine_bricks_trapdoor", ModBlocks.PRISMARINE_BRICKS_TRAPDOOR.get(), Blocks.PRISMARINE_BRICKS);
+        doorBlock((DoorBlock) ModBlocks.PRISMARINE_BRICKS_DOOR.get(), blockTexture(Blocks.PRISMARINE_BRICKS), blockTexture(Blocks.PRISMARINE_BRICKS));
 
         modStairsBlock("dark_prismarine_stairs", ModBlocks.DARK_PRISMARINE_STAIRS.get(), Blocks.DARK_PRISMARINE);
         modSlabBlock("dark_prismarine_slab", ModBlocks.DARK_PRISMARINE_SLAB.get(), Blocks.DARK_PRISMARINE);
@@ -1013,6 +1261,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("dark_prismarine_pressure_plate", ModBlocks.DARK_PRISMARINE_PRESSURE_PLATE.get(), Blocks.DARK_PRISMARINE);
         modButtonBlock("dark_prismarine_button", ModBlocks.DARK_PRISMARINE_BUTTON.get(), Blocks.DARK_PRISMARINE);
         modWallBlock("dark_prismarine_wall", ModBlocks.DARK_PRISMARINE_WALL.get(), Blocks.DARK_PRISMARINE);
+        modTrapdoorBlock("dark_prismarine_trapdoor", ModBlocks.DARK_PRISMARINE_TRAPDOOR.get(), Blocks.DARK_PRISMARINE);
+        doorBlock((DoorBlock) ModBlocks.DARK_PRISMARINE_DOOR.get(), blockTexture(Blocks.DARK_PRISMARINE), blockTexture(Blocks.DARK_PRISMARINE));
 
         modStairsBlock("nether_wart_block_stairs", ModBlocks.NETHER_WART_BLOCK_STAIRS.get(), Blocks.NETHER_WART_BLOCK);
         modSlabBlock("nether_wart_block_slab", ModBlocks.NETHER_WART_BLOCK_SLAB.get(), Blocks.NETHER_WART_BLOCK);
@@ -1021,6 +1271,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("nether_wart_block_pressure_plate", ModBlocks.NETHER_WART_BLOCK_PRESSURE_PLATE.get(), Blocks.NETHER_WART_BLOCK);
         modButtonBlock("nether_wart_block_button", ModBlocks.NETHER_WART_BLOCK_BUTTON.get(), Blocks.NETHER_WART_BLOCK);
         modWallBlock("nether_wart_block_wall", ModBlocks.NETHER_WART_BLOCK_WALL.get(), Blocks.NETHER_WART_BLOCK);
+        modTrapdoorBlock("nether_wart_block_trapdoor", ModBlocks.NETHER_WART_BLOCK_TRAPDOOR.get(), Blocks.NETHER_WART_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.NETHER_WART_BLOCK_DOOR.get(), blockTexture(Blocks.NETHER_WART_BLOCK), blockTexture(Blocks.NETHER_WART_BLOCK));
 
         modStairsBlock("warped_wart_block_stairs", ModBlocks.WARPED_WART_BLOCK_STAIRS.get(), Blocks.WARPED_WART_BLOCK);
         modSlabBlock("warped_wart_block_slab", ModBlocks.WARPED_WART_BLOCK_SLAB.get(), Blocks.WARPED_WART_BLOCK);
@@ -1029,6 +1281,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("warped_wart_block_pressure_plate", ModBlocks.WARPED_WART_BLOCK_PRESSURE_PLATE.get(), Blocks.WARPED_WART_BLOCK);
         modButtonBlock("warped_wart_block_button", ModBlocks.WARPED_WART_BLOCK_BUTTON.get(), Blocks.WARPED_WART_BLOCK);
         modWallBlock("warped_wart_block_wall", ModBlocks.WARPED_WART_BLOCK_WALL.get(), Blocks.WARPED_WART_BLOCK);
+        modTrapdoorBlock("warped_wart_block_trapdoor", ModBlocks.WARPED_WART_BLOCK_TRAPDOOR.get(), Blocks.WARPED_WART_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.WARPED_WART_BLOCK_DOOR.get(), blockTexture(Blocks.WARPED_WART_BLOCK), blockTexture(Blocks.WARPED_WART_BLOCK));
 
         modStairsBlock("red_nether_bricks_stairs", ModBlocks.RED_NETHER_BRICKS_STAIRS.get(), Blocks.RED_NETHER_BRICKS);
         modSlabBlock("red_nether_bricks_slab", ModBlocks.RED_NETHER_BRICKS_SLAB.get(), Blocks.RED_NETHER_BRICKS);
@@ -1037,6 +1291,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("red_nether_bricks_pressure_plate", ModBlocks.RED_NETHER_BRICKS_PRESSURE_PLATE.get(), Blocks.RED_NETHER_BRICKS);
         modButtonBlock("red_nether_bricks_button", ModBlocks.RED_NETHER_BRICKS_BUTTON.get(), Blocks.RED_NETHER_BRICKS);
         modWallBlock("red_nether_bricks_wall", ModBlocks.RED_NETHER_BRICKS_WALL.get(), Blocks.RED_NETHER_BRICKS);
+        modTrapdoorBlock("red_nether_bricks_trapdoor", ModBlocks.RED_NETHER_BRICKS_TRAPDOOR.get(), Blocks.RED_NETHER_BRICKS);
+        doorBlock((DoorBlock) ModBlocks.RED_NETHER_BRICKS_DOOR.get(), blockTexture(Blocks.RED_NETHER_BRICKS), blockTexture(Blocks.RED_NETHER_BRICKS));
 
         modStairsBlock("white_concrete_stairs", ModBlocks.WHITE_CONCRETE_STAIRS.get(), Blocks.WHITE_CONCRETE);
         modSlabBlock("white_concrete_slab", ModBlocks.WHITE_CONCRETE_SLAB.get(), Blocks.WHITE_CONCRETE);
@@ -1045,6 +1301,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("white_concrete_pressure_plate", ModBlocks.WHITE_CONCRETE_PRESSURE_PLATE.get(), Blocks.WHITE_CONCRETE);
         modButtonBlock("white_concrete_button", ModBlocks.WHITE_CONCRETE_BUTTON.get(), Blocks.WHITE_CONCRETE);
         modWallBlock("white_concrete_wall", ModBlocks.WHITE_CONCRETE_WALL.get(), Blocks.WHITE_CONCRETE);
+        modTrapdoorBlock("white_concrete_trapdoor", ModBlocks.WHITE_CONCRETE_TRAPDOOR.get(), Blocks.WHITE_CONCRETE);
+        doorBlock((DoorBlock) ModBlocks.WHITE_CONCRETE_DOOR.get(), blockTexture(Blocks.WHITE_CONCRETE), blockTexture(Blocks.WHITE_CONCRETE));
 
         modStairsBlock("orange_concrete_stairs", ModBlocks.ORANGE_CONCRETE_STAIRS.get(), Blocks.ORANGE_CONCRETE);
         modSlabBlock("orange_concrete_slab", ModBlocks.ORANGE_CONCRETE_SLAB.get(), Blocks.ORANGE_CONCRETE);
@@ -1053,6 +1311,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("orange_concrete_pressure_plate", ModBlocks.ORANGE_CONCRETE_PRESSURE_PLATE.get(), Blocks.ORANGE_CONCRETE);
         modButtonBlock("orange_concrete_button", ModBlocks.ORANGE_CONCRETE_BUTTON.get(), Blocks.ORANGE_CONCRETE);
         modWallBlock("orange_concrete_wall", ModBlocks.ORANGE_CONCRETE_WALL.get(), Blocks.ORANGE_CONCRETE);
+        modTrapdoorBlock("orange_concrete_trapdoor", ModBlocks.ORANGE_CONCRETE_TRAPDOOR.get(), Blocks.ORANGE_CONCRETE);
+        doorBlock((DoorBlock) ModBlocks.ORANGE_CONCRETE_DOOR.get(), blockTexture(Blocks.ORANGE_CONCRETE), blockTexture(Blocks.ORANGE_CONCRETE));
 
         modStairsBlock("magenta_concrete_stairs", ModBlocks.MAGENTA_CONCRETE_STAIRS.get(), Blocks.MAGENTA_CONCRETE);
         modSlabBlock("magenta_concrete_slab", ModBlocks.MAGENTA_CONCRETE_SLAB.get(), Blocks.MAGENTA_CONCRETE);
@@ -1061,6 +1321,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("magenta_concrete_pressure_plate", ModBlocks.MAGENTA_CONCRETE_PRESSURE_PLATE.get(), Blocks.MAGENTA_CONCRETE);
         modButtonBlock("magenta_concrete_button", ModBlocks.MAGENTA_CONCRETE_BUTTON.get(), Blocks.MAGENTA_CONCRETE);
         modWallBlock("magenta_concrete_wall", ModBlocks.MAGENTA_CONCRETE_WALL.get(), Blocks.MAGENTA_CONCRETE);
+        modTrapdoorBlock("magenta_concrete_trapdoor", ModBlocks.MAGENTA_CONCRETE_TRAPDOOR.get(), Blocks.MAGENTA_CONCRETE);
+        doorBlock((DoorBlock) ModBlocks.MAGENTA_CONCRETE_DOOR.get(), blockTexture(Blocks.MAGENTA_CONCRETE), blockTexture(Blocks.MAGENTA_CONCRETE));
 
         modStairsBlock("light_blue_concrete_stairs", ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS.get(), Blocks.LIGHT_BLUE_CONCRETE);
         modSlabBlock("light_blue_concrete_slab", ModBlocks.LIGHT_BLUE_CONCRETE_SLAB.get(), Blocks.LIGHT_BLUE_CONCRETE);
@@ -1069,6 +1331,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("light_blue_concrete_pressure_plate", ModBlocks.LIGHT_BLUE_CONCRETE_PRESSURE_PLATE.get(), Blocks.LIGHT_BLUE_CONCRETE);
         modButtonBlock("light_blue_concrete_button", ModBlocks.LIGHT_BLUE_CONCRETE_BUTTON.get(), Blocks.LIGHT_BLUE_CONCRETE);
         modWallBlock("light_blue_concrete_wall", ModBlocks.LIGHT_BLUE_CONCRETE_WALL.get(), Blocks.LIGHT_BLUE_CONCRETE);
+        modTrapdoorBlock("light_blue_concrete_trapdoor", ModBlocks.LIGHT_BLUE_CONCRETE_TRAPDOOR.get(), Blocks.LIGHT_BLUE_CONCRETE);
+        doorBlock((DoorBlock) ModBlocks.LIGHT_BLUE_CONCRETE_DOOR.get(), blockTexture(Blocks.LIGHT_BLUE_CONCRETE), blockTexture(Blocks.LIGHT_BLUE_CONCRETE));
 
         modStairsBlock("yellow_concrete_stairs", ModBlocks.YELLOW_CONCRETE_STAIRS.get(), Blocks.YELLOW_CONCRETE);
         modSlabBlock("yellow_concrete_slab", ModBlocks.YELLOW_CONCRETE_SLAB.get(), Blocks.YELLOW_CONCRETE);
@@ -1077,6 +1341,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("yellow_concrete_pressure_plate", ModBlocks.YELLOW_CONCRETE_PRESSURE_PLATE.get(), Blocks.YELLOW_CONCRETE);
         modButtonBlock("yellow_concrete_button", ModBlocks.YELLOW_CONCRETE_BUTTON.get(), Blocks.YELLOW_CONCRETE);
         modWallBlock("yellow_concrete_wall", ModBlocks.YELLOW_CONCRETE_WALL.get(), Blocks.YELLOW_CONCRETE);
+        modTrapdoorBlock("yellow_concrete_trapdoor", ModBlocks.YELLOW_CONCRETE_TRAPDOOR.get(), Blocks.YELLOW_CONCRETE);
+        doorBlock((DoorBlock) ModBlocks.YELLOW_CONCRETE_DOOR.get(), blockTexture(Blocks.YELLOW_CONCRETE), blockTexture(Blocks.YELLOW_CONCRETE));
 
         modStairsBlock("lime_concrete_stairs", ModBlocks.LIME_CONCRETE_STAIRS.get(), Blocks.LIME_CONCRETE);
         modSlabBlock("lime_concrete_slab", ModBlocks.LIME_CONCRETE_SLAB.get(), Blocks.LIME_CONCRETE);
@@ -1085,6 +1351,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("lime_concrete_pressure_plate", ModBlocks.LIME_CONCRETE_PRESSURE_PLATE.get(), Blocks.LIME_CONCRETE);
         modButtonBlock("lime_concrete_button", ModBlocks.LIME_CONCRETE_BUTTON.get(), Blocks.LIME_CONCRETE);
         modWallBlock("lime_concrete_wall", ModBlocks.LIME_CONCRETE_WALL.get(), Blocks.LIME_CONCRETE);
+        modTrapdoorBlock("lime_concrete_trapdoor", ModBlocks.LIME_CONCRETE_TRAPDOOR.get(), Blocks.LIME_CONCRETE);
+        doorBlock((DoorBlock) ModBlocks.LIME_CONCRETE_DOOR.get(), blockTexture(Blocks.LIME_CONCRETE), blockTexture(Blocks.LIME_CONCRETE));
 
         modStairsBlock("pink_concrete_stairs", ModBlocks.PINK_CONCRETE_STAIRS.get(), Blocks.PINK_CONCRETE);
         modSlabBlock("pink_concrete_slab", ModBlocks.PINK_CONCRETE_SLAB.get(), Blocks.PINK_CONCRETE);
@@ -1093,6 +1361,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("pink_concrete_pressure_plate", ModBlocks.PINK_CONCRETE_PRESSURE_PLATE.get(), Blocks.PINK_CONCRETE);
         modButtonBlock("pink_concrete_button", ModBlocks.PINK_CONCRETE_BUTTON.get(), Blocks.PINK_CONCRETE);
         modWallBlock("pink_concrete_wall", ModBlocks.PINK_CONCRETE_WALL.get(), Blocks.PINK_CONCRETE);
+        modTrapdoorBlock("pink_concrete_trapdoor", ModBlocks.PINK_CONCRETE_TRAPDOOR.get(), Blocks.PINK_CONCRETE);
+        doorBlock((DoorBlock) ModBlocks.PINK_CONCRETE_DOOR.get(), blockTexture(Blocks.PINK_CONCRETE), blockTexture(Blocks.PINK_CONCRETE));
 
         modStairsBlock("gray_concrete_stairs", ModBlocks.GRAY_CONCRETE_STAIRS.get(), Blocks.GRAY_CONCRETE);
         modSlabBlock("gray_concrete_slab", ModBlocks.GRAY_CONCRETE_SLAB.get(), Blocks.GRAY_CONCRETE);
@@ -1101,6 +1371,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("gray_concrete_pressure_plate", ModBlocks.GRAY_CONCRETE_PRESSURE_PLATE.get(), Blocks.GRAY_CONCRETE);
         modButtonBlock("gray_concrete_button", ModBlocks.GRAY_CONCRETE_BUTTON.get(), Blocks.GRAY_CONCRETE);
         modWallBlock("gray_concrete_wall", ModBlocks.GRAY_CONCRETE_WALL.get(), Blocks.GRAY_CONCRETE);
+        modTrapdoorBlock("gray_concrete_trapdoor", ModBlocks.GRAY_CONCRETE_TRAPDOOR.get(), Blocks.GRAY_CONCRETE);
+        doorBlock((DoorBlock) ModBlocks.GRAY_CONCRETE_DOOR.get(), blockTexture(Blocks.GRAY_CONCRETE), blockTexture(Blocks.GRAY_CONCRETE));
 
         modStairsBlock("light_gray_concrete_stairs", ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS.get(), Blocks.LIGHT_GRAY_CONCRETE);
         modSlabBlock("light_gray_concrete_slab", ModBlocks.LIGHT_GRAY_CONCRETE_SLAB.get(), Blocks.LIGHT_GRAY_CONCRETE);
@@ -1109,6 +1381,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("light_gray_concrete_pressure_plate", ModBlocks.LIGHT_GRAY_CONCRETE_PRESSURE_PLATE.get(), Blocks.LIGHT_GRAY_CONCRETE);
         modButtonBlock("light_gray_concrete_button", ModBlocks.LIGHT_GRAY_CONCRETE_BUTTON.get(), Blocks.LIGHT_GRAY_CONCRETE);
         modWallBlock("light_gray_concrete_wall", ModBlocks.LIGHT_GRAY_CONCRETE_WALL.get(), Blocks.LIGHT_GRAY_CONCRETE);
+        modTrapdoorBlock("light_gray_concrete_trapdoor", ModBlocks.LIGHT_GRAY_CONCRETE_TRAPDOOR.get(), Blocks.LIGHT_GRAY_CONCRETE);
+        doorBlock((DoorBlock) ModBlocks.LIGHT_GRAY_CONCRETE_DOOR.get(), blockTexture(Blocks.LIGHT_GRAY_CONCRETE), blockTexture(Blocks.LIGHT_GRAY_CONCRETE));
 
         modStairsBlock("cyan_concrete_stairs", ModBlocks.CYAN_CONCRETE_STAIRS.get(), Blocks.CYAN_CONCRETE);
         modSlabBlock("cyan_concrete_slab", ModBlocks.CYAN_CONCRETE_SLAB.get(), Blocks.CYAN_CONCRETE);
@@ -1117,6 +1391,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("cyan_concrete_pressure_plate", ModBlocks.CYAN_CONCRETE_PRESSURE_PLATE.get(), Blocks.CYAN_CONCRETE);
         modButtonBlock("cyan_concrete_button", ModBlocks.CYAN_CONCRETE_BUTTON.get(), Blocks.CYAN_CONCRETE);
         modWallBlock("cyan_concrete_wall", ModBlocks.CYAN_CONCRETE_WALL.get(), Blocks.CYAN_CONCRETE);
+        modTrapdoorBlock("cyan_concrete_trapdoor", ModBlocks.CYAN_CONCRETE_TRAPDOOR.get(), Blocks.CYAN_CONCRETE);
+        doorBlock((DoorBlock) ModBlocks.CYAN_CONCRETE_DOOR.get(), blockTexture(Blocks.CYAN_CONCRETE), blockTexture(Blocks.CYAN_CONCRETE));
 
         modStairsBlock("purple_concrete_stairs", ModBlocks.PURPLE_CONCRETE_STAIRS.get(), Blocks.PURPLE_CONCRETE);
         modSlabBlock("purple_concrete_slab", ModBlocks.PURPLE_CONCRETE_SLAB.get(), Blocks.PURPLE_CONCRETE);
@@ -1125,6 +1401,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("purple_concrete_pressure_plate", ModBlocks.PURPLE_CONCRETE_PRESSURE_PLATE.get(), Blocks.PURPLE_CONCRETE);
         modButtonBlock("purple_concrete_button", ModBlocks.PURPLE_CONCRETE_BUTTON.get(), Blocks.PURPLE_CONCRETE);
         modWallBlock("purple_concrete_wall", ModBlocks.PURPLE_CONCRETE_WALL.get(), Blocks.PURPLE_CONCRETE);
+        modTrapdoorBlock("purple_concrete_trapdoor", ModBlocks.PURPLE_CONCRETE_TRAPDOOR.get(), Blocks.PURPLE_CONCRETE);
+        doorBlock((DoorBlock) ModBlocks.PURPLE_CONCRETE_DOOR.get(), blockTexture(Blocks.PURPLE_CONCRETE), blockTexture(Blocks.PURPLE_CONCRETE));
 
         modStairsBlock("blue_concrete_stairs", ModBlocks.BLUE_CONCRETE_STAIRS.get(), Blocks.BLUE_CONCRETE);
         modSlabBlock("blue_concrete_slab", ModBlocks.BLUE_CONCRETE_SLAB.get(), Blocks.BLUE_CONCRETE);
@@ -1133,6 +1411,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("blue_concrete_pressure_plate", ModBlocks.BLUE_CONCRETE_PRESSURE_PLATE.get(), Blocks.BLUE_CONCRETE);
         modButtonBlock("blue_concrete_button", ModBlocks.BLUE_CONCRETE_BUTTON.get(), Blocks.BLUE_CONCRETE);
         modWallBlock("blue_concrete_wall", ModBlocks.BLUE_CONCRETE_WALL.get(), Blocks.BLUE_CONCRETE);
+        modTrapdoorBlock("blue_concrete_trapdoor", ModBlocks.BLUE_CONCRETE_TRAPDOOR.get(), Blocks.BLUE_CONCRETE);
+        doorBlock((DoorBlock) ModBlocks.BLUE_CONCRETE_DOOR.get(), blockTexture(Blocks.BLUE_CONCRETE), blockTexture(Blocks.BLUE_CONCRETE));
 
         modStairsBlock("brown_concrete_stairs", ModBlocks.BROWN_CONCRETE_STAIRS.get(), Blocks.BROWN_CONCRETE);
         modSlabBlock("brown_concrete_slab", ModBlocks.BROWN_CONCRETE_SLAB.get(), Blocks.BROWN_CONCRETE);
@@ -1141,6 +1421,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("brown_concrete_pressure_plate", ModBlocks.BROWN_CONCRETE_PRESSURE_PLATE.get(), Blocks.BROWN_CONCRETE);
         modButtonBlock("brown_concrete_button", ModBlocks.BROWN_CONCRETE_BUTTON.get(), Blocks.BROWN_CONCRETE);
         modWallBlock("brown_concrete_wall", ModBlocks.BROWN_CONCRETE_WALL.get(), Blocks.BROWN_CONCRETE);
+        modTrapdoorBlock("brown_concrete_trapdoor", ModBlocks.BROWN_CONCRETE_TRAPDOOR.get(), Blocks.BROWN_CONCRETE);
+        doorBlock((DoorBlock) ModBlocks.BROWN_CONCRETE_DOOR.get(), blockTexture(Blocks.BROWN_CONCRETE), blockTexture(Blocks.BROWN_CONCRETE));
 
         modStairsBlock("green_concrete_stairs", ModBlocks.GREEN_CONCRETE_STAIRS.get(), Blocks.GREEN_CONCRETE);
         modSlabBlock("green_concrete_slab", ModBlocks.GREEN_CONCRETE_SLAB.get(), Blocks.GREEN_CONCRETE);
@@ -1149,6 +1431,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("green_concrete_pressure_plate", ModBlocks.GREEN_CONCRETE_PRESSURE_PLATE.get(), Blocks.GREEN_CONCRETE);
         modButtonBlock("green_concrete_button", ModBlocks.GREEN_CONCRETE_BUTTON.get(), Blocks.GREEN_CONCRETE);
         modWallBlock("green_concrete_wall", ModBlocks.GREEN_CONCRETE_WALL.get(), Blocks.GREEN_CONCRETE);
+        modTrapdoorBlock("green_concrete_trapdoor", ModBlocks.GREEN_CONCRETE_TRAPDOOR.get(), Blocks.GREEN_CONCRETE);
+        doorBlock((DoorBlock) ModBlocks.GREEN_CONCRETE_DOOR.get(), blockTexture(Blocks.GREEN_CONCRETE), blockTexture(Blocks.GREEN_CONCRETE));
 
         modStairsBlock("red_concrete_stairs", ModBlocks.RED_CONCRETE_STAIRS.get(), Blocks.RED_CONCRETE);
         modSlabBlock("red_concrete_slab", ModBlocks.RED_CONCRETE_SLAB.get(), Blocks.RED_CONCRETE);
@@ -1157,6 +1441,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("red_concrete_pressure_plate", ModBlocks.RED_CONCRETE_PRESSURE_PLATE.get(), Blocks.RED_CONCRETE);
         modButtonBlock("red_concrete_button", ModBlocks.RED_CONCRETE_BUTTON.get(), Blocks.RED_CONCRETE);
         modWallBlock("red_concrete_wall", ModBlocks.RED_CONCRETE_WALL.get(), Blocks.RED_CONCRETE);
+        modTrapdoorBlock("red_concrete_trapdoor", ModBlocks.RED_CONCRETE_TRAPDOOR.get(), Blocks.RED_CONCRETE);
+        doorBlock((DoorBlock) ModBlocks.RED_CONCRETE_DOOR.get(), blockTexture(Blocks.RED_CONCRETE), blockTexture(Blocks.RED_CONCRETE));
 
         modStairsBlock("black_concrete_stairs", ModBlocks.BLACK_CONCRETE_STAIRS.get(), Blocks.BLACK_CONCRETE);
         modSlabBlock("black_concrete_slab", ModBlocks.BLACK_CONCRETE_SLAB.get(), Blocks.BLACK_CONCRETE);
@@ -1165,6 +1451,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("black_concrete_pressure_plate", ModBlocks.BLACK_CONCRETE_PRESSURE_PLATE.get(), Blocks.BLACK_CONCRETE);
         modButtonBlock("black_concrete_button", ModBlocks.BLACK_CONCRETE_BUTTON.get(), Blocks.BLACK_CONCRETE);
         modWallBlock("black_concrete_wall", ModBlocks.BLACK_CONCRETE_WALL.get(), Blocks.BLACK_CONCRETE);
+        modTrapdoorBlock("black_concrete_trapdoor", ModBlocks.BLACK_CONCRETE_TRAPDOOR.get(), Blocks.BLACK_CONCRETE);
+        doorBlock((DoorBlock) ModBlocks.BLACK_CONCRETE_DOOR.get(), blockTexture(Blocks.BLACK_CONCRETE), blockTexture(Blocks.BLACK_CONCRETE));
 
         modStairsBlock("honeycomb_block_stairs", ModBlocks.HONEYCOMB_BLOCK_STAIRS.get(), Blocks.HONEYCOMB_BLOCK);
         modSlabBlock("honeycomb_block_slab", ModBlocks.HONEYCOMB_BLOCK_SLAB.get(), Blocks.HONEYCOMB_BLOCK);
@@ -1173,6 +1461,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("honeycomb_block_pressure_plate", ModBlocks.HONEYCOMB_BLOCK_PRESSURE_PLATE.get(), Blocks.HONEYCOMB_BLOCK);
         modButtonBlock("honeycomb_block_button", ModBlocks.HONEYCOMB_BLOCK_BUTTON.get(), Blocks.HONEYCOMB_BLOCK);
         modWallBlock("honeycomb_block_wall", ModBlocks.HONEYCOMB_BLOCK_WALL.get(), Blocks.HONEYCOMB_BLOCK);
+        modTrapdoorBlock("honeycomb_block_trapdoor", ModBlocks.HONEYCOMB_BLOCK_TRAPDOOR.get(), Blocks.HONEYCOMB_BLOCK);
+        doorBlock((DoorBlock) ModBlocks.HONEYCOMB_BLOCK_DOOR.get(), blockTexture(Blocks.HONEYCOMB_BLOCK), blockTexture(Blocks.HONEYCOMB_BLOCK));
 
         modStairsBlock("crying_obsidian_stairs", ModBlocks.CRYING_OBSIDIAN_STAIRS.get(), Blocks.CRYING_OBSIDIAN);
         modSlabBlock("crying_obsidian_slab", ModBlocks.CRYING_OBSIDIAN_SLAB.get(), Blocks.CRYING_OBSIDIAN);
@@ -1181,6 +1471,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("crying_obsidian_pressure_plate", ModBlocks.CRYING_OBSIDIAN_PRESSURE_PLATE.get(), Blocks.CRYING_OBSIDIAN);
         modButtonBlock("crying_obsidian_button", ModBlocks.CRYING_OBSIDIAN_BUTTON.get(), Blocks.CRYING_OBSIDIAN);
         modWallBlock("crying_obsidian_wall", ModBlocks.CRYING_OBSIDIAN_WALL.get(), Blocks.CRYING_OBSIDIAN);
+        modTrapdoorBlock("crying_obsidian_trapdoor", ModBlocks.CRYING_OBSIDIAN_TRAPDOOR.get(), Blocks.CRYING_OBSIDIAN);
+        doorBlock((DoorBlock) ModBlocks.CRYING_OBSIDIAN_DOOR.get(), blockTexture(Blocks.CRYING_OBSIDIAN), blockTexture(Blocks.CRYING_OBSIDIAN));
 
         modStairsBlock("blackstone_stairs", ModBlocks.BLACKSTONE_STAIRS.get(), Blocks.BLACKSTONE);
         modSlabBlock("blackstone_slab", ModBlocks.BLACKSTONE_SLAB.get(), Blocks.BLACKSTONE);
@@ -1189,6 +1481,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("blackstone_pressure_plate", ModBlocks.BLACKSTONE_PRESSURE_PLATE.get(), Blocks.BLACKSTONE);
         modButtonBlock("blackstone_button", ModBlocks.BLACKSTONE_BUTTON.get(), Blocks.BLACKSTONE);
         modWallBlock("blackstone_wall", ModBlocks.BLACKSTONE_WALL.get(), Blocks.BLACKSTONE);
+        modTrapdoorBlock("blackstone_trapdoor", ModBlocks.BLACKSTONE_TRAPDOOR.get(), Blocks.BLACKSTONE);
+        doorBlock((DoorBlock) ModBlocks.BLACKSTONE_DOOR.get(), blockTexture(Blocks.BLACKSTONE), blockTexture(Blocks.BLACKSTONE));
 
         modStairsBlock("gilded_blackstone_stairs", ModBlocks.GILDED_BLACKSTONE_STAIRS.get(), Blocks.GILDED_BLACKSTONE);
         modSlabBlock("gilded_blackstone_slab", ModBlocks.GILDED_BLACKSTONE_SLAB.get(), Blocks.GILDED_BLACKSTONE);
@@ -1197,6 +1491,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("gilded_blackstone_pressure_plate", ModBlocks.GILDED_BLACKSTONE_PRESSURE_PLATE.get(), Blocks.GILDED_BLACKSTONE);
         modButtonBlock("gilded_blackstone_button", ModBlocks.GILDED_BLACKSTONE_BUTTON.get(), Blocks.GILDED_BLACKSTONE);
         modWallBlock("gilded_blackstone_wall", ModBlocks.GILDED_BLACKSTONE_WALL.get(), Blocks.GILDED_BLACKSTONE);
+        modTrapdoorBlock("gilded_blackstone_trapdoor", ModBlocks.GILDED_BLACKSTONE_TRAPDOOR.get(), Blocks.GILDED_BLACKSTONE);
+        doorBlock((DoorBlock) ModBlocks.GILDED_BLACKSTONE_DOOR.get(), blockTexture(Blocks.GILDED_BLACKSTONE), blockTexture(Blocks.GILDED_BLACKSTONE));
 
         modStairsBlock("polished_blackstone_stairs", ModBlocks.POLISHED_BLACKSTONE_STAIRS.get(), Blocks.POLISHED_BLACKSTONE);
         modSlabBlock("polished_blackstone_slab", ModBlocks.POLISHED_BLACKSTONE_SLAB.get(), Blocks.POLISHED_BLACKSTONE);
@@ -1205,6 +1501,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("polished_blackstone_pressure_plate", ModBlocks.POLISHED_BLACKSTONE_PRESSURE_PLATE.get(), Blocks.POLISHED_BLACKSTONE);
         modButtonBlock("polished_blackstone_button", ModBlocks.POLISHED_BLACKSTONE_BUTTON.get(), Blocks.POLISHED_BLACKSTONE);
         modWallBlock("polished_blackstone_wall", ModBlocks.POLISHED_BLACKSTONE_WALL.get(), Blocks.POLISHED_BLACKSTONE);
+        modTrapdoorBlock("polished_blackstone_trapdoor", ModBlocks.POLISHED_BLACKSTONE_TRAPDOOR.get(), Blocks.POLISHED_BLACKSTONE);
+        doorBlock((DoorBlock) ModBlocks.POLISHED_BLACKSTONE_DOOR.get(), blockTexture(Blocks.POLISHED_BLACKSTONE), blockTexture(Blocks.POLISHED_BLACKSTONE));
 
         modStairsBlock("chiseled_polished_blackstone_stairs", ModBlocks.CHISELED_POLISHED_BLACKSTONE_STAIRS.get(), Blocks.CHISELED_POLISHED_BLACKSTONE);
         modSlabBlock("chiseled_polished_blackstone_slab", ModBlocks.CHISELED_POLISHED_BLACKSTONE_SLAB.get(), Blocks.CHISELED_POLISHED_BLACKSTONE);
@@ -1213,6 +1511,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("chiseled_polished_blackstone_pressure_plate", ModBlocks.CHISELED_POLISHED_BLACKSTONE_PRESSURE_PLATE.get(), Blocks.CHISELED_POLISHED_BLACKSTONE);
         modButtonBlock("chiseled_polished_blackstone_button", ModBlocks.CHISELED_POLISHED_BLACKSTONE_BUTTON.get(), Blocks.CHISELED_POLISHED_BLACKSTONE);
         modWallBlock("chiseled_polished_blackstone_wall", ModBlocks.CHISELED_POLISHED_BLACKSTONE_WALL.get(), Blocks.CHISELED_POLISHED_BLACKSTONE);
+        modTrapdoorBlock("chiseled_polished_blackstone_trapdoor", ModBlocks.CHISELED_POLISHED_BLACKSTONE_TRAPDOOR.get(), Blocks.CHISELED_POLISHED_BLACKSTONE);
+        doorBlock((DoorBlock) ModBlocks.CHISELED_POLISHED_BLACKSTONE_DOOR.get(), blockTexture(Blocks.CHISELED_POLISHED_BLACKSTONE), blockTexture(Blocks.CHISELED_POLISHED_BLACKSTONE));
 
         modStairsBlock("polished_blackstone_bricks_stairs", ModBlocks.POLISHED_BLACKSTONE_BRICKS_STAIRS.get(), Blocks.POLISHED_BLACKSTONE_BRICKS);
         modSlabBlock("polished_blackstone_bricks_slab", ModBlocks.POLISHED_BLACKSTONE_BRICKS_SLAB.get(), Blocks.POLISHED_BLACKSTONE_BRICKS);
@@ -1221,6 +1521,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("polished_blackstone_bricks_pressure_plate", ModBlocks.POLISHED_BLACKSTONE_BRICKS_PRESSURE_PLATE.get(), Blocks.POLISHED_BLACKSTONE_BRICKS);
         modButtonBlock("polished_blackstone_bricks_button", ModBlocks.POLISHED_BLACKSTONE_BRICKS_BUTTON.get(), Blocks.POLISHED_BLACKSTONE_BRICKS);
         modWallBlock("polished_blackstone_bricks_wall", ModBlocks.POLISHED_BLACKSTONE_BRICKS_WALL.get(), Blocks.POLISHED_BLACKSTONE_BRICKS);
+        modTrapdoorBlock("polished_blackstone_bricks_trapdoor", ModBlocks.POLISHED_BLACKSTONE_BRICKS_TRAPDOOR.get(), Blocks.POLISHED_BLACKSTONE_BRICKS);
+        doorBlock((DoorBlock) ModBlocks.POLISHED_BLACKSTONE_BRICKS_DOOR.get(), blockTexture(Blocks.POLISHED_BLACKSTONE_BRICKS), blockTexture(Blocks.POLISHED_BLACKSTONE_BRICKS));
 
         modStairsBlock("cracked_polished_blackstone_bricks_stairs", ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_STAIRS.get(), Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
         modSlabBlock("cracked_polished_blackstone_bricks_slab", ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_SLAB.get(), Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
@@ -1229,6 +1531,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("cracked_polished_blackstone_bricks_pressure_plate", ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_PRESSURE_PLATE.get(), Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
         modButtonBlock("cracked_polished_blackstone_bricks_button", ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_BUTTON.get(), Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
         modWallBlock("cracked_polished_blackstone_bricks_wall", ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_WALL.get(), Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
+        modTrapdoorBlock("cracked_polished_blackstone_bricks_trapdoor", ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_TRAPDOOR.get(), Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
+        doorBlock((DoorBlock) ModBlocks.CRACKED_POLISHED_BLACKSTONE_BRICKS_DOOR.get(), blockTexture(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS), blockTexture(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS));
 
         modStairsBlock("glass_stairs", ModBlocks.GLASS_STAIRS.get(), Blocks.GLASS);
         modSlabBlock("glass_slab", ModBlocks.GLASS_SLAB.get(), Blocks.GLASS);
@@ -1237,6 +1541,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("glass_pressure_plate", ModBlocks.GLASS_PRESSURE_PLATE.get(), Blocks.GLASS);
         modButtonBlock("glass_button", ModBlocks.GLASS_BUTTON.get(), Blocks.GLASS);
         modWallBlock("glass_wall", ModBlocks.GLASS_WALL.get(), Blocks.GLASS);
+        modTrapdoorBlock("glass_trapdoor", ModBlocks.GLASS_TRAPDOOR.get(), Blocks.GLASS);
+        doorBlock((DoorBlock) ModBlocks.GLASS_DOOR.get(), blockTexture(Blocks.GLASS), blockTexture(Blocks.GLASS));
 
         modStairsBlock("tinted_glass_stairs", ModBlocks.TINTED_GLASS_STAIRS.get(), Blocks.TINTED_GLASS);
         modSlabBlock("tinted_glass_slab", ModBlocks.TINTED_GLASS_SLAB.get(), Blocks.TINTED_GLASS);
@@ -1245,6 +1551,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("tinted_glass_pressure_plate", ModBlocks.TINTED_GLASS_PRESSURE_PLATE.get(), Blocks.TINTED_GLASS);
         modButtonBlock("tinted_glass_button", ModBlocks.TINTED_GLASS_BUTTON.get(), Blocks.TINTED_GLASS);
         modWallBlock("tinted_glass_wall", ModBlocks.TINTED_GLASS_WALL.get(), Blocks.TINTED_GLASS);
+        modTrapdoorBlock("tinted_glass_trapdoor", ModBlocks.TINTED_GLASS_TRAPDOOR.get(), Blocks.TINTED_GLASS);
+        doorBlock((DoorBlock) ModBlocks.TINTED_GLASS_DOOR.get(), blockTexture(Blocks.TINTED_GLASS), blockTexture(Blocks.TINTED_GLASS));
 
         modStairsBlock("white_stained_glass_stairs", ModBlocks.WHITE_STAINED_GLASS_STAIRS.get(), Blocks.WHITE_STAINED_GLASS);
         modSlabBlock("white_stained_glass_slab", ModBlocks.WHITE_STAINED_GLASS_SLAB.get(), Blocks.WHITE_STAINED_GLASS);
@@ -1253,6 +1561,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("white_stained_glass_pressure_plate", ModBlocks.WHITE_STAINED_GLASS_PRESSURE_PLATE.get(), Blocks.WHITE_STAINED_GLASS);
         modButtonBlock("white_stained_glass_button", ModBlocks.WHITE_STAINED_GLASS_BUTTON.get(), Blocks.WHITE_STAINED_GLASS);
         modWallBlock("white_stained_glass_wall", ModBlocks.WHITE_STAINED_GLASS_WALL.get(), Blocks.WHITE_STAINED_GLASS);
+        modTrapdoorBlock("white_stained_glass_trapdoor", ModBlocks.WHITE_STAINED_GLASS_TRAPDOOR.get(), Blocks.WHITE_STAINED_GLASS);
+        doorBlock((DoorBlock) ModBlocks.WHITE_STAINED_GLASS_DOOR.get(), blockTexture(Blocks.WHITE_STAINED_GLASS), blockTexture(Blocks.WHITE_STAINED_GLASS));
 
         modStairsBlock("orange_stained_glass_stairs", ModBlocks.ORANGE_STAINED_GLASS_STAIRS.get(), Blocks.ORANGE_STAINED_GLASS);
         modSlabBlock("orange_stained_glass_slab", ModBlocks.ORANGE_STAINED_GLASS_SLAB.get(), Blocks.ORANGE_STAINED_GLASS);
@@ -1261,6 +1571,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("orange_stained_glass_pressure_plate", ModBlocks.ORANGE_STAINED_GLASS_PRESSURE_PLATE.get(), Blocks.ORANGE_STAINED_GLASS);
         modButtonBlock("orange_stained_glass_button", ModBlocks.ORANGE_STAINED_GLASS_BUTTON.get(), Blocks.ORANGE_STAINED_GLASS);
         modWallBlock("orange_stained_glass_wall", ModBlocks.ORANGE_STAINED_GLASS_WALL.get(), Blocks.ORANGE_STAINED_GLASS);
+        modTrapdoorBlock("orange_stained_glass_trapdoor", ModBlocks.ORANGE_STAINED_GLASS_TRAPDOOR.get(), Blocks.ORANGE_STAINED_GLASS);
+        doorBlock((DoorBlock) ModBlocks.ORANGE_STAINED_GLASS_DOOR.get(), blockTexture(Blocks.ORANGE_STAINED_GLASS), blockTexture(Blocks.ORANGE_STAINED_GLASS));
 
         modStairsBlock("magenta_stained_glass_stairs", ModBlocks.MAGENTA_STAINED_GLASS_STAIRS.get(), Blocks.MAGENTA_STAINED_GLASS);
         modSlabBlock("magenta_stained_glass_slab", ModBlocks.MAGENTA_STAINED_GLASS_SLAB.get(), Blocks.MAGENTA_STAINED_GLASS);
@@ -1269,6 +1581,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("magenta_stained_glass_pressure_plate", ModBlocks.MAGENTA_STAINED_GLASS_PRESSURE_PLATE.get(), Blocks.MAGENTA_STAINED_GLASS);
         modButtonBlock("magenta_stained_glass_button", ModBlocks.MAGENTA_STAINED_GLASS_BUTTON.get(), Blocks.MAGENTA_STAINED_GLASS);
         modWallBlock("magenta_stained_glass_wall", ModBlocks.MAGENTA_STAINED_GLASS_WALL.get(), Blocks.MAGENTA_STAINED_GLASS);
+        modTrapdoorBlock("magenta_stained_glass_trapdoor", ModBlocks.MAGENTA_STAINED_GLASS_TRAPDOOR.get(), Blocks.MAGENTA_STAINED_GLASS);
+        doorBlock((DoorBlock) ModBlocks.MAGENTA_STAINED_GLASS_DOOR.get(), blockTexture(Blocks.MAGENTA_STAINED_GLASS), blockTexture(Blocks.MAGENTA_STAINED_GLASS));
 
         modStairsBlock("light_blue_stained_glass_stairs", ModBlocks.LIGHT_BLUE_STAINED_GLASS_STAIRS.get(), Blocks.LIGHT_BLUE_STAINED_GLASS);
         modSlabBlock("light_blue_stained_glass_slab", ModBlocks.LIGHT_BLUE_STAINED_GLASS_SLAB.get(), Blocks.LIGHT_BLUE_STAINED_GLASS);
@@ -1277,6 +1591,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("light_blue_stained_glass_pressure_plate", ModBlocks.LIGHT_BLUE_STAINED_GLASS_PRESSURE_PLATE.get(), Blocks.LIGHT_BLUE_STAINED_GLASS);
         modButtonBlock("light_blue_stained_glass_button", ModBlocks.LIGHT_BLUE_STAINED_GLASS_BUTTON.get(), Blocks.LIGHT_BLUE_STAINED_GLASS);
         modWallBlock("light_blue_stained_glass_wall", ModBlocks.LIGHT_BLUE_STAINED_GLASS_WALL.get(), Blocks.LIGHT_BLUE_STAINED_GLASS);
+        modTrapdoorBlock("light_blue_stained_glass_trapdoor", ModBlocks.LIGHT_BLUE_STAINED_GLASS_TRAPDOOR.get(), Blocks.LIGHT_BLUE_STAINED_GLASS);
+        doorBlock((DoorBlock) ModBlocks.LIGHT_BLUE_STAINED_GLASS_DOOR.get(), blockTexture(Blocks.LIGHT_BLUE_STAINED_GLASS), blockTexture(Blocks.LIGHT_BLUE_STAINED_GLASS));
 
         modStairsBlock("yellow_stained_glass_stairs", ModBlocks.YELLOW_STAINED_GLASS_STAIRS.get(), Blocks.YELLOW_STAINED_GLASS);
         modSlabBlock("yellow_stained_glass_slab", ModBlocks.YELLOW_STAINED_GLASS_SLAB.get(), Blocks.YELLOW_STAINED_GLASS);
@@ -1285,6 +1601,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("yellow_stained_glass_pressure_plate", ModBlocks.YELLOW_STAINED_GLASS_PRESSURE_PLATE.get(), Blocks.YELLOW_STAINED_GLASS);
         modButtonBlock("yellow_stained_glass_button", ModBlocks.YELLOW_STAINED_GLASS_BUTTON.get(), Blocks.YELLOW_STAINED_GLASS);
         modWallBlock("yellow_stained_glass_wall", ModBlocks.YELLOW_STAINED_GLASS_WALL.get(), Blocks.YELLOW_STAINED_GLASS);
+        modTrapdoorBlock("yellow_stained_glass_trapdoor", ModBlocks.YELLOW_STAINED_GLASS_TRAPDOOR.get(), Blocks.YELLOW_STAINED_GLASS);
+        doorBlock((DoorBlock) ModBlocks.YELLOW_STAINED_GLASS_DOOR.get(), blockTexture(Blocks.YELLOW_STAINED_GLASS), blockTexture(Blocks.YELLOW_STAINED_GLASS));
 
         modStairsBlock("lime_stained_glass_stairs", ModBlocks.LIME_STAINED_GLASS_STAIRS.get(), Blocks.LIME_STAINED_GLASS);
         modSlabBlock("lime_stained_glass_slab", ModBlocks.LIME_STAINED_GLASS_SLAB.get(), Blocks.LIME_STAINED_GLASS);
@@ -1293,6 +1611,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("lime_stained_glass_pressure_plate", ModBlocks.LIME_STAINED_GLASS_PRESSURE_PLATE.get(), Blocks.LIME_STAINED_GLASS);
         modButtonBlock("lime_stained_glass_button", ModBlocks.LIME_STAINED_GLASS_BUTTON.get(), Blocks.LIME_STAINED_GLASS);
         modWallBlock("lime_stained_glass_wall", ModBlocks.LIME_STAINED_GLASS_WALL.get(), Blocks.LIME_STAINED_GLASS);
+        modTrapdoorBlock("lime_stained_glass_trapdoor", ModBlocks.LIME_STAINED_GLASS_TRAPDOOR.get(), Blocks.LIME_STAINED_GLASS);
+        doorBlock((DoorBlock) ModBlocks.LIME_STAINED_GLASS_DOOR.get(), blockTexture(Blocks.LIME_STAINED_GLASS), blockTexture(Blocks.LIME_STAINED_GLASS));
 
         modStairsBlock("pink_stained_glass_stairs", ModBlocks.PINK_STAINED_GLASS_STAIRS.get(), Blocks.PINK_STAINED_GLASS);
         modSlabBlock("pink_stained_glass_slab", ModBlocks.PINK_STAINED_GLASS_SLAB.get(), Blocks.PINK_STAINED_GLASS);
@@ -1301,6 +1621,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("pink_stained_glass_pressure_plate", ModBlocks.PINK_STAINED_GLASS_PRESSURE_PLATE.get(), Blocks.PINK_STAINED_GLASS);
         modButtonBlock("pink_stained_glass_button", ModBlocks.PINK_STAINED_GLASS_BUTTON.get(), Blocks.PINK_STAINED_GLASS);
         modWallBlock("pink_stained_glass_wall", ModBlocks.PINK_STAINED_GLASS_WALL.get(), Blocks.PINK_STAINED_GLASS);
+        modTrapdoorBlock("pink_stained_glass_trapdoor", ModBlocks.PINK_STAINED_GLASS_TRAPDOOR.get(), Blocks.PINK_STAINED_GLASS);
+        doorBlock((DoorBlock) ModBlocks.PINK_STAINED_GLASS_DOOR.get(), blockTexture(Blocks.PINK_STAINED_GLASS), blockTexture(Blocks.PINK_STAINED_GLASS));
 
         modStairsBlock("gray_stained_glass_stairs", ModBlocks.GRAY_STAINED_GLASS_STAIRS.get(), Blocks.GRAY_STAINED_GLASS);
         modSlabBlock("gray_stained_glass_slab", ModBlocks.GRAY_STAINED_GLASS_SLAB.get(), Blocks.GRAY_STAINED_GLASS);
@@ -1309,6 +1631,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("gray_stained_glass_pressure_plate", ModBlocks.GRAY_STAINED_GLASS_PRESSURE_PLATE.get(), Blocks.GRAY_STAINED_GLASS);
         modButtonBlock("gray_stained_glass_button", ModBlocks.GRAY_STAINED_GLASS_BUTTON.get(), Blocks.GRAY_STAINED_GLASS);
         modWallBlock("gray_stained_glass_wall", ModBlocks.GRAY_STAINED_GLASS_WALL.get(), Blocks.GRAY_STAINED_GLASS);
+        modTrapdoorBlock("gray_stained_glass_trapdoor", ModBlocks.GRAY_STAINED_GLASS_TRAPDOOR.get(), Blocks.GRAY_STAINED_GLASS);
+        doorBlock((DoorBlock) ModBlocks.GRAY_STAINED_GLASS_DOOR.get(), blockTexture(Blocks.GRAY_STAINED_GLASS), blockTexture(Blocks.GRAY_STAINED_GLASS));
 
         modStairsBlock("light_gray_stained_glass_stairs", ModBlocks.LIGHT_GRAY_STAINED_GLASS_STAIRS.get(), Blocks.LIGHT_GRAY_STAINED_GLASS);
         modSlabBlock("light_gray_stained_glass_slab", ModBlocks.LIGHT_GRAY_STAINED_GLASS_SLAB.get(), Blocks.LIGHT_GRAY_STAINED_GLASS);
@@ -1317,6 +1641,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("light_gray_stained_glass_pressure_plate", ModBlocks.LIGHT_GRAY_STAINED_GLASS_PRESSURE_PLATE.get(), Blocks.LIGHT_GRAY_STAINED_GLASS);
         modButtonBlock("light_gray_stained_glass_button", ModBlocks.LIGHT_GRAY_STAINED_GLASS_BUTTON.get(), Blocks.LIGHT_GRAY_STAINED_GLASS);
         modWallBlock("light_gray_stained_glass_wall", ModBlocks.LIGHT_GRAY_STAINED_GLASS_WALL.get(), Blocks.LIGHT_GRAY_STAINED_GLASS);
+        modTrapdoorBlock("light_gray_stained_glass_trapdoor", ModBlocks.LIGHT_GRAY_STAINED_GLASS_TRAPDOOR.get(), Blocks.LIGHT_GRAY_STAINED_GLASS);
+        doorBlock((DoorBlock) ModBlocks.LIGHT_GRAY_STAINED_GLASS_DOOR.get(), blockTexture(Blocks.LIGHT_GRAY_STAINED_GLASS), blockTexture(Blocks.LIGHT_GRAY_STAINED_GLASS));
 
         modStairsBlock("cyan_stained_glass_stairs", ModBlocks.CYAN_STAINED_GLASS_STAIRS.get(), Blocks.CYAN_STAINED_GLASS);
         modSlabBlock("cyan_stained_glass_slab", ModBlocks.CYAN_STAINED_GLASS_SLAB.get(), Blocks.CYAN_STAINED_GLASS);
@@ -1325,6 +1651,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("cyan_stained_glass_pressure_plate", ModBlocks.CYAN_STAINED_GLASS_PRESSURE_PLATE.get(), Blocks.CYAN_STAINED_GLASS);
         modButtonBlock("cyan_stained_glass_button", ModBlocks.CYAN_STAINED_GLASS_BUTTON.get(), Blocks.CYAN_STAINED_GLASS);
         modWallBlock("cyan_stained_glass_wall", ModBlocks.CYAN_STAINED_GLASS_WALL.get(), Blocks.CYAN_STAINED_GLASS);
+        modTrapdoorBlock("cyan_stained_glass_trapdoor", ModBlocks.CYAN_STAINED_GLASS_TRAPDOOR.get(), Blocks.CYAN_STAINED_GLASS);
+        doorBlock((DoorBlock) ModBlocks.CYAN_STAINED_GLASS_DOOR.get(), blockTexture(Blocks.CYAN_STAINED_GLASS), blockTexture(Blocks.CYAN_STAINED_GLASS));
 
         modStairsBlock("purple_stained_glass_stairs", ModBlocks.PURPLE_STAINED_GLASS_STAIRS.get(), Blocks.PURPLE_STAINED_GLASS);
         modSlabBlock("purple_stained_glass_slab", ModBlocks.PURPLE_STAINED_GLASS_SLAB.get(), Blocks.PURPLE_STAINED_GLASS);
@@ -1333,6 +1661,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("purple_stained_glass_pressure_plate", ModBlocks.PURPLE_STAINED_GLASS_PRESSURE_PLATE.get(), Blocks.PURPLE_STAINED_GLASS);
         modButtonBlock("purple_stained_glass_button", ModBlocks.PURPLE_STAINED_GLASS_BUTTON.get(), Blocks.PURPLE_STAINED_GLASS);
         modWallBlock("purple_stained_glass_wall", ModBlocks.PURPLE_STAINED_GLASS_WALL.get(), Blocks.PURPLE_STAINED_GLASS);
+        modTrapdoorBlock("purple_stained_glass_trapdoor", ModBlocks.PURPLE_STAINED_GLASS_TRAPDOOR.get(), Blocks.PURPLE_STAINED_GLASS);
+        doorBlock((DoorBlock) ModBlocks.PURPLE_STAINED_GLASS_DOOR.get(), blockTexture(Blocks.PURPLE_STAINED_GLASS), blockTexture(Blocks.PURPLE_STAINED_GLASS));
 
         modStairsBlock("blue_stained_glass_stairs", ModBlocks.BLUE_STAINED_GLASS_STAIRS.get(), Blocks.BLUE_STAINED_GLASS);
         modSlabBlock("blue_stained_glass_slab", ModBlocks.BLUE_STAINED_GLASS_SLAB.get(), Blocks.BLUE_STAINED_GLASS);
@@ -1341,6 +1671,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("blue_stained_glass_pressure_plate", ModBlocks.BLUE_STAINED_GLASS_PRESSURE_PLATE.get(), Blocks.BLUE_STAINED_GLASS);
         modButtonBlock("blue_stained_glass_button", ModBlocks.BLUE_STAINED_GLASS_BUTTON.get(), Blocks.BLUE_STAINED_GLASS);
         modWallBlock("blue_stained_glass_wall", ModBlocks.BLUE_STAINED_GLASS_WALL.get(), Blocks.BLUE_STAINED_GLASS);
+        modTrapdoorBlock("blue_stained_glass_trapdoor", ModBlocks.BLUE_STAINED_GLASS_TRAPDOOR.get(), Blocks.BLUE_STAINED_GLASS);
+        doorBlock((DoorBlock) ModBlocks.BLUE_STAINED_GLASS_DOOR.get(), blockTexture(Blocks.BLUE_STAINED_GLASS), blockTexture(Blocks.BLUE_STAINED_GLASS));
 
         modStairsBlock("brown_stained_glass_stairs", ModBlocks.BROWN_STAINED_GLASS_STAIRS.get(), Blocks.BROWN_STAINED_GLASS);
         modSlabBlock("brown_stained_glass_slab", ModBlocks.BROWN_STAINED_GLASS_SLAB.get(), Blocks.BROWN_STAINED_GLASS);
@@ -1349,6 +1681,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("brown_stained_glass_pressure_plate", ModBlocks.BROWN_STAINED_GLASS_PRESSURE_PLATE.get(), Blocks.BROWN_STAINED_GLASS);
         modButtonBlock("brown_stained_glass_button", ModBlocks.BROWN_STAINED_GLASS_BUTTON.get(), Blocks.BROWN_STAINED_GLASS);
         modWallBlock("brown_stained_glass_wall", ModBlocks.BROWN_STAINED_GLASS_WALL.get(), Blocks.BROWN_STAINED_GLASS);
+        modTrapdoorBlock("brown_stained_glass_trapdoor", ModBlocks.BROWN_STAINED_GLASS_TRAPDOOR.get(), Blocks.BROWN_STAINED_GLASS);
+        doorBlock((DoorBlock) ModBlocks.BROWN_STAINED_GLASS_DOOR.get(), blockTexture(Blocks.BROWN_STAINED_GLASS), blockTexture(Blocks.BROWN_STAINED_GLASS));
 
         modStairsBlock("green_stained_glass_stairs", ModBlocks.GREEN_STAINED_GLASS_STAIRS.get(), Blocks.GREEN_STAINED_GLASS);
         modSlabBlock("green_stained_glass_slab", ModBlocks.GREEN_STAINED_GLASS_SLAB.get(), Blocks.GREEN_STAINED_GLASS);
@@ -1357,6 +1691,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("green_stained_glass_pressure_plate", ModBlocks.GREEN_STAINED_GLASS_PRESSURE_PLATE.get(), Blocks.GREEN_STAINED_GLASS);
         modButtonBlock("green_stained_glass_button", ModBlocks.GREEN_STAINED_GLASS_BUTTON.get(), Blocks.GREEN_STAINED_GLASS);
         modWallBlock("green_stained_glass_wall", ModBlocks.GREEN_STAINED_GLASS_WALL.get(), Blocks.GREEN_STAINED_GLASS);
+        modTrapdoorBlock("green_stained_glass_trapdoor", ModBlocks.GREEN_STAINED_GLASS_TRAPDOOR.get(), Blocks.GREEN_STAINED_GLASS);
+        doorBlock((DoorBlock) ModBlocks.GREEN_STAINED_GLASS_DOOR.get(), blockTexture(Blocks.GREEN_STAINED_GLASS), blockTexture(Blocks.GREEN_STAINED_GLASS));
 
         modStairsBlock("red_stained_glass_stairs", ModBlocks.RED_STAINED_GLASS_STAIRS.get(), Blocks.RED_STAINED_GLASS);
         modSlabBlock("red_stained_glass_slab", ModBlocks.RED_STAINED_GLASS_SLAB.get(), Blocks.RED_STAINED_GLASS);
@@ -1365,6 +1701,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("red_stained_glass_pressure_plate", ModBlocks.RED_STAINED_GLASS_PRESSURE_PLATE.get(), Blocks.RED_STAINED_GLASS);
         modButtonBlock("red_stained_glass_button", ModBlocks.RED_STAINED_GLASS_BUTTON.get(), Blocks.RED_STAINED_GLASS);
         modWallBlock("red_stained_glass_wall", ModBlocks.RED_STAINED_GLASS_WALL.get(), Blocks.RED_STAINED_GLASS);
+        modTrapdoorBlock("red_stained_glass_trapdoor", ModBlocks.RED_STAINED_GLASS_TRAPDOOR.get(), Blocks.RED_STAINED_GLASS);
+        doorBlock((DoorBlock) ModBlocks.RED_STAINED_GLASS_DOOR.get(), blockTexture(Blocks.RED_STAINED_GLASS), blockTexture(Blocks.RED_STAINED_GLASS));
 
         modStairsBlock("black_stained_glass_stairs", ModBlocks.BLACK_STAINED_GLASS_STAIRS.get(), Blocks.BLACK_STAINED_GLASS);
         modSlabBlock("black_stained_glass_slab", ModBlocks.BLACK_STAINED_GLASS_SLAB.get(), Blocks.BLACK_STAINED_GLASS);
@@ -1373,6 +1711,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("black_stained_glass_pressure_plate", ModBlocks.BLACK_STAINED_GLASS_PRESSURE_PLATE.get(), Blocks.BLACK_STAINED_GLASS);
         modButtonBlock("black_stained_glass_button", ModBlocks.BLACK_STAINED_GLASS_BUTTON.get(), Blocks.BLACK_STAINED_GLASS);
         modWallBlock("black_stained_glass_wall", ModBlocks.BLACK_STAINED_GLASS_WALL.get(), Blocks.BLACK_STAINED_GLASS);
+        modTrapdoorBlock("black_stained_glass_trapdoor", ModBlocks.BLACK_STAINED_GLASS_TRAPDOOR.get(), Blocks.BLACK_STAINED_GLASS);
+        doorBlock((DoorBlock) ModBlocks.BLACK_STAINED_GLASS_DOOR.get(), blockTexture(Blocks.BLACK_STAINED_GLASS), blockTexture(Blocks.BLACK_STAINED_GLASS));
 
         modStairsBlock("flowering_azalea_leaves_stairs", ModBlocks.FLOWERING_AZALEA_LEAVES_STAIRS.get(), Blocks.FLOWERING_AZALEA_LEAVES);
         modSlabBlock("flowering_azalea_leaves_slab", ModBlocks.FLOWERING_AZALEA_LEAVES_SLAB.get(), Blocks.FLOWERING_AZALEA_LEAVES);
@@ -1381,7 +1721,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("flowering_azalea_leaves_pressure_plate", ModBlocks.FLOWERING_AZALEA_LEAVES_PRESSURE_PLATE.get(), Blocks.FLOWERING_AZALEA_LEAVES);
         modButtonBlock("flowering_azalea_leaves_button", ModBlocks.FLOWERING_AZALEA_LEAVES_BUTTON.get(), Blocks.FLOWERING_AZALEA_LEAVES);
         modWallBlock("flowering_azalea_leaves_wall", ModBlocks.FLOWERING_AZALEA_LEAVES_WALL.get(), Blocks.FLOWERING_AZALEA_LEAVES);
-
+        modTrapdoorBlock("flowering_azalea_leaves_trapdoor", ModBlocks.FLOWERING_AZALEA_LEAVES_TRAPDOOR.get(), Blocks.FLOWERING_AZALEA_LEAVES);
+        doorBlock((DoorBlock) ModBlocks.FLOWERING_AZALEA_LEAVES_DOOR.get(), blockTexture(Blocks.FLOWERING_AZALEA_LEAVES), blockTexture(Blocks.FLOWERING_AZALEA_LEAVES));
         modStairsBlock("azalea_leaves_stairs", ModBlocks.AZALEA_LEAVES_STAIRS.get(), Blocks.AZALEA_LEAVES);
         modSlabBlock("azalea_leaves_slab", ModBlocks.AZALEA_LEAVES_SLAB.get(), Blocks.AZALEA_LEAVES);
         modFenceBlock("azalea_leaves_fence", ModBlocks.AZALEA_LEAVES_FENCE.get(), Blocks.AZALEA_LEAVES);
@@ -1389,7 +1730,8 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         modPressurePlateBlock("azalea_leaves_pressure_plate", ModBlocks.AZALEA_LEAVES_PRESSURE_PLATE.get(), Blocks.AZALEA_LEAVES);
         modButtonBlock("azalea_leaves_button", ModBlocks.AZALEA_LEAVES_BUTTON.get(), Blocks.AZALEA_LEAVES);
         modWallBlock("azalea_leaves_wall", ModBlocks.AZALEA_LEAVES_WALL.get(), Blocks.AZALEA_LEAVES);
-
+        modTrapdoorBlock("azalea_leaves_trapdoor", ModBlocks.AZALEA_LEAVES_TRAPDOOR.get(), Blocks.AZALEA_LEAVES);
+        doorBlock((DoorBlock) ModBlocks.AZALEA_LEAVES_DOOR.get(), blockTexture(Blocks.AZALEA_LEAVES), blockTexture(Blocks.AZALEA_LEAVES));
     }
     
     public void modStairsBlock(String name, Block modBlock, Block block) {
@@ -1404,7 +1746,7 @@ public class ModBlocksStateProvider extends BlockStateProvider {
 
     public void modFenceBlock(String name, Block modBlock, Block block) {
         fenceBlock((FenceBlock) modBlock, blockTexture(block));
-        simpleBlockItem(modBlock, models().fenceInventory(name, blockTexture(block)));
+        simpleBlockItem(modBlock, models().fenceInventory(name+"_inventory", blockTexture(block)));
     }
 
     public void modFenceGateBlock(String name, Block modBlock, Block block) {
@@ -1419,11 +1761,16 @@ public class ModBlocksStateProvider extends BlockStateProvider {
 
     public void modButtonBlock(String name, Block modBlock, Block block) {
         buttonBlock((ButtonBlock) modBlock, blockTexture(block));
-        simpleBlockItem(modBlock, models().buttonInventory(name, blockTexture(block)));
+        simpleBlockItem(modBlock, models().buttonInventory(name+"_inventory", blockTexture(block)));
     }
 
     public void modWallBlock(String name, Block modBlock, Block block) {
         wallBlock((WallBlock) modBlock, blockTexture(block));
-        simpleBlockItem(modBlock, models().wallInventory(name, blockTexture(block)));
+        simpleBlockItem(modBlock, models().wallInventory(name+"_inventory", blockTexture(block)));
+    }
+
+    public void modTrapdoorBlock(String name, Block modBlock, Block block) {
+        trapdoorBlock((TrapDoorBlock) modBlock, blockTexture(block), true);
+        simpleBlockItem(modBlock, models().trapdoorBottom(name, blockTexture(block)));
     }
 }

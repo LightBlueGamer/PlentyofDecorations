@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:gilded_blackstone"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:gilded_blackstone_fence_gate"
+  }
+}

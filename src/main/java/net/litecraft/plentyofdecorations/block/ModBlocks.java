@@ -24,6 +24,8 @@ public class ModBlocks {
                 () -> Blocks.BEDROCK.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BEDROCK)), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BEDROCK_SLAB = registerBlock("bedrock_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BEDROCK)), ModCreativeModeTab.POD_TAB);
+        public static final RegistryObject<Block> BEDROCK_CARPET = registerBlock("bedrock_carpet",
+            () -> new CarpetBlock(BlockBehaviour.Properties.copy(Blocks.BEDROCK)), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BEDROCK_FENCE = registerBlock("bedrock_fence",
             () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.BEDROCK)), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BEDROCK_FENCE_GATE = registerBlock("bedrock_fence_gate",
@@ -34,6 +36,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.BEDROCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BEDROCK_PRESSURE_PLATE = registerBlock("bedrock_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BEDROCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BEDROCK_TRAPDOOR = registerBlock("bedrock_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BEDROCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BEDROCK_DOOR = registerBlock("bedrock_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.BEDROCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> COAL_ORE_STAIRS = registerBlock("coal_ore_stairs",
             () -> new StairBlock(
@@ -50,6 +56,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.COAL_ORE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> COAL_ORE_PRESSURE_PLATE = registerBlock("coal_ore_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.COAL_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> COAL_ORE_TRAPDOOR = registerBlock("coal_ore_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> COAL_ORE_DOOR = registerBlock("coal_ore_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> LAPIS_ORE_STAIRS = registerBlock("lapis_ore_stairs",
             () -> new StairBlock(
@@ -66,6 +76,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.LAPIS_ORE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> LAPIS_ORE_PRESSURE_PLATE = registerBlock("lapis_ore_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.LAPIS_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LAPIS_ORE_TRAPDOOR = registerBlock("lapis_ore_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.LAPIS_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LAPIS_ORE_DOOR = registerBlock("lapis_ore_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.LAPIS_ORE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> IRON_ORE_STAIRS = registerBlock("iron_ore_stairs",
             () -> new StairBlock(
@@ -82,6 +96,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> IRON_ORE_PRESSURE_PLATE = registerBlock("iron_ore_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.IRON_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> IRON_ORE_TRAPDOOR = registerBlock("iron_ore_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> IRON_ORE_DOOR = registerBlock("iron_ore_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> COPPER_ORE_STAIRS = registerBlock("copper_ore_stairs",
             () -> new StairBlock(
@@ -98,6 +116,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> COPPER_ORE_PRESSURE_PLATE = registerBlock("copper_ore_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.COPPER_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> COPPER_ORE_TRAPDOOR = registerBlock("copper_ore_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> COPPER_ORE_DOOR = registerBlock("copper_ore_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> GOLD_ORE_STAIRS = registerBlock("gold_ore_stairs",
             () -> new StairBlock(
@@ -114,6 +136,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> GOLD_ORE_PRESSURE_PLATE = registerBlock("gold_ore_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.GOLD_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GOLD_ORE_TRAPDOOR = registerBlock("gold_ore_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GOLD_ORE_DOOR = registerBlock("gold_ore_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> DIAMOND_ORE_STAIRS = registerBlock("diamond_ore_stairs",
             () -> new StairBlock(
@@ -130,6 +156,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> DIAMOND_ORE_PRESSURE_PLATE = registerBlock("diamond_ore_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DIAMOND_ORE_TRAPDOOR = registerBlock("diamond_ore_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DIAMOND_ORE_DOOR = registerBlock("diamond_ore_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> EMERALD_ORE_STAIRS = registerBlock("emerald_ore_stairs",
             () -> new StairBlock(
@@ -146,6 +176,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.EMERALD_ORE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> EMERALD_ORE_PRESSURE_PLATE = registerBlock("emerald_ore_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.EMERALD_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> EMERALD_ORE_TRAPDOOR = registerBlock("emerald_ore_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.EMERALD_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> EMERALD_ORE_DOOR = registerBlock("emerald_ore_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.EMERALD_ORE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> DEEPSLATE_COAL_ORE_STAIRS = registerBlock("deepslate_coal_ore_stairs",
             () -> new StairBlock(
@@ -162,6 +196,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COAL_ORE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> DEEPSLATE_COAL_ORE_PRESSURE_PLATE = registerBlock("deepslate_coal_ore_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COAL_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DEEPSLATE_COAL_ORE_TRAPDOOR = registerBlock("deepslate_coal_ore_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COAL_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DEEPSLATE_COAL_ORE_DOOR = registerBlock("deepslate_coal_ore_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COAL_ORE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> DEEPSLATE_LAPIS_ORE_STAIRS = registerBlock("deepslate_lapis_ore_stairs",
             () -> new StairBlock(
@@ -178,6 +216,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_LAPIS_ORE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> DEEPSLATE_LAPIS_ORE_PRESSURE_PLATE = registerBlock("deepslate_lapis_ore_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_LAPIS_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DEEPSLATE_LAPIS_ORE_TRAPDOOR = registerBlock("deepslate_lapis_ore_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_LAPIS_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DEEPSLATE_LAPIS_ORE_DOOR = registerBlock("deepslate_lapis_ore_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_LAPIS_ORE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> DEEPSLATE_IRON_ORE_STAIRS = registerBlock("deepslate_iron_ore_stairs",
             () -> new StairBlock(
@@ -194,6 +236,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> DEEPSLATE_IRON_ORE_PRESSURE_PLATE = registerBlock("deepslate_iron_ore_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DEEPSLATE_IRON_ORE_TRAPDOOR = registerBlock("deepslate_iron_ore_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DEEPSLATE_IRON_ORE_DOOR = registerBlock("deepslate_iron_ore_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> DEEPSLATE_COPPER_ORE_STAIRS = registerBlock("deepslate_copper_ore_stairs",
             () -> new StairBlock(
@@ -210,6 +256,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COPPER_ORE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> DEEPSLATE_COPPER_ORE_PRESSURE_PLATE = registerBlock("deepslate_copper_ore_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COPPER_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DEEPSLATE_COPPER_ORE_TRAPDOOR = registerBlock("deepslate_copper_ore_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COPPER_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DEEPSLATE_COPPER_ORE_DOOR = registerBlock("deepslate_copper_ore_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COPPER_ORE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> DEEPSLATE_GOLD_ORE_STAIRS = registerBlock("deepslate_gold_ore_stairs",
             () -> new StairBlock(
@@ -226,6 +276,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> DEEPSLATE_GOLD_ORE_PRESSURE_PLATE = registerBlock("deepslate_gold_ore_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DEEPSLATE_GOLD_ORE_TRAPDOOR = registerBlock("deepslate_gold_ore_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DEEPSLATE_GOLD_ORE_DOOR = registerBlock("deepslate_gold_ore_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> DEEPSLATE_DIAMOND_ORE_STAIRS = registerBlock("deepslate_diamond_ore_stairs",
             () -> new StairBlock(
@@ -242,6 +296,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_DIAMOND_ORE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> DEEPSLATE_DIAMOND_ORE_PRESSURE_PLATE = registerBlock("deepslate_diamond_ore_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_DIAMOND_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DEEPSLATE_DIAMOND_ORE_TRAPDOOR = registerBlock("deepslate_diamond_ore_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_DIAMOND_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DEEPSLATE_DIAMOND_ORE_DOOR = registerBlock("deepslate_diamond_ore_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_DIAMOND_ORE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> DEEPSLATE_EMERALD_ORE_STAIRS = registerBlock("deepslate_emerald_ore_stairs",
             () -> new StairBlock(
@@ -258,6 +316,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_EMERALD_ORE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> DEEPSLATE_EMERALD_ORE_PRESSURE_PLATE = registerBlock("deepslate_emerald_ore_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_EMERALD_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DEEPSLATE_EMERALD_ORE_TRAPDOOR = registerBlock("deepslate_emerald_ore_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_EMERALD_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DEEPSLATE_EMERALD_ORE_DOOR = registerBlock("deepslate_emerald_ore_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_EMERALD_ORE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> COAL_BLOCK_STAIRS = registerBlock("coal_block_stairs",
             () -> new StairBlock(
@@ -274,6 +336,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> COAL_BLOCK_PRESSURE_PLATE = registerBlock("coal_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> COAL_BLOCK_TRAPDOOR = registerBlock("coal_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> COAL_BLOCK_DOOR = registerBlock("coal_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> LAPIS_BLOCK_STAIRS = registerBlock("lapis_block_stairs",
             () -> new StairBlock(
@@ -290,6 +356,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.LAPIS_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> LAPIS_BLOCK_PRESSURE_PLATE = registerBlock("lapis_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.LAPIS_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LAPIS_BLOCK_TRAPDOOR = registerBlock("lapis_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.LAPIS_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LAPIS_BLOCK_DOOR = registerBlock("lapis_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.LAPIS_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> RAW_IRON_BLOCK_STAIRS = registerBlock("raw_iron_block_stairs",
             () -> new StairBlock(
@@ -306,6 +376,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> RAW_IRON_BLOCK_PRESSURE_PLATE = registerBlock("raw_iron_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> RAW_IRON_BLOCK_TRAPDOOR = registerBlock("raw_iron_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> RAW_IRON_BLOCK_DOOR = registerBlock("raw_iron_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> RAW_COPPER_BLOCK_STAIRS = registerBlock("raw_copper_block_stairs",
             () -> new StairBlock(
@@ -322,6 +396,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.RAW_COPPER_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> RAW_COPPER_BLOCK_PRESSURE_PLATE = registerBlock("raw_copper_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.RAW_COPPER_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> RAW_COPPER_BLOCK_TRAPDOOR = registerBlock("raw_copper_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.RAW_COPPER_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> RAW_COPPER_BLOCK_DOOR = registerBlock("raw_copper_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.RAW_COPPER_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> RAW_GOLD_BLOCK_STAIRS = registerBlock("raw_gold_block_stairs",
             () -> new StairBlock(
@@ -338,6 +416,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.RAW_GOLD_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> RAW_GOLD_BLOCK_PRESSURE_PLATE = registerBlock("raw_gold_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.RAW_GOLD_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> RAW_GOLD_BLOCK_TRAPDOOR = registerBlock("raw_gold_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.RAW_GOLD_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> RAW_GOLD_BLOCK_DOOR = registerBlock("raw_gold_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.RAW_GOLD_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> AMETHYST_BLOCK_STAIRS = registerBlock("amethyst_block_stairs",
             () -> new StairBlock(
@@ -354,6 +436,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> AMETHYST_BLOCK_PRESSURE_PLATE = registerBlock("amethyst_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> AMETHYST_BLOCK_TRAPDOOR = registerBlock("amethyst_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> AMETHYST_BLOCK_DOOR = registerBlock("amethyst_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> IRON_BLOCK_STAIRS = registerBlock("iron_block_stairs",
             () -> new StairBlock(
@@ -370,6 +456,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> IRON_BLOCK_PRESSURE_PLATE = registerBlock("iron_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> IRON_BLOCK_TRAPDOOR = registerBlock("iron_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> IRON_BLOCK_DOOR = registerBlock("iron_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> COPPER_BLOCK_STAIRS = registerBlock("copper_block_stairs",
             () -> new StairBlock(
@@ -386,6 +476,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> COPPER_BLOCK_PRESSURE_PLATE = registerBlock("copper_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> COPPER_BLOCK_TRAPDOOR = registerBlock("copper_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> COPPER_BLOCK_DOOR = registerBlock("copper_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> GOLD_BLOCK_STAIRS = registerBlock("gold_block_stairs",
             () -> new StairBlock(
@@ -402,6 +496,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> GOLD_BLOCK_PRESSURE_PLATE = registerBlock("gold_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GOLD_BLOCK_TRAPDOOR = registerBlock("gold_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GOLD_BLOCK_DOOR = registerBlock("gold_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> DIAMOND_BLOCK_STAIRS = registerBlock("diamond_block_stairs",
             () -> new StairBlock(
@@ -418,6 +516,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> DIAMOND_BLOCK_PRESSURE_PLATE = registerBlock("diamond_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DIAMOND_BLOCK_TRAPDOOR = registerBlock("diamond_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DIAMOND_BLOCK_DOOR = registerBlock("diamond_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> NETHERITE_BLOCK_STAIRS = registerBlock("netherite_block_stairs",
             () -> new StairBlock(
@@ -434,6 +536,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> NETHERITE_BLOCK_PRESSURE_PLATE = registerBlock("netherite_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> NETHERITE_BLOCK_TRAPDOOR = registerBlock("netherite_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> NETHERITE_BLOCK_DOOR = registerBlock("netherite_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> MOSS_BLOCK_STAIRS = registerBlock("moss_block_stairs",
             () -> new StairBlock(
@@ -450,6 +556,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.MOSS_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> MOSS_BLOCK_PRESSURE_PLATE = registerBlock("moss_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.MOSS_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MOSS_BLOCK_TRAPDOOR = registerBlock("moss_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.MOSS_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MOSS_BLOCK_DOOR = registerBlock("moss_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.MOSS_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> DRIPSTONE_BLOCK_STAIRS = registerBlock("dripstone_block_stairs",
             () -> new StairBlock(
@@ -466,6 +576,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> DRIPSTONE_BLOCK_PRESSURE_PLATE = registerBlock("dripstone_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DRIPSTONE_BLOCK_TRAPDOOR = registerBlock("dripstone_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DRIPSTONE_BLOCK_DOOR = registerBlock("dripstone_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.DRIPSTONE_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> PURPUR_BLOCK_STAIRS = registerBlock("purpur_block_stairs",
             () -> new StairBlock(
@@ -482,6 +596,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> PURPUR_BLOCK_PRESSURE_PLATE = registerBlock("purpur_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.PURPUR_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PURPUR_BLOCK_TRAPDOOR = registerBlock("purpur_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PURPUR_BLOCK_DOOR = registerBlock("purpur_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> BROWN_MUSHROOM_BLOCK_STAIRS = registerBlock("brown_mushroom_block_stairs",
             () -> new StairBlock(
@@ -498,6 +616,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_MUSHROOM_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BROWN_MUSHROOM_BLOCK_PRESSURE_PLATE = registerBlock("brown_mushroom_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BROWN_MUSHROOM_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BROWN_MUSHROOM_BLOCK_TRAPDOOR = registerBlock("brown_mushroom_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_MUSHROOM_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BROWN_MUSHROOM_BLOCK_DOOR = registerBlock("brown_mushroom_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_MUSHROOM_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> RED_MUSHROOM_BLOCK_STAIRS = registerBlock("red_mushroom_block_stairs",
             () -> new StairBlock(
@@ -514,6 +636,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.RED_MUSHROOM_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> RED_MUSHROOM_BLOCK_PRESSURE_PLATE = registerBlock("red_mushroom_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.RED_MUSHROOM_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> RED_MUSHROOM_BLOCK_TRAPDOOR = registerBlock("red_mushroom_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.RED_MUSHROOM_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> RED_MUSHROOM_BLOCK_DOOR = registerBlock("red_mushroom_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.RED_MUSHROOM_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> EMERALD_BLOCK_STAIRS = registerBlock("emerald_block_stairs",
             () -> new StairBlock(
@@ -530,6 +656,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.EMERALD_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> EMERALD_BLOCK_PRESSURE_PLATE = registerBlock("emerald_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.EMERALD_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> EMERALD_BLOCK_TRAPDOOR = registerBlock("emerald_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.EMERALD_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> EMERALD_BLOCK_DOOR = registerBlock("emerald_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.EMERALD_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> STONE_STAIRS = registerBlock("stone_stairs",
             () -> new StairBlock(
@@ -546,6 +676,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> STONE_PRESSURE_PLATE = registerBlock("stone_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.STONE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> STONE_TRAPDOOR = registerBlock("stone_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.STONE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> STONE_DOOR = registerBlock("stone_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.STONE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> GRANITE_STAIRS = registerBlock("granite_stairs",
             () -> new StairBlock(
@@ -562,6 +696,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> GRANITE_PRESSURE_PLATE = registerBlock("granite_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.GRANITE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GRANITE_TRAPDOOR = registerBlock("granite_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GRANITE_DOOR = registerBlock("granite_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.GRANITE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> POLISHED_GRANITE_STAIRS = registerBlock("polished_granite_stairs",
             () -> new StairBlock(
@@ -578,6 +716,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_GRANITE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> POLISHED_GRANITE_PRESSURE_PLATE = registerBlock("polished_granite_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.POLISHED_GRANITE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> POLISHED_GRANITE_TRAPDOOR = registerBlock("polished_granite_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_GRANITE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> POLISHED_GRANITE_DOOR = registerBlock("polished_granite_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_GRANITE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> DIORITE_STAIRS = registerBlock("diorite_stairs",
             () -> new StairBlock(
@@ -594,6 +736,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> DIORITE_PRESSURE_PLATE = registerBlock("diorite_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.DIORITE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DIORITE_TRAPDOOR = registerBlock("diorite_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DIORITE_DOOR = registerBlock("diorite_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.DIORITE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> POLISHED_DIORITE_STAIRS = registerBlock("polished_diorite_stairs",
             () -> new StairBlock(
@@ -610,6 +756,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_DIORITE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> POLISHED_DIORITE_PRESSURE_PLATE = registerBlock("polished_diorite_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.POLISHED_DIORITE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> POLISHED_DIORITE_TRAPDOOR = registerBlock("polished_diorite_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_DIORITE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> POLISHED_DIORITE_DOOR = registerBlock("polished_diorite_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_DIORITE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> ANDESITE_STAIRS = registerBlock("andesite_stairs",
             () -> new StairBlock(
@@ -626,6 +776,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> ANDESITE_PRESSURE_PLATE = registerBlock("andesite_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.ANDESITE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> ANDESITE_TRAPDOOR = registerBlock("andesite_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> ANDESITE_DOOR = registerBlock("andesite_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.ANDESITE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> POLISHED_ANDESITE_STAIRS = registerBlock("polished_andesite_stairs",
             () -> new StairBlock(
@@ -642,6 +796,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_ANDESITE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> POLISHED_ANDESITE_PRESSURE_PLATE = registerBlock("polished_andesite_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.POLISHED_ANDESITE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> POLISHED_ANDESITE_TRAPDOOR = registerBlock("polished_andesite_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_ANDESITE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> POLISHED_ANDESITE_DOOR = registerBlock("polished_andesite_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_ANDESITE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> COBBLED_DEEPSLATE_STAIRS = registerBlock("cobbled_deepslate_stairs",
             () -> new StairBlock(
@@ -658,6 +816,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> COBBLED_DEEPSLATE_PRESSURE_PLATE = registerBlock("cobbled_deepslate_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> COBBLED_DEEPSLATE_TRAPDOOR = registerBlock("cobbled_deepslate_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> COBBLED_DEEPSLATE_DOOR = registerBlock("cobbled_deepslate_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> POLISHED_DEEPSLATE_STAIRS = registerBlock("polished_deepslate_stairs",
             () -> new StairBlock(
@@ -674,6 +836,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_DEEPSLATE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> POLISHED_DEEPSLATE_PRESSURE_PLATE = registerBlock("polished_deepslate_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.POLISHED_DEEPSLATE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> POLISHED_DEEPSLATE_TRAPDOOR = registerBlock("polished_deepslate_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_DEEPSLATE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> POLISHED_DEEPSLATE_DOOR = registerBlock("polished_deepslate_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_DEEPSLATE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> CALCITE_STAIRS = registerBlock("calcite_stairs",
             () -> new StairBlock(
@@ -690,6 +856,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> CALCITE_PRESSURE_PLATE = registerBlock("calcite_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.CALCITE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CALCITE_TRAPDOOR = registerBlock("calcite_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CALCITE_DOOR = registerBlock("calcite_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> TUFF_STAIRS = registerBlock("tuff_stairs",
             () -> new StairBlock(
@@ -706,6 +876,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.TUFF).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> TUFF_PRESSURE_PLATE = registerBlock("tuff_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.TUFF)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> TUFF_TRAPDOOR = registerBlock("tuff_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> TUFF_DOOR = registerBlock("tuff_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.TUFF)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> DIRT_STAIRS = registerBlock("dirt_stairs",
             () -> new StairBlock(
@@ -722,6 +896,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.DIRT).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> DIRT_PRESSURE_PLATE = registerBlock("dirt_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.DIRT)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DIRT_TRAPDOOR = registerBlock("dirt_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.DIRT)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DIRT_DOOR = registerBlock("dirt_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.DIRT)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> COARSE_DIRT_STAIRS = registerBlock("coarse_dirt_stairs",
             () -> new StairBlock(
@@ -738,6 +916,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.COARSE_DIRT).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> COARSE_DIRT_PRESSURE_PLATE = registerBlock("coarse_dirt_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.COARSE_DIRT)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> COARSE_DIRT_TRAPDOOR = registerBlock("coarse_dirt_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.COARSE_DIRT)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> COARSE_DIRT_DOOR = registerBlock("coarse_dirt_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.COARSE_DIRT)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> ROOTED_DIRT_STAIRS = registerBlock("rooted_dirt_stairs",
             () -> new StairBlock(
@@ -754,6 +936,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.ROOTED_DIRT).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> ROOTED_DIRT_PRESSURE_PLATE = registerBlock("rooted_dirt_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.ROOTED_DIRT)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> ROOTED_DIRT_TRAPDOOR = registerBlock("rooted_dirt_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.ROOTED_DIRT)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> ROOTED_DIRT_DOOR = registerBlock("rooted_dirt_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.ROOTED_DIRT)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> MUD_STAIRS = registerBlock("mud_stairs",
             () -> new StairBlock(
@@ -770,6 +956,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.MUD).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> MUD_PRESSURE_PLATE = registerBlock("mud_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.MUD)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MUD_TRAPDOOR = registerBlock("mud_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.MUD)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MUD_DOOR = registerBlock("mud_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.MUD)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> COBBLESTONE_STAIRS = registerBlock("cobblestone_stairs",
             () -> new StairBlock(
@@ -786,6 +976,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> COBBLESTONE_PRESSURE_PLATE = registerBlock("cobblestone_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.COBBLESTONE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> COBBLESTONE_TRAPDOOR = registerBlock("cobblestone_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> COBBLESTONE_DOOR = registerBlock("cobblestone_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> OAK_PLANKS_STAIRS = registerBlock("oak_planks_stairs",
             () -> new StairBlock(
@@ -802,6 +996,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> OAK_PLANKS_PRESSURE_PLATE = registerBlock("oak_planks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> OAK_PLANKS_TRAPDOOR = registerBlock("oak_planks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> OAK_PLANKS_DOOR = registerBlock("oak_planks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> SPRUCE_PLANKS_STAIRS = registerBlock("spruce_planks_stairs",
             () -> new StairBlock(
@@ -818,6 +1016,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> SPRUCE_PLANKS_PRESSURE_PLATE = registerBlock("spruce_planks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> SPRUCE_PLANKS_TRAPDOOR = registerBlock("spruce_planks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> SPRUCE_PLANKS_DOOR = registerBlock("spruce_planks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> BIRCH_PLANKS_STAIRS = registerBlock("birch_planks_stairs",
             () -> new StairBlock(
@@ -834,6 +1036,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BIRCH_PLANKS_PRESSURE_PLATE = registerBlock("birch_planks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BIRCH_PLANKS_TRAPDOOR = registerBlock("birch_planks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BIRCH_PLANKS_DOOR = registerBlock("birch_planks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> JUNGLE_PLANKS_STAIRS = registerBlock("jungle_planks_stairs",
             () -> new StairBlock(
@@ -850,6 +1056,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> JUNGLE_PLANKS_PRESSURE_PLATE = registerBlock("jungle_planks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> JUNGLE_PLANKS_TRAPDOOR = registerBlock("jungle_planks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> JUNGLE_PLANKS_DOOR = registerBlock("jungle_planks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> ACACIA_PLANKS_STAIRS = registerBlock("acacia_planks_stairs",
             () -> new StairBlock(
@@ -866,6 +1076,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> ACACIA_PLANKS_PRESSURE_PLATE = registerBlock("acacia_planks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> ACACIA_PLANKS_TRAPDOOR = registerBlock("acacia_planks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> ACACIA_PLANKS_DOOR = registerBlock("acacia_planks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> DARK_OAK_PLANKS_STAIRS = registerBlock("dark_oak_planks_stairs",
             () -> new StairBlock(
@@ -882,6 +1096,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> DARK_OAK_PLANKS_PRESSURE_PLATE = registerBlock("dark_oak_planks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DARK_OAK_PLANKS_TRAPDOOR = registerBlock("dark_oak_planks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DARK_OAK_PLANKS_DOOR = registerBlock("dark_oak_planks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> MANGROVE_PLANKS_STAIRS = registerBlock("mangrove_planks_stairs",
             () -> new StairBlock(
@@ -898,6 +1116,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> MANGROVE_PLANKS_PRESSURE_PLATE = registerBlock("mangrove_planks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MANGROVE_PLANKS_TRAPDOOR = registerBlock("mangrove_planks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MANGROVE_PLANKS_DOOR = registerBlock("mangrove_planks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> CRIMSON_PLANKS_STAIRS = registerBlock("crimson_planks_stairs",
             () -> new StairBlock(
@@ -914,6 +1136,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> CRIMSON_PLANKS_PRESSURE_PLATE = registerBlock("crimson_planks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CRIMSON_PLANKS_TRAPDOOR = registerBlock("crimson_planks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CRIMSON_PLANKS_DOOR = registerBlock("crimson_planks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> WARPED_PLANKS_STAIRS = registerBlock("warped_planks_stairs",
             () -> new StairBlock(
@@ -930,6 +1156,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> WARPED_PLANKS_PRESSURE_PLATE = registerBlock("warped_planks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> WARPED_PLANKS_TRAPDOOR = registerBlock("warped_planks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> WARPED_PLANKS_DOOR = registerBlock("warped_planks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> NETHER_GOLD_ORE_STAIRS = registerBlock("nether_gold_ore_stairs",
             () -> new StairBlock(
@@ -946,6 +1176,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_GOLD_ORE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> NETHER_GOLD_ORE_PRESSURE_PLATE = registerBlock("nether_gold_ore_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.NETHER_GOLD_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> NETHER_GOLD_ORE_TRAPDOOR = registerBlock("nether_gold_ore_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_GOLD_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> NETHER_GOLD_ORE_DOOR = registerBlock("nether_gold_ore_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_GOLD_ORE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> NETHER_QUARTZ_ORE_STAIRS = registerBlock("nether_quartz_ore_stairs",
             () -> new StairBlock(
@@ -962,6 +1196,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> NETHER_QUARTZ_ORE_PRESSURE_PLATE = registerBlock("nether_quartz_ore_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> NETHER_QUARTZ_ORE_TRAPDOOR = registerBlock("nether_quartz_ore_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> NETHER_QUARTZ_ORE_DOOR = registerBlock("nether_quartz_ore_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> BUDDING_AMETHYST_STAIRS = registerBlock("budding_amethyst_stairs",
             () -> new StairBlock(
@@ -978,6 +1216,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.BUDDING_AMETHYST).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BUDDING_AMETHYST_PRESSURE_PLATE = registerBlock("budding_amethyst_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BUDDING_AMETHYST)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BUDDING_AMETHYST_TRAPDOOR = registerBlock("budding_amethyst_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BUDDING_AMETHYST)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BUDDING_AMETHYST_DOOR = registerBlock("budding_amethyst_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.BUDDING_AMETHYST)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> SPONGE_STAIRS = registerBlock("sponge_stairs",
             () -> new StairBlock(
@@ -994,6 +1236,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.SPONGE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> SPONGE_PRESSURE_PLATE = registerBlock("sponge_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.SPONGE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> SPONGE_TRAPDOOR = registerBlock("sponge_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.SPONGE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> SPONGE_DOOR = registerBlock("sponge_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.SPONGE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> WET_SPONGE_STAIRS = registerBlock("wet_sponge_stairs",
             () -> new StairBlock(
@@ -1010,6 +1256,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.WET_SPONGE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> WET_SPONGE_PRESSURE_PLATE = registerBlock("wet_sponge_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.WET_SPONGE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> WET_SPONGE_TRAPDOOR = registerBlock("wet_sponge_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.WET_SPONGE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> WET_SPONGE_DOOR = registerBlock("wet_sponge_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.WET_SPONGE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> WHITE_WOOL_STAIRS = registerBlock("white_wool_stairs",
             () -> new StairBlock(
@@ -1026,6 +1276,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> WHITE_WOOL_PRESSURE_PLATE = registerBlock("white_wool_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> WHITE_WOOL_TRAPDOOR = registerBlock("white_wool_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> WHITE_WOOL_DOOR = registerBlock("white_wool_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> ORANGE_WOOL_STAIRS = registerBlock("orange_wool_stairs",
             () -> new StairBlock(
@@ -1042,6 +1296,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.ORANGE_WOOL).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> ORANGE_WOOL_PRESSURE_PLATE = registerBlock("orange_wool_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.ORANGE_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> ORANGE_WOOL_TRAPDOOR = registerBlock("orange_wool_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.ORANGE_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> ORANGE_WOOL_DOOR = registerBlock("orange_wool_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.ORANGE_WOOL)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> MAGENTA_WOOL_STAIRS = registerBlock("magenta_wool_stairs",
             () -> new StairBlock(
@@ -1058,6 +1316,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.MAGENTA_WOOL).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> MAGENTA_WOOL_PRESSURE_PLATE = registerBlock("magenta_wool_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.MAGENTA_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MAGENTA_WOOL_TRAPDOOR = registerBlock("magenta_wool_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.MAGENTA_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MAGENTA_WOOL_DOOR = registerBlock("magenta_wool_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.MAGENTA_WOOL)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> LIGHT_BLUE_WOOL_STAIRS = registerBlock("light_blue_wool_stairs",
             () -> new StairBlock(
@@ -1074,6 +1336,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_WOOL).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> LIGHT_BLUE_WOOL_PRESSURE_PLATE = registerBlock("light_blue_wool_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIGHT_BLUE_WOOL_TRAPDOOR = registerBlock("light_blue_wool_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIGHT_BLUE_WOOL_DOOR = registerBlock("light_blue_wool_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_WOOL)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> YELLOW_WOOL_STAIRS = registerBlock("yellow_wool_stairs",
             () -> new StairBlock(
@@ -1090,6 +1356,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_WOOL).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> YELLOW_WOOL_PRESSURE_PLATE = registerBlock("yellow_wool_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.YELLOW_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> YELLOW_WOOL_TRAPDOOR = registerBlock("yellow_wool_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> YELLOW_WOOL_DOOR = registerBlock("yellow_wool_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_WOOL)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> LIME_WOOL_STAIRS = registerBlock("lime_wool_stairs",
             () -> new StairBlock(
@@ -1106,6 +1376,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.LIME_WOOL).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> LIME_WOOL_PRESSURE_PLATE = registerBlock("lime_wool_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.LIME_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIME_WOOL_TRAPDOOR = registerBlock("lime_wool_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.LIME_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIME_WOOL_DOOR = registerBlock("lime_wool_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.LIME_WOOL)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> PINK_WOOL_STAIRS = registerBlock("pink_wool_stairs",
             () -> new StairBlock(
@@ -1122,6 +1396,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.PINK_WOOL).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> PINK_WOOL_PRESSURE_PLATE = registerBlock("pink_wool_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.PINK_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PINK_WOOL_TRAPDOOR = registerBlock("pink_wool_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.PINK_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PINK_WOOL_DOOR = registerBlock("pink_wool_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.PINK_WOOL)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> GRAY_WOOL_STAIRS = registerBlock("gray_wool_stairs",
             () -> new StairBlock(
@@ -1138,6 +1416,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_WOOL).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> GRAY_WOOL_PRESSURE_PLATE = registerBlock("gray_wool_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.GRAY_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GRAY_WOOL_TRAPDOOR = registerBlock("gray_wool_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GRAY_WOOL_DOOR = registerBlock("gray_wool_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_WOOL)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> LIGHT_GRAY_WOOL_STAIRS = registerBlock("light_gray_wool_stairs",
             () -> new StairBlock(
@@ -1154,6 +1436,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_WOOL).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> LIGHT_GRAY_WOOL_PRESSURE_PLATE = registerBlock("light_gray_wool_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIGHT_GRAY_WOOL_TRAPDOOR = registerBlock("light_gray_wool_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIGHT_GRAY_WOOL_DOOR = registerBlock("light_gray_wool_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_WOOL)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> CYAN_WOOL_STAIRS = registerBlock("cyan_wool_stairs",
             () -> new StairBlock(
@@ -1170,6 +1456,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.CYAN_WOOL).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> CYAN_WOOL_PRESSURE_PLATE = registerBlock("cyan_wool_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.CYAN_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CYAN_WOOL_TRAPDOOR = registerBlock("cyan_wool_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CYAN_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CYAN_WOOL_DOOR = registerBlock("cyan_wool_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CYAN_WOOL)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> PURPLE_WOOL_STAIRS = registerBlock("purple_wool_stairs",
             () -> new StairBlock(
@@ -1186,6 +1476,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_WOOL).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> PURPLE_WOOL_PRESSURE_PLATE = registerBlock("purple_wool_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.PURPLE_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PURPLE_WOOL_TRAPDOOR = registerBlock("purple_wool_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PURPLE_WOOL_DOOR = registerBlock("purple_wool_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_WOOL)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> BLUE_WOOL_STAIRS = registerBlock("blue_wool_stairs",
             () -> new StairBlock(
@@ -1202,6 +1496,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.BLUE_WOOL).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BLUE_WOOL_PRESSURE_PLATE = registerBlock("blue_wool_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BLUE_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BLUE_WOOL_TRAPDOOR = registerBlock("blue_wool_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BLUE_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BLUE_WOOL_DOOR = registerBlock("blue_wool_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.BLUE_WOOL)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> BROWN_WOOL_STAIRS = registerBlock("brown_wool_stairs",
             () -> new StairBlock(
@@ -1218,6 +1516,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_WOOL).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BROWN_WOOL_PRESSURE_PLATE = registerBlock("brown_wool_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BROWN_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BROWN_WOOL_TRAPDOOR = registerBlock("brown_wool_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BROWN_WOOL_DOOR = registerBlock("brown_wool_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_WOOL)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> GREEN_WOOL_STAIRS = registerBlock("green_wool_stairs",
             () -> new StairBlock(
@@ -1234,6 +1536,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_WOOL).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> GREEN_WOOL_PRESSURE_PLATE = registerBlock("green_wool_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.GREEN_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GREEN_WOOL_TRAPDOOR = registerBlock("green_wool_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GREEN_WOOL_DOOR = registerBlock("green_wool_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_WOOL)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> RED_WOOL_STAIRS = registerBlock("red_wool_stairs",
             () -> new StairBlock(
@@ -1250,6 +1556,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.RED_WOOL).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> RED_WOOL_PRESSURE_PLATE = registerBlock("red_wool_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.RED_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> RED_WOOL_TRAPDOOR = registerBlock("red_wool_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.RED_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> RED_WOOL_DOOR = registerBlock("red_wool_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.RED_WOOL)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> BLACK_WOOL_STAIRS = registerBlock("black_wool_stairs",
             () -> new StairBlock(
@@ -1266,6 +1576,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_WOOL).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BLACK_WOOL_PRESSURE_PLATE = registerBlock("black_wool_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BLACK_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BLACK_WOOL_TRAPDOOR = registerBlock("black_wool_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_WOOL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BLACK_WOOL_DOOR = registerBlock("black_wool_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_WOOL)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> SMOOTH_STONE_STAIRS = registerBlock("smooth_stone_stairs",
             () -> new StairBlock(
@@ -1282,6 +1596,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> SMOOTH_STONE_PRESSURE_PLATE = registerBlock("smooth_stone_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> SMOOTH_STONE_TRAPDOOR = registerBlock("smooth_stone_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> SMOOTH_STONE_DOOR = registerBlock("smooth_stone_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_STONE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> BRICKS_STAIRS = registerBlock("bricks_stairs",
             () -> new StairBlock(
@@ -1298,6 +1616,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.BRICKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BRICKS_PRESSURE_PLATE = registerBlock("bricks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BRICKS_TRAPDOOR = registerBlock("bricks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BRICKS_DOOR = registerBlock("bricks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.BRICKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> MOSSY_COBBLESTONE_STAIRS = registerBlock("mossy_cobblestone_stairs",
             () -> new StairBlock(
@@ -1314,6 +1636,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> MOSSY_COBBLESTONE_PRESSURE_PLATE = registerBlock("mossy_cobblestone_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MOSSY_COBBLESTONE_TRAPDOOR = registerBlock("mossy_cobblestone_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MOSSY_COBBLESTONE_DOOR = registerBlock("mossy_cobblestone_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_COBBLESTONE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> OBSIDIAN_STAIRS = registerBlock("obsidian_stairs",
             () -> new StairBlock(
@@ -1330,6 +1656,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> OBSIDIAN_PRESSURE_PLATE = registerBlock("obsidian_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> OBSIDIAN_TRAPDOOR = registerBlock("obsidian_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> OBSIDIAN_DOOR = registerBlock("obsidian_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> CLAY_STAIRS = registerBlock("clay_stairs",
             () -> new StairBlock(
@@ -1346,6 +1676,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.CLAY).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> CLAY_PRESSURE_PLATE = registerBlock("clay_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.CLAY)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CLAY_TRAPDOOR = registerBlock("clay_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CLAY)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CLAY_DOOR = registerBlock("clay_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CLAY)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> SOUL_SAND_STAIRS = registerBlock("soul_sand_stairs",
             () -> new StairBlock(
@@ -1362,6 +1696,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.SOUL_SAND).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> SOUL_SAND_PRESSURE_PLATE = registerBlock("soul_sand_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.SOUL_SAND)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> SOUL_SAND_TRAPDOOR = registerBlock("soul_sand_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.SOUL_SAND)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> SOUL_SAND_DOOR = registerBlock("soul_sand_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.SOUL_SAND)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> SOUL_SOIL_STAIRS = registerBlock("soul_soil_stairs",
             () -> new StairBlock(
@@ -1378,6 +1716,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.SOUL_SOIL).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> SOUL_SOIL_PRESSURE_PLATE = registerBlock("soul_soil_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.SOUL_SOIL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> SOUL_SOIL_TRAPDOOR = registerBlock("soul_soil_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.SOUL_SOIL)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> SOUL_SOIL_DOOR = registerBlock("soul_soil_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.SOUL_SOIL)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> SMOOTH_BASALT_STAIRS = registerBlock("smooth_basalt_stairs",
             () -> new StairBlock(
@@ -1394,6 +1736,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_BASALT).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> SMOOTH_BASALT_PRESSURE_PLATE = registerBlock("smooth_basalt_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.SMOOTH_BASALT)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> SMOOTH_BASALT_TRAPDOOR = registerBlock("smooth_basalt_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_BASALT)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> SMOOTH_BASALT_DOOR = registerBlock("smooth_basalt_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.SMOOTH_BASALT)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> STONE_BRICKS_STAIRS = registerBlock("stone_bricks_stairs",
             () -> new StairBlock(
@@ -1410,6 +1756,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> STONE_BRICKS_PRESSURE_PLATE = registerBlock("stone_bricks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> STONE_BRICKS_TRAPDOOR = registerBlock("stone_bricks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> STONE_BRICKS_DOOR = registerBlock("stone_bricks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> MOSSY_STONE_BRICKS_STAIRS = registerBlock("mossy_stone_bricks_stairs",
             () -> new StairBlock(
@@ -1426,6 +1776,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_STONE_BRICKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> MOSSY_STONE_BRICKS_PRESSURE_PLATE = registerBlock("mossy_stone_bricks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.MOSSY_STONE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MOSSY_STONE_BRICKS_TRAPDOOR = registerBlock("mossy_stone_bricks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_STONE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MOSSY_STONE_BRICKS_DOOR = registerBlock("mossy_stone_bricks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.MOSSY_STONE_BRICKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> CRACKED_STONE_BRICKS_STAIRS = registerBlock("cracked_stone_bricks_stairs",
             () -> new StairBlock(
@@ -1442,6 +1796,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.CRACKED_STONE_BRICKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> CRACKED_STONE_BRICKS_PRESSURE_PLATE = registerBlock("cracked_stone_bricks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.CRACKED_STONE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CRACKED_STONE_BRICKS_TRAPDOOR = registerBlock("cracked_stone_bricks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CRACKED_STONE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CRACKED_STONE_BRICKS_DOOR = registerBlock("cracked_stone_bricks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CRACKED_STONE_BRICKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> CHISELED_STONE_BRICKS_STAIRS = registerBlock("chiseled_stone_bricks_stairs",
             () -> new StairBlock(
@@ -1458,6 +1816,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.CHISELED_STONE_BRICKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> CHISELED_STONE_BRICKS_PRESSURE_PLATE = registerBlock("chiseled_stone_bricks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.CHISELED_STONE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CHISELED_STONE_BRICKS_TRAPDOOR = registerBlock("chiseled_stone_bricks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CHISELED_STONE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CHISELED_STONE_BRICKS_DOOR = registerBlock("chiseled_stone_bricks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CHISELED_STONE_BRICKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> PACKED_MUD_STAIRS = registerBlock("packed_mud_stairs",
             () -> new StairBlock(
@@ -1474,6 +1836,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> PACKED_MUD_PRESSURE_PLATE = registerBlock("packed_mud_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.PACKED_MUD)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PACKED_MUD_TRAPDOOR = registerBlock("packed_mud_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PACKED_MUD_DOOR = registerBlock("packed_mud_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> MUD_BRICKS_STAIRS = registerBlock("mud_bricks_stairs",
             () -> new StairBlock(
@@ -1490,6 +1856,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> MUD_BRICKS_PRESSURE_PLATE = registerBlock("mud_bricks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MUD_BRICKS_TRAPDOOR = registerBlock("mud_bricks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MUD_BRICKS_DOOR = registerBlock("mud_bricks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> DEEPSLATE_BRICKS_STAIRS = registerBlock("deepslate_bricks_stairs",
             () -> new StairBlock(
@@ -1506,6 +1876,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_BRICKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> DEEPSLATE_BRICKS_PRESSURE_PLATE = registerBlock("deepslate_bricks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DEEPSLATE_BRICKS_TRAPDOOR = registerBlock("deepslate_bricks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DEEPSLATE_BRICKS_DOOR = registerBlock("deepslate_bricks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_BRICKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> CRACKED_DEEPSLATE_BRICKS_STAIRS = registerBlock("cracked_deepslate_bricks_stairs",
             () -> new StairBlock(
@@ -1522,6 +1896,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.CRACKED_DEEPSLATE_BRICKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> CRACKED_DEEPSLATE_BRICKS_PRESSURE_PLATE = registerBlock("cracked_deepslate_bricks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.CRACKED_DEEPSLATE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CRACKED_DEEPSLATE_BRICKS_TRAPDOOR = registerBlock("cracked_deepslate_bricks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CRACKED_DEEPSLATE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CRACKED_DEEPSLATE_BRICKS_DOOR = registerBlock("cracked_deepslate_bricks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CRACKED_DEEPSLATE_BRICKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> DEEPSLATE_TILES_STAIRS = registerBlock("deepslate_tiles_stairs",
             () -> new StairBlock(
@@ -1538,6 +1916,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_TILES).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> DEEPSLATE_TILES_PRESSURE_PLATE = registerBlock("deepslate_tiles_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_TILES)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DEEPSLATE_TILES_TRAPDOOR = registerBlock("deepslate_tiles_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_TILES)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DEEPSLATE_TILES_DOOR = registerBlock("deepslate_tiles_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_TILES)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> CRACKED_DEEPSLATE_TILES_STAIRS = registerBlock("cracked_deepslate_tiles_stairs",
             () -> new StairBlock(
@@ -1554,6 +1936,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.CRACKED_DEEPSLATE_TILES).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> CRACKED_DEEPSLATE_TILES_PRESSURE_PLATE = registerBlock("cracked_deepslate_tiles_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.CRACKED_DEEPSLATE_TILES)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CRACKED_DEEPSLATE_TILES_TRAPDOOR = registerBlock("cracked_deepslate_tiles_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CRACKED_DEEPSLATE_TILES)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CRACKED_DEEPSLATE_TILES_DOOR = registerBlock("cracked_deepslate_tiles_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CRACKED_DEEPSLATE_TILES)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> CHISELED_DEEPSLATE_STAIRS = registerBlock("chiseled_deepslate_stairs",
             () -> new StairBlock(
@@ -1570,6 +1956,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.CHISELED_DEEPSLATE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> CHISELED_DEEPSLATE_PRESSURE_PLATE = registerBlock("chiseled_deepslate_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.CHISELED_DEEPSLATE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CHISELED_DEEPSLATE_TRAPDOOR = registerBlock("chiseled_deepslate_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CHISELED_DEEPSLATE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CHISELED_DEEPSLATE_DOOR = registerBlock("chiseled_deepslate_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CHISELED_DEEPSLATE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> MUSHROOM_STEM_STAIRS = registerBlock("mushroom_stem_stairs",
             () -> new StairBlock(
@@ -1586,6 +1976,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.MUSHROOM_STEM).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> MUSHROOM_STEM_PRESSURE_PLATE = registerBlock("mushroom_stem_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.MUSHROOM_STEM)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MUSHROOM_STEM_TRAPDOOR = registerBlock("mushroom_stem_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.MUSHROOM_STEM)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MUSHROOM_STEM_DOOR = registerBlock("mushroom_stem_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.MUSHROOM_STEM)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> NETHER_BRICKS_STAIRS = registerBlock("nether_bricks_stairs",
             () -> new StairBlock(
@@ -1602,6 +1996,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_BRICKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> NETHER_BRICKS_PRESSURE_PLATE = registerBlock("nether_bricks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.NETHER_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> NETHER_BRICKS_TRAPDOOR = registerBlock("nether_bricks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> NETHER_BRICKS_DOOR = registerBlock("nether_bricks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_BRICKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> CRACKED_NETHER_BRICKS_STAIRS = registerBlock("cracked_nether_bricks_stairs",
             () -> new StairBlock(
@@ -1618,6 +2016,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.CRACKED_NETHER_BRICKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> CRACKED_NETHER_BRICKS_PRESSURE_PLATE = registerBlock("cracked_nether_bricks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.CRACKED_NETHER_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CRACKED_NETHER_BRICKS_TRAPDOOR = registerBlock("cracked_nether_bricks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CRACKED_NETHER_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CRACKED_NETHER_BRICKS_DOOR = registerBlock("cracked_nether_bricks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CRACKED_NETHER_BRICKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> CHISELED_NETHER_BRICKS_STAIRS = registerBlock("chiseled_nether_bricks_stairs",
             () -> new StairBlock(
@@ -1634,6 +2036,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.CHISELED_NETHER_BRICKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> CHISELED_NETHER_BRICKS_PRESSURE_PLATE = registerBlock("chiseled_nether_bricks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.CHISELED_NETHER_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CHISELED_NETHER_BRICKS_TRAPDOOR = registerBlock("chiseled_nether_bricks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CHISELED_NETHER_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CHISELED_NETHER_BRICKS_DOOR = registerBlock("chiseled_nether_bricks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CHISELED_NETHER_BRICKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> SCULK_STAIRS = registerBlock("sculk_stairs",
             () -> new StairBlock(
@@ -1650,6 +2056,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.SCULK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> SCULK_PRESSURE_PLATE = registerBlock("sculk_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.SCULK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> SCULK_TRAPDOOR = registerBlock("sculk_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.SCULK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> SCULK_DOOR = registerBlock("sculk_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.SCULK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> END_STONE_STAIRS = registerBlock("end_stone_stairs",
             () -> new StairBlock(
@@ -1666,6 +2076,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> END_STONE_PRESSURE_PLATE = registerBlock("end_stone_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.END_STONE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> END_STONE_TRAPDOOR = registerBlock("end_stone_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> END_STONE_DOOR = registerBlock("end_stone_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> END_STONE_BRICKS_STAIRS = registerBlock("end_stone_bricks_stairs",
             () -> new StairBlock(
@@ -1682,6 +2096,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE_BRICKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> END_STONE_BRICKS_PRESSURE_PLATE = registerBlock("end_stone_bricks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.END_STONE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> END_STONE_BRICKS_TRAPDOOR = registerBlock("end_stone_bricks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> END_STONE_BRICKS_DOOR = registerBlock("end_stone_bricks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE_BRICKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> QUARTZ_BRICKS_STAIRS = registerBlock("quartz_bricks_stairs",
             () -> new StairBlock(
@@ -1698,6 +2116,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BRICKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> QUARTZ_BRICKS_PRESSURE_PLATE = registerBlock("quartz_bricks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.QUARTZ_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> QUARTZ_BRICKS_TRAPDOOR = registerBlock("quartz_bricks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> QUARTZ_BRICKS_DOOR = registerBlock("quartz_bricks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BRICKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> WHITE_TERRACOTTA_STAIRS = registerBlock("white_terracotta_stairs",
             () -> new StairBlock(
@@ -1714,6 +2136,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_TERRACOTTA).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> WHITE_TERRACOTTA_PRESSURE_PLATE = registerBlock("white_terracotta_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.WHITE_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> WHITE_TERRACOTTA_TRAPDOOR = registerBlock("white_terracotta_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> WHITE_TERRACOTTA_DOOR = registerBlock("white_terracotta_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> ORANGE_TERRACOTTA_STAIRS = registerBlock("orange_terracotta_stairs",
             () -> new StairBlock(
@@ -1730,6 +2156,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.ORANGE_TERRACOTTA).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> ORANGE_TERRACOTTA_PRESSURE_PLATE = registerBlock("orange_terracotta_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.ORANGE_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> ORANGE_TERRACOTTA_TRAPDOOR = registerBlock("orange_terracotta_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.ORANGE_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> ORANGE_TERRACOTTA_DOOR = registerBlock("orange_terracotta_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.ORANGE_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> MAGENTA_TERRACOTTA_STAIRS = registerBlock("magenta_terracotta_stairs",
             () -> new StairBlock(
@@ -1746,6 +2176,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.MAGENTA_TERRACOTTA).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> MAGENTA_TERRACOTTA_PRESSURE_PLATE = registerBlock("magenta_terracotta_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.MAGENTA_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MAGENTA_TERRACOTTA_TRAPDOOR = registerBlock("magenta_terracotta_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.MAGENTA_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MAGENTA_TERRACOTTA_DOOR = registerBlock("magenta_terracotta_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.MAGENTA_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> LIGHT_BLUE_TERRACOTTA_STAIRS = registerBlock("light_blue_terracotta_stairs",
             () -> new StairBlock(
@@ -1762,6 +2196,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_TERRACOTTA).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> LIGHT_BLUE_TERRACOTTA_PRESSURE_PLATE = registerBlock("light_blue_terracotta_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIGHT_BLUE_TERRACOTTA_TRAPDOOR = registerBlock("light_blue_terracotta_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIGHT_BLUE_TERRACOTTA_DOOR = registerBlock("light_blue_terracotta_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> YELLOW_TERRACOTTA_STAIRS = registerBlock("yellow_terracotta_stairs",
             () -> new StairBlock(
@@ -1778,6 +2216,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_TERRACOTTA).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> YELLOW_TERRACOTTA_PRESSURE_PLATE = registerBlock("yellow_terracotta_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.YELLOW_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> YELLOW_TERRACOTTA_TRAPDOOR = registerBlock("yellow_terracotta_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> YELLOW_TERRACOTTA_DOOR = registerBlock("yellow_terracotta_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> LIME_TERRACOTTA_STAIRS = registerBlock("lime_terracotta_stairs",
             () -> new StairBlock(
@@ -1794,6 +2236,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.LIME_TERRACOTTA).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> LIME_TERRACOTTA_PRESSURE_PLATE = registerBlock("lime_terracotta_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.LIME_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIME_TERRACOTTA_TRAPDOOR = registerBlock("lime_terracotta_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.LIME_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIME_TERRACOTTA_DOOR = registerBlock("lime_terracotta_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.LIME_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> PINK_TERRACOTTA_STAIRS = registerBlock("pink_terracotta_stairs",
             () -> new StairBlock(
@@ -1810,6 +2256,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.PINK_TERRACOTTA).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> PINK_TERRACOTTA_PRESSURE_PLATE = registerBlock("pink_terracotta_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.PINK_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PINK_TERRACOTTA_TRAPDOOR = registerBlock("pink_terracotta_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.PINK_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PINK_TERRACOTTA_DOOR = registerBlock("pink_terracotta_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.PINK_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> GRAY_TERRACOTTA_STAIRS = registerBlock("gray_terracotta_stairs",
             () -> new StairBlock(
@@ -1826,6 +2276,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_TERRACOTTA).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> GRAY_TERRACOTTA_PRESSURE_PLATE = registerBlock("gray_terracotta_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.GRAY_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GRAY_TERRACOTTA_TRAPDOOR = registerBlock("gray_terracotta_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GRAY_TERRACOTTA_DOOR = registerBlock("gray_terracotta_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> LIGHT_GRAY_TERRACOTTA_STAIRS = registerBlock("light_gray_terracotta_stairs",
             () -> new StairBlock(
@@ -1842,6 +2296,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_TERRACOTTA).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> LIGHT_GRAY_TERRACOTTA_PRESSURE_PLATE = registerBlock("light_gray_terracotta_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIGHT_GRAY_TERRACOTTA_TRAPDOOR = registerBlock("light_gray_terracotta_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIGHT_GRAY_TERRACOTTA_DOOR = registerBlock("light_gray_terracotta_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> CYAN_TERRACOTTA_STAIRS = registerBlock("cyan_terracotta_stairs",
             () -> new StairBlock(
@@ -1858,6 +2316,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.CYAN_TERRACOTTA).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> CYAN_TERRACOTTA_PRESSURE_PLATE = registerBlock("cyan_terracotta_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.CYAN_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CYAN_TERRACOTTA_TRAPDOOR = registerBlock("cyan_terracotta_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CYAN_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CYAN_TERRACOTTA_DOOR = registerBlock("cyan_terracotta_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CYAN_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> PURPLE_TERRACOTTA_STAIRS = registerBlock("purple_terracotta_stairs",
             () -> new StairBlock(
@@ -1874,6 +2336,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_TERRACOTTA).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> PURPLE_TERRACOTTA_PRESSURE_PLATE = registerBlock("purple_terracotta_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.PURPLE_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PURPLE_TERRACOTTA_TRAPDOOR = registerBlock("purple_terracotta_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PURPLE_TERRACOTTA_DOOR = registerBlock("purple_terracotta_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> BLUE_TERRACOTTA_STAIRS = registerBlock("blue_terracotta_stairs",
             () -> new StairBlock(
@@ -1890,6 +2356,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.BLUE_TERRACOTTA).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BLUE_TERRACOTTA_PRESSURE_PLATE = registerBlock("blue_terracotta_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BLUE_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BLUE_TERRACOTTA_TRAPDOOR = registerBlock("blue_terracotta_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BLUE_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BLUE_TERRACOTTA_DOOR = registerBlock("blue_terracotta_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.BLUE_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> BROWN_TERRACOTTA_STAIRS = registerBlock("brown_terracotta_stairs",
             () -> new StairBlock(
@@ -1906,6 +2376,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_TERRACOTTA).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BROWN_TERRACOTTA_PRESSURE_PLATE = registerBlock("brown_terracotta_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BROWN_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BROWN_TERRACOTTA_TRAPDOOR = registerBlock("brown_terracotta_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BROWN_TERRACOTTA_DOOR = registerBlock("brown_terracotta_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> GREEN_TERRACOTTA_STAIRS = registerBlock("green_terracotta_stairs",
             () -> new StairBlock(
@@ -1922,6 +2396,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_TERRACOTTA).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> GREEN_TERRACOTTA_PRESSURE_PLATE = registerBlock("green_terracotta_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.GREEN_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GREEN_TERRACOTTA_TRAPDOOR = registerBlock("green_terracotta_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GREEN_TERRACOTTA_DOOR = registerBlock("green_terracotta_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> RED_TERRACOTTA_STAIRS = registerBlock("red_terracotta_stairs",
             () -> new StairBlock(
@@ -1938,6 +2416,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.RED_TERRACOTTA).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> RED_TERRACOTTA_PRESSURE_PLATE = registerBlock("red_terracotta_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.RED_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> RED_TERRACOTTA_TRAPDOOR = registerBlock("red_terracotta_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.RED_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> RED_TERRACOTTA_DOOR = registerBlock("red_terracotta_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.RED_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> BLACK_TERRACOTTA_STAIRS = registerBlock("black_terracotta_stairs",
             () -> new StairBlock(
@@ -1954,6 +2436,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_TERRACOTTA).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BLACK_TERRACOTTA_PRESSURE_PLATE = registerBlock("black_terracotta_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BLACK_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BLACK_TERRACOTTA_TRAPDOOR = registerBlock("black_terracotta_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BLACK_TERRACOTTA_DOOR = registerBlock("black_terracotta_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_TERRACOTTA)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> TERRACOTTA_STAIRS = registerBlock("terracotta_stairs",
             () -> new StairBlock(
@@ -1970,6 +2456,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> TERRACOTTA_PRESSURE_PLATE = registerBlock("terracotta_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> TERRACOTTA_TRAPDOOR = registerBlock("terracotta_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> TERRACOTTA_DOOR = registerBlock("terracotta_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> PRISMARINE_STAIRS = registerBlock("prismarine_stairs",
             () -> new StairBlock(
@@ -1986,6 +2476,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> PRISMARINE_PRESSURE_PLATE = registerBlock("prismarine_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.PRISMARINE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PRISMARINE_TRAPDOOR = registerBlock("prismarine_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PRISMARINE_DOOR = registerBlock("prismarine_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> PRISMARINE_BRICKS_STAIRS = registerBlock("prismarine_bricks_stairs",
             () -> new StairBlock(
@@ -2002,6 +2496,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE_BRICKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> PRISMARINE_BRICKS_PRESSURE_PLATE = registerBlock("prismarine_bricks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.PRISMARINE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PRISMARINE_BRICKS_TRAPDOOR = registerBlock("prismarine_bricks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PRISMARINE_BRICKS_DOOR = registerBlock("prismarine_bricks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE_BRICKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> DARK_PRISMARINE_STAIRS = registerBlock("dark_prismarine_stairs",
             () -> new StairBlock(
@@ -2018,6 +2516,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.DARK_PRISMARINE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> DARK_PRISMARINE_PRESSURE_PLATE = registerBlock("dark_prismarine_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.DARK_PRISMARINE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DARK_PRISMARINE_TRAPDOOR = registerBlock("dark_prismarine_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.DARK_PRISMARINE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> DARK_PRISMARINE_DOOR = registerBlock("dark_prismarine_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.DARK_PRISMARINE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> NETHER_WART_BLOCK_STAIRS = registerBlock("nether_wart_block_stairs",
             () -> new StairBlock(
@@ -2034,6 +2536,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_WART_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> NETHER_WART_BLOCK_PRESSURE_PLATE = registerBlock("nether_wart_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.NETHER_WART_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> NETHER_WART_BLOCK_TRAPDOOR = registerBlock("nether_wart_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_WART_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> NETHER_WART_BLOCK_DOOR = registerBlock("nether_wart_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_WART_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> WARPED_WART_BLOCK_STAIRS = registerBlock("warped_wart_block_stairs",
             () -> new StairBlock(
@@ -2050,6 +2556,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_WART_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> WARPED_WART_BLOCK_PRESSURE_PLATE = registerBlock("warped_wart_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.WARPED_WART_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> WARPED_WART_BLOCK_TRAPDOOR = registerBlock("warped_wart_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_WART_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> WARPED_WART_BLOCK_DOOR = registerBlock("warped_wart_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_WART_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> RED_NETHER_BRICKS_STAIRS = registerBlock("red_nether_bricks_stairs",
             () -> new StairBlock(
@@ -2066,6 +2576,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.RED_NETHER_BRICKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> RED_NETHER_BRICKS_PRESSURE_PLATE = registerBlock("red_nether_bricks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.RED_NETHER_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> RED_NETHER_BRICKS_TRAPDOOR = registerBlock("red_nether_bricks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.RED_NETHER_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> RED_NETHER_BRICKS_DOOR = registerBlock("red_nether_bricks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.RED_NETHER_BRICKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> WHITE_CONCRETE_STAIRS = registerBlock("white_concrete_stairs",
             () -> new StairBlock(
@@ -2082,6 +2596,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> WHITE_CONCRETE_PRESSURE_PLATE = registerBlock("white_concrete_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> WHITE_CONCRETE_TRAPDOOR = registerBlock("white_concrete_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> WHITE_CONCRETE_DOOR = registerBlock("white_concrete_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> ORANGE_CONCRETE_STAIRS = registerBlock("orange_concrete_stairs",
             () -> new StairBlock(
@@ -2098,6 +2616,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.ORANGE_CONCRETE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> ORANGE_CONCRETE_PRESSURE_PLATE = registerBlock("orange_concrete_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.ORANGE_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> ORANGE_CONCRETE_TRAPDOOR = registerBlock("orange_concrete_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.ORANGE_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> ORANGE_CONCRETE_DOOR = registerBlock("orange_concrete_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.ORANGE_CONCRETE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> MAGENTA_CONCRETE_STAIRS = registerBlock("magenta_concrete_stairs",
             () -> new StairBlock(
@@ -2114,6 +2636,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.MAGENTA_CONCRETE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> MAGENTA_CONCRETE_PRESSURE_PLATE = registerBlock("magenta_concrete_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.MAGENTA_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MAGENTA_CONCRETE_TRAPDOOR = registerBlock("magenta_concrete_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.MAGENTA_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MAGENTA_CONCRETE_DOOR = registerBlock("magenta_concrete_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.MAGENTA_CONCRETE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> LIGHT_BLUE_CONCRETE_STAIRS = registerBlock("light_blue_concrete_stairs",
             () -> new StairBlock(
@@ -2130,6 +2656,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_CONCRETE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> LIGHT_BLUE_CONCRETE_PRESSURE_PLATE = registerBlock("light_blue_concrete_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIGHT_BLUE_CONCRETE_TRAPDOOR = registerBlock("light_blue_concrete_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIGHT_BLUE_CONCRETE_DOOR = registerBlock("light_blue_concrete_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_CONCRETE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> YELLOW_CONCRETE_STAIRS = registerBlock("yellow_concrete_stairs",
             () -> new StairBlock(
@@ -2146,6 +2676,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_CONCRETE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> YELLOW_CONCRETE_PRESSURE_PLATE = registerBlock("yellow_concrete_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.YELLOW_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> YELLOW_CONCRETE_TRAPDOOR = registerBlock("yellow_concrete_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> YELLOW_CONCRETE_DOOR = registerBlock("yellow_concrete_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_CONCRETE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> LIME_CONCRETE_STAIRS = registerBlock("lime_concrete_stairs",
             () -> new StairBlock(
@@ -2162,6 +2696,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.LIME_CONCRETE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> LIME_CONCRETE_PRESSURE_PLATE = registerBlock("lime_concrete_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.LIME_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIME_CONCRETE_TRAPDOOR = registerBlock("lime_concrete_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.LIME_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIME_CONCRETE_DOOR = registerBlock("lime_concrete_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.LIME_CONCRETE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> PINK_CONCRETE_STAIRS = registerBlock("pink_concrete_stairs",
             () -> new StairBlock(
@@ -2178,6 +2716,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.PINK_CONCRETE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> PINK_CONCRETE_PRESSURE_PLATE = registerBlock("pink_concrete_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.PINK_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PINK_CONCRETE_TRAPDOOR = registerBlock("pink_concrete_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.PINK_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PINK_CONCRETE_DOOR = registerBlock("pink_concrete_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.PINK_CONCRETE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> GRAY_CONCRETE_STAIRS = registerBlock("gray_concrete_stairs",
             () -> new StairBlock(
@@ -2194,6 +2736,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_CONCRETE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> GRAY_CONCRETE_PRESSURE_PLATE = registerBlock("gray_concrete_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.GRAY_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GRAY_CONCRETE_TRAPDOOR = registerBlock("gray_concrete_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GRAY_CONCRETE_DOOR = registerBlock("gray_concrete_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_CONCRETE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> LIGHT_GRAY_CONCRETE_STAIRS = registerBlock("light_gray_concrete_stairs",
             () -> new StairBlock(
@@ -2210,6 +2756,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_CONCRETE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> LIGHT_GRAY_CONCRETE_PRESSURE_PLATE = registerBlock("light_gray_concrete_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIGHT_GRAY_CONCRETE_TRAPDOOR = registerBlock("light_gray_concrete_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIGHT_GRAY_CONCRETE_DOOR = registerBlock("light_gray_concrete_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_CONCRETE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> CYAN_CONCRETE_STAIRS = registerBlock("cyan_concrete_stairs",
             () -> new StairBlock(
@@ -2226,6 +2776,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.CYAN_CONCRETE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> CYAN_CONCRETE_PRESSURE_PLATE = registerBlock("cyan_concrete_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.CYAN_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CYAN_CONCRETE_TRAPDOOR = registerBlock("cyan_concrete_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CYAN_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CYAN_CONCRETE_DOOR = registerBlock("cyan_concrete_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CYAN_CONCRETE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> PURPLE_CONCRETE_STAIRS = registerBlock("purple_concrete_stairs",
             () -> new StairBlock(
@@ -2242,6 +2796,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_CONCRETE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> PURPLE_CONCRETE_PRESSURE_PLATE = registerBlock("purple_concrete_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.PURPLE_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PURPLE_CONCRETE_TRAPDOOR = registerBlock("purple_concrete_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PURPLE_CONCRETE_DOOR = registerBlock("purple_concrete_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_CONCRETE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> BLUE_CONCRETE_STAIRS = registerBlock("blue_concrete_stairs",
             () -> new StairBlock(
@@ -2258,6 +2816,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.BLUE_CONCRETE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BLUE_CONCRETE_PRESSURE_PLATE = registerBlock("blue_concrete_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BLUE_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BLUE_CONCRETE_TRAPDOOR = registerBlock("blue_concrete_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BLUE_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BLUE_CONCRETE_DOOR = registerBlock("blue_concrete_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.BLUE_CONCRETE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> BROWN_CONCRETE_STAIRS = registerBlock("brown_concrete_stairs",
             () -> new StairBlock(
@@ -2274,6 +2836,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_CONCRETE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BROWN_CONCRETE_PRESSURE_PLATE = registerBlock("brown_concrete_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BROWN_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BROWN_CONCRETE_TRAPDOOR = registerBlock("brown_concrete_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BROWN_CONCRETE_DOOR = registerBlock("brown_concrete_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_CONCRETE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> GREEN_CONCRETE_STAIRS = registerBlock("green_concrete_stairs",
             () -> new StairBlock(
@@ -2290,6 +2856,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_CONCRETE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> GREEN_CONCRETE_PRESSURE_PLATE = registerBlock("green_concrete_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.GREEN_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GREEN_CONCRETE_TRAPDOOR = registerBlock("green_concrete_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GREEN_CONCRETE_DOOR = registerBlock("green_concrete_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_CONCRETE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> RED_CONCRETE_STAIRS = registerBlock("red_concrete_stairs",
             () -> new StairBlock(
@@ -2306,6 +2876,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.RED_CONCRETE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> RED_CONCRETE_PRESSURE_PLATE = registerBlock("red_concrete_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.RED_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> RED_CONCRETE_TRAPDOOR = registerBlock("red_concrete_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.RED_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> RED_CONCRETE_DOOR = registerBlock("red_concrete_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.RED_CONCRETE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> BLACK_CONCRETE_STAIRS = registerBlock("black_concrete_stairs",
             () -> new StairBlock(
@@ -2322,6 +2896,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_CONCRETE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BLACK_CONCRETE_PRESSURE_PLATE = registerBlock("black_concrete_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BLACK_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BLACK_CONCRETE_TRAPDOOR = registerBlock("black_concrete_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_CONCRETE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BLACK_CONCRETE_DOOR = registerBlock("black_concrete_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_CONCRETE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> HONEYCOMB_BLOCK_STAIRS = registerBlock("honeycomb_block_stairs",
             () -> new StairBlock(
@@ -2338,6 +2916,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.HONEYCOMB_BLOCK).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> HONEYCOMB_BLOCK_PRESSURE_PLATE = registerBlock("honeycomb_block_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.HONEYCOMB_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> HONEYCOMB_BLOCK_TRAPDOOR = registerBlock("honeycomb_block_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.HONEYCOMB_BLOCK)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> HONEYCOMB_BLOCK_DOOR = registerBlock("honeycomb_block_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.HONEYCOMB_BLOCK)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> CRYING_OBSIDIAN_STAIRS = registerBlock("crying_obsidian_stairs",
             () -> new StairBlock(
@@ -2354,6 +2936,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.CRYING_OBSIDIAN).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> CRYING_OBSIDIAN_PRESSURE_PLATE = registerBlock("crying_obsidian_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.CRYING_OBSIDIAN)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CRYING_OBSIDIAN_TRAPDOOR = registerBlock("crying_obsidian_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CRYING_OBSIDIAN)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CRYING_OBSIDIAN_DOOR = registerBlock("crying_obsidian_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CRYING_OBSIDIAN)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> BLACKSTONE_STAIRS = registerBlock("blackstone_stairs",
             () -> new StairBlock(
@@ -2370,6 +2956,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BLACKSTONE_PRESSURE_PLATE = registerBlock("blackstone_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BLACKSTONE_TRAPDOOR = registerBlock("blackstone_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BLACKSTONE_DOOR = registerBlock("blackstone_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.BLACKSTONE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> GILDED_BLACKSTONE_STAIRS = registerBlock("gilded_blackstone_stairs",
             () -> new StairBlock(
@@ -2386,6 +2976,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.GILDED_BLACKSTONE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> GILDED_BLACKSTONE_PRESSURE_PLATE = registerBlock("gilded_blackstone_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.GILDED_BLACKSTONE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GILDED_BLACKSTONE_TRAPDOOR = registerBlock("gilded_blackstone_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.GILDED_BLACKSTONE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GILDED_BLACKSTONE_DOOR = registerBlock("gilded_blackstone_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.GILDED_BLACKSTONE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> POLISHED_BLACKSTONE_STAIRS = registerBlock("polished_blackstone_stairs",
             () -> new StairBlock(
@@ -2402,6 +2996,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_BLACKSTONE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> POLISHED_BLACKSTONE_PRESSURE_PLATE = registerBlock("polished_blackstone_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.POLISHED_BLACKSTONE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> POLISHED_BLACKSTONE_TRAPDOOR = registerBlock("polished_blackstone_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_BLACKSTONE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> POLISHED_BLACKSTONE_DOOR = registerBlock("polished_blackstone_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_BLACKSTONE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> CHISELED_POLISHED_BLACKSTONE_STAIRS = registerBlock("chiseled_polished_blackstone_stairs",
             () -> new StairBlock(
@@ -2418,6 +3016,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.CHISELED_POLISHED_BLACKSTONE).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> CHISELED_POLISHED_BLACKSTONE_PRESSURE_PLATE = registerBlock("chiseled_polished_blackstone_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.CHISELED_POLISHED_BLACKSTONE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CHISELED_POLISHED_BLACKSTONE_TRAPDOOR = registerBlock("chiseled_polished_blackstone_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CHISELED_POLISHED_BLACKSTONE)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CHISELED_POLISHED_BLACKSTONE_DOOR = registerBlock("chiseled_polished_blackstone_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CHISELED_POLISHED_BLACKSTONE)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICKS_STAIRS = registerBlock("polished_blackstone_bricks_stairs",
             () -> new StairBlock(
@@ -2434,6 +3036,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_BLACKSTONE_BRICKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICKS_PRESSURE_PLATE = registerBlock("polished_blackstone_bricks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.POLISHED_BLACKSTONE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICKS_TRAPDOOR = registerBlock("polished_blackstone_bricks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_BLACKSTONE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> POLISHED_BLACKSTONE_BRICKS_DOOR = registerBlock("polished_blackstone_bricks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_BLACKSTONE_BRICKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> CRACKED_POLISHED_BLACKSTONE_BRICKS_STAIRS = registerBlock("cracked_polished_blackstone_bricks_stairs",
             () -> new StairBlock(
@@ -2450,6 +3056,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> CRACKED_POLISHED_BLACKSTONE_BRICKS_PRESSURE_PLATE = registerBlock("cracked_polished_blackstone_bricks_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CRACKED_POLISHED_BLACKSTONE_BRICKS_TRAPDOOR = registerBlock("cracked_polished_blackstone_bricks_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CRACKED_POLISHED_BLACKSTONE_BRICKS_DOOR = registerBlock("cracked_polished_blackstone_bricks_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> GLASS_STAIRS = registerBlock("glass_stairs",
             () -> new StairBlock(
@@ -2466,6 +3076,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> GLASS_PRESSURE_PLATE = registerBlock("glass_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GLASS_TRAPDOOR = registerBlock("glass_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GLASS_DOOR = registerBlock("glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> TINTED_GLASS_STAIRS = registerBlock("tinted_glass_stairs",
             () -> new StairBlock(
@@ -2482,6 +3096,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.TINTED_GLASS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> TINTED_GLASS_PRESSURE_PLATE = registerBlock("tinted_glass_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.TINTED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> TINTED_GLASS_TRAPDOOR = registerBlock("tinted_glass_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.TINTED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> TINTED_GLASS_DOOR = registerBlock("tinted_glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.TINTED_GLASS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> WHITE_STAINED_GLASS_STAIRS = registerBlock("white_stained_glass_stairs",
             () -> new StairBlock(
@@ -2498,6 +3116,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_STAINED_GLASS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> WHITE_STAINED_GLASS_PRESSURE_PLATE = registerBlock("white_stained_glass_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.WHITE_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> WHITE_STAINED_GLASS_TRAPDOOR = registerBlock("white_stained_glass_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> WHITE_STAINED_GLASS_DOOR = registerBlock("white_stained_glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> ORANGE_STAINED_GLASS_STAIRS = registerBlock("orange_stained_glass_stairs",
             () -> new StairBlock(
@@ -2514,6 +3136,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.ORANGE_STAINED_GLASS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> ORANGE_STAINED_GLASS_PRESSURE_PLATE = registerBlock("orange_stained_glass_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.ORANGE_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> ORANGE_STAINED_GLASS_TRAPDOOR = registerBlock("orange_stained_glass_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.ORANGE_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> ORANGE_STAINED_GLASS_DOOR = registerBlock("orange_stained_glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.ORANGE_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> MAGENTA_STAINED_GLASS_STAIRS = registerBlock("magenta_stained_glass_stairs",
             () -> new StairBlock(
@@ -2530,6 +3156,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.MAGENTA_STAINED_GLASS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> MAGENTA_STAINED_GLASS_PRESSURE_PLATE = registerBlock("magenta_stained_glass_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.MAGENTA_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MAGENTA_STAINED_GLASS_TRAPDOOR = registerBlock("magenta_stained_glass_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.MAGENTA_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> MAGENTA_STAINED_GLASS_DOOR = registerBlock("magenta_stained_glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.MAGENTA_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> LIGHT_BLUE_STAINED_GLASS_STAIRS = registerBlock("light_blue_stained_glass_stairs",
             () -> new StairBlock(
@@ -2546,6 +3176,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_STAINED_GLASS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> LIGHT_BLUE_STAINED_GLASS_PRESSURE_PLATE = registerBlock("light_blue_stained_glass_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIGHT_BLUE_STAINED_GLASS_TRAPDOOR = registerBlock("light_blue_stained_glass_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIGHT_BLUE_STAINED_GLASS_DOOR = registerBlock("light_blue_stained_glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> YELLOW_STAINED_GLASS_STAIRS = registerBlock("yellow_stained_glass_stairs",
             () -> new StairBlock(
@@ -2562,6 +3196,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_STAINED_GLASS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> YELLOW_STAINED_GLASS_PRESSURE_PLATE = registerBlock("yellow_stained_glass_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.YELLOW_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> YELLOW_STAINED_GLASS_TRAPDOOR = registerBlock("yellow_stained_glass_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> YELLOW_STAINED_GLASS_DOOR = registerBlock("yellow_stained_glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> LIME_STAINED_GLASS_STAIRS = registerBlock("lime_stained_glass_stairs",
             () -> new StairBlock(
@@ -2578,6 +3216,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.LIME_STAINED_GLASS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> LIME_STAINED_GLASS_PRESSURE_PLATE = registerBlock("lime_stained_glass_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.LIME_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIME_STAINED_GLASS_TRAPDOOR = registerBlock("lime_stained_glass_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.LIME_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIME_STAINED_GLASS_DOOR = registerBlock("lime_stained_glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.LIME_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> PINK_STAINED_GLASS_STAIRS = registerBlock("pink_stained_glass_stairs",
             () -> new StairBlock(
@@ -2594,6 +3236,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.PINK_STAINED_GLASS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> PINK_STAINED_GLASS_PRESSURE_PLATE = registerBlock("pink_stained_glass_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.PINK_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PINK_STAINED_GLASS_TRAPDOOR = registerBlock("pink_stained_glass_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.PINK_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PINK_STAINED_GLASS_DOOR = registerBlock("pink_stained_glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.PINK_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> GRAY_STAINED_GLASS_STAIRS = registerBlock("gray_stained_glass_stairs",
             () -> new StairBlock(
@@ -2610,6 +3256,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_STAINED_GLASS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> GRAY_STAINED_GLASS_PRESSURE_PLATE = registerBlock("gray_stained_glass_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.GRAY_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GRAY_STAINED_GLASS_TRAPDOOR = registerBlock("gray_stained_glass_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GRAY_STAINED_GLASS_DOOR = registerBlock("gray_stained_glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> LIGHT_GRAY_STAINED_GLASS_STAIRS = registerBlock("light_gray_stained_glass_stairs",
             () -> new StairBlock(
@@ -2626,6 +3276,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_STAINED_GLASS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> LIGHT_GRAY_STAINED_GLASS_PRESSURE_PLATE = registerBlock("light_gray_stained_glass_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIGHT_GRAY_STAINED_GLASS_TRAPDOOR = registerBlock("light_gray_stained_glass_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> LIGHT_GRAY_STAINED_GLASS_DOOR = registerBlock("light_gray_stained_glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> CYAN_STAINED_GLASS_STAIRS = registerBlock("cyan_stained_glass_stairs",
             () -> new StairBlock(
@@ -2642,6 +3296,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.CYAN_STAINED_GLASS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> CYAN_STAINED_GLASS_PRESSURE_PLATE = registerBlock("cyan_stained_glass_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.CYAN_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CYAN_STAINED_GLASS_TRAPDOOR = registerBlock("cyan_stained_glass_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.CYAN_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> CYAN_STAINED_GLASS_DOOR = registerBlock("cyan_stained_glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.CYAN_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> PURPLE_STAINED_GLASS_STAIRS = registerBlock("purple_stained_glass_stairs",
             () -> new StairBlock(
@@ -2658,6 +3316,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_STAINED_GLASS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> PURPLE_STAINED_GLASS_PRESSURE_PLATE = registerBlock("purple_stained_glass_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.PURPLE_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PURPLE_STAINED_GLASS_TRAPDOOR = registerBlock("purple_stained_glass_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> PURPLE_STAINED_GLASS_DOOR = registerBlock("purple_stained_glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> BLUE_STAINED_GLASS_STAIRS = registerBlock("blue_stained_glass_stairs",
             () -> new StairBlock(
@@ -2674,6 +3336,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.BLUE_STAINED_GLASS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BLUE_STAINED_GLASS_PRESSURE_PLATE = registerBlock("blue_stained_glass_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BLUE_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BLUE_STAINED_GLASS_TRAPDOOR = registerBlock("blue_stained_glass_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BLUE_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BLUE_STAINED_GLASS_DOOR = registerBlock("blue_stained_glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.BLUE_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> BROWN_STAINED_GLASS_STAIRS = registerBlock("brown_stained_glass_stairs",
             () -> new StairBlock(
@@ -2690,6 +3356,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_STAINED_GLASS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BROWN_STAINED_GLASS_PRESSURE_PLATE = registerBlock("brown_stained_glass_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BROWN_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BROWN_STAINED_GLASS_TRAPDOOR = registerBlock("brown_stained_glass_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BROWN_STAINED_GLASS_DOOR = registerBlock("brown_stained_glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> GREEN_STAINED_GLASS_STAIRS = registerBlock("green_stained_glass_stairs",
             () -> new StairBlock(
@@ -2706,6 +3376,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_STAINED_GLASS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> GREEN_STAINED_GLASS_PRESSURE_PLATE = registerBlock("green_stained_glass_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.GREEN_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GREEN_STAINED_GLASS_TRAPDOOR = registerBlock("green_stained_glass_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> GREEN_STAINED_GLASS_DOOR = registerBlock("green_stained_glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> RED_STAINED_GLASS_STAIRS = registerBlock("red_stained_glass_stairs",
             () -> new StairBlock(
@@ -2722,6 +3396,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.RED_STAINED_GLASS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> RED_STAINED_GLASS_PRESSURE_PLATE = registerBlock("red_stained_glass_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.RED_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> RED_STAINED_GLASS_TRAPDOOR = registerBlock("red_stained_glass_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.RED_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> RED_STAINED_GLASS_DOOR = registerBlock("red_stained_glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.RED_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> BLACK_STAINED_GLASS_STAIRS = registerBlock("black_stained_glass_stairs",
             () -> new StairBlock(
@@ -2738,6 +3416,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_STAINED_GLASS).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> BLACK_STAINED_GLASS_PRESSURE_PLATE = registerBlock("black_stained_glass_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.BLACK_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BLACK_STAINED_GLASS_TRAPDOOR = registerBlock("black_stained_glass_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> BLACK_STAINED_GLASS_DOOR = registerBlock("black_stained_glass_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_STAINED_GLASS)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> FLOWERING_AZALEA_LEAVES_STAIRS = registerBlock("flowering_azalea_leaves_stairs",
             () -> new StairBlock(
@@ -2754,6 +3436,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.FLOWERING_AZALEA_LEAVES).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> FLOWERING_AZALEA_LEAVES_PRESSURE_PLATE = registerBlock("flowering_azalea_leaves_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.FLOWERING_AZALEA_LEAVES)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> FLOWERING_AZALEA_LEAVES_TRAPDOOR = registerBlock("flowering_azalea_leaves_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.FLOWERING_AZALEA_LEAVES)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> FLOWERING_AZALEA_LEAVES_DOOR = registerBlock("flowering_azalea_leaves_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.FLOWERING_AZALEA_LEAVES)), ModCreativeModeTab.POD_TAB);
 
         public static final RegistryObject<Block> AZALEA_LEAVES_STAIRS = registerBlock("azalea_leaves_stairs",
             () -> new StairBlock(
@@ -2770,6 +3456,10 @@ public class ModBlocks {
             () -> new StoneButtonBlock(BlockBehaviour.Properties.copy(Blocks.AZALEA_LEAVES).noCollission()), ModCreativeModeTab.POD_TAB);
         public static final RegistryObject<Block> AZALEA_LEAVES_PRESSURE_PLATE = registerBlock("azalea_leaves_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.AZALEA_LEAVES)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> AZALEA_LEAVES_TRAPDOOR = registerBlock("azalea_leaves_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.AZALEA_LEAVES)), ModCreativeModeTab.POD_TAB);
+            public static final RegistryObject<Block> AZALEA_LEAVES_DOOR = registerBlock("azalea_leaves_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.AZALEA_LEAVES)), ModCreativeModeTab.POD_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

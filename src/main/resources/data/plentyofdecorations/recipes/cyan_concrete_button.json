@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_concrete"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:cyan_concrete_button"
+  }
+}

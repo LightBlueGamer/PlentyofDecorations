@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:crying_obsidian"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:crying_obsidian_fence",
+    "count": 3
+  }
+}

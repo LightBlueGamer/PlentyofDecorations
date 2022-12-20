@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "minecraft:block/cracked_stone_bricks",
+    "top": "minecraft:block/cracked_stone_bricks"
+  }
+}

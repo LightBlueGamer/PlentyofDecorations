@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:brown_wool"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:brown_wool_fence",
+    "count": 3
+  }
+}

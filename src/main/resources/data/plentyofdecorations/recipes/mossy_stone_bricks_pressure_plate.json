@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:mossy_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:mossy_stone_bricks_pressure_plate"
+  }
+}

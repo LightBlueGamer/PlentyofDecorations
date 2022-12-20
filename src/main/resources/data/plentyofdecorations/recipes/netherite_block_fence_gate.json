@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:netherite_block_fence_gate"
+  }
+}

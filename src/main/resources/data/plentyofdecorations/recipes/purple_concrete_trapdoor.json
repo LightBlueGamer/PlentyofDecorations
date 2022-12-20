@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:purple_concrete"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:purple_concrete_trapdoor"
+  }
+}

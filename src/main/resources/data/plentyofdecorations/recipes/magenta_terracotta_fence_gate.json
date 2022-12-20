@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:magenta_terracotta"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:magenta_terracotta_fence_gate"
+  }
+}

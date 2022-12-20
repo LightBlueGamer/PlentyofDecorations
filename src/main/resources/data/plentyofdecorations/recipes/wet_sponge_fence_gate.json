@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:wet_sponge"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:wet_sponge_fence_gate"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "minecraft:block/green_stained_glass",
+    "top": "minecraft:block/green_stained_glass"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nether_gold_ore"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:nether_gold_ore_wall",
+    "count": 6
+  }
+}

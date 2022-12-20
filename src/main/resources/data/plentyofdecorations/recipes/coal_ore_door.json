@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:coal_ore"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:coal_ore_door"
+  }
+}

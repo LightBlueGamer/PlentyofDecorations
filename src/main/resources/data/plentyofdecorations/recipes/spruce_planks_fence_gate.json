@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:spruce_planks_fence_gate"
+  }
+}

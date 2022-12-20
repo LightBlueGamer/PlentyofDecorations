@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "textures": {
+    "bottom": "minecraft:block/cyan_terracotta",
+    "top": "minecraft:block/cyan_terracotta"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brown_concrete"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:brown_concrete_pressure_plate"
+  }
+}

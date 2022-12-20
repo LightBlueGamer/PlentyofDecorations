@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "plentyofdecorations:item/polished_blackstone_bricks_door"
+  }
+}

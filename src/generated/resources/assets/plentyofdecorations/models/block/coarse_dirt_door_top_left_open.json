@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "minecraft:block/coarse_dirt",
+    "top": "minecraft:block/coarse_dirt"
+  }
+}

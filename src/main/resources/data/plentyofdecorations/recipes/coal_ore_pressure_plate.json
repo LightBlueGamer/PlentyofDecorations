@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:coal_ore"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:coal_ore_pressure_plate"
+  }
+}

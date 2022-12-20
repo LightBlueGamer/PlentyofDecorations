@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:deepslate_gold_ore"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:deepslate_gold_ore_door"
+  }
+}

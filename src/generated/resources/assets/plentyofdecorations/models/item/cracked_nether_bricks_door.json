@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "plentyofdecorations:item/cracked_nether_bricks_door"
+  }
+}

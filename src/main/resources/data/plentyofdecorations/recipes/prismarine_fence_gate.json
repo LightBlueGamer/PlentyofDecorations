@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:prismarine"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:prismarine_fence_gate"
+  }
+}

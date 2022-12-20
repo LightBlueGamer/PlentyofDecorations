@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_stained_glass"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:cyan_stained_glass_wall",
+    "count": 6
+  }
+}

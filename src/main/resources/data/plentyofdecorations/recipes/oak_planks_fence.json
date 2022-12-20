@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:oak_planks_fence",
+    "count": 3
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:wooden_rods"
+    },
+    "W": {
+      "item": "minecraft:polished_diorite"
+    }
+  },
+  "result": {
+    "item": "plentyofdecorations:polished_diorite_fence_gate"
+  }
+}

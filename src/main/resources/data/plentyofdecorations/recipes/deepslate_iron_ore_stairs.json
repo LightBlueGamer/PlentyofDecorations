@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:deepslate_iron_ore"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:deepslate_iron_ore_stairs",
+    "count": 4
+  }
+}

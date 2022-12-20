@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:honeycomb_block"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:honeycomb_block_slab",
+    "count": 6
+  }
+}

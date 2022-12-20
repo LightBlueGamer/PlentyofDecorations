@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chiseled_nether_bricks"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:chiseled_nether_bricks_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "result": {
+    "item": "plentyofdecor:blackstone_pressure_plate"
+  }
+}
